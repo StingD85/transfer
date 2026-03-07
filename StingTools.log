@@ -1,0 +1,238 @@
+2026-03-07 09:39:50 [INFO] Dockable panel registered successfully
+2026-03-07 09:39:50 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:39:50 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:42:09 [INFO] Dockable panel registered successfully
+2026-03-07 09:42:09 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:42:09 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:42:55 [INFO] Master Setup: starting full automation workflow
+2026-03-07 09:42:55 [INFO] Master Setup: project_config.json not found, using defaults
+2026-03-07 09:43:53 [INFO] Dockable panel registered successfully
+2026-03-07 09:43:53 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:43:53 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:45:15 [INFO] Project Setup Wizard: starting comprehensive automation
+2026-03-07 09:45:15 [INFO] Project units set to: Millimeters
+2026-03-07 09:45:15 [INFO] Project Setup step 1: Set Display Units (Millimeters) — OK (0.1s)
+2026-03-07 09:46:15 [INFO] Dockable panel registered successfully
+2026-03-07 09:46:15 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:46:15 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:47:21 [INFO] Master Setup: starting full automation workflow
+2026-03-07 09:47:21 [INFO] Master Setup: project_config.json not found, using defaults
+2026-03-07 09:49:41 [INFO] Dockable panel registered successfully
+2026-03-07 09:49:41 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:49:41 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:50:53 [INFO] Project Setup Wizard: starting comprehensive automation
+2026-03-07 09:50:53 [INFO] Project units set to: Millimeters
+2026-03-07 09:50:53 [INFO] Project Setup step 1: Set Display Units (Millimeters) — OK (0.0s)
+2026-03-07 09:52:51 [INFO] Dockable panel registered successfully
+2026-03-07 09:52:51 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:52:51 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 09:57:44 [INFO] Dockable panel registered successfully
+2026-03-07 09:57:44 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 09:57:44 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 10:13:49 [INFO] STING Tools shutting down
+2026-03-07 10:13:49 [INFO] StingAutoTagger: unregistered
+2026-03-07 10:14:45 [INFO] Dockable panel registered successfully
+2026-03-07 10:14:45 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 10:14:45 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 10:33:02 [INFO] Dockable panel registered successfully
+2026-03-07 10:33:02 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 10:33:02 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 10:41:35 [INFO] STING Tools shutting down
+2026-03-07 10:41:35 [INFO] StingAutoTagger: unregistered
+2026-03-07 10:42:04 [INFO] Dockable panel registered successfully
+2026-03-07 10:42:04 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 10:42:04 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 10:55:22 [INFO] Dockable panel registered successfully
+2026-03-07 10:55:22 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 10:55:22 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 11:07:29 [INFO] STING Tools shutting down
+2026-03-07 11:07:29 [INFO] StingAutoTagger: unregistered
+2026-03-07 11:09:31 [INFO] Dockable panel registered successfully
+2026-03-07 11:09:31 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 11:09:31 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 12:28:40 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-07 12:28:40 [INFO] Dockable panel registered successfully
+2026-03-07 12:28:40 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 12:28:40 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 12:37:42 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-07 12:37:42 [INFO] Dockable panel registered successfully
+2026-03-07 12:37:42 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 12:37:42 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 12:38:11 [INFO] Tab 3 content loaded (lazy)
+2026-03-07 12:47:59 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-07 12:47:59 [INFO] Dockable panel registered successfully
+2026-03-07 12:47:59 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 12:47:59 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 12:48:31 [INFO] Tab 3 content loaded (lazy)
+2026-03-07 12:55:34 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-07 12:55:34 [INFO] Dockable panel registered successfully
+2026-03-07 12:55:34 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 12:55:34 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 12:56:02 [INFO] Tab 2 content loaded (lazy)
+2026-03-07 12:56:59 [INFO] Tab 3 content loaded (lazy)
+2026-03-07 13:06:20 [INFO] Dockable panel registered successfully
+2026-03-07 13:06:20 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 13:06:20 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 13:12:28 [INFO] Dockable panel registered successfully
+2026-03-07 13:12:28 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 13:12:28 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 13:21:57 [INFO] Dockable panel registered successfully
+2026-03-07 13:21:57 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 13:21:57 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 13:26:38 [INFO] Dockable panel registered successfully
+2026-03-07 13:26:38 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 13:26:38 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 14:00:42 [INFO] Dockable panel registered successfully
+2026-03-07 14:00:42 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 14:00:42 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 14:02:40 [INFO] Dockable panel registered successfully
+2026-03-07 14:02:40 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 14:02:40 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 14:11:39 [INFO] Dockable panel registered successfully
+2026-03-07 14:11:39 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 14:11:39 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 14:14:20 [INFO] COBie export: 0 components, 0 types → C:\Users\del\AppData\Local\Temp\a27b5933-fc5f-4b26-84f0-27ade9a275df\
+2026-03-07 14:51:20 [INFO] Dockable panel registered successfully
+2026-03-07 14:51:20 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 14:51:20 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 15:00:19 [INFO] Dockable panel registered successfully
+2026-03-07 15:00:19 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 15:00:19 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 15:05:58 [INFO] Master Setup: starting full automation workflow
+2026-03-07 15:05:58 [INFO] Master Setup: project_config.json not found, using defaults
+2026-03-07 15:23:47 [INFO] Dockable panel registered successfully
+2026-03-07 15:23:47 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 15:23:47 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 15:52:07 [INFO] Dockable panel registered successfully
+2026-03-07 15:52:07 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 15:52:07 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 15:52:33 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 15:53:57 [INFO] Dockable panel registered successfully
+2026-03-07 15:53:57 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 15:53:57 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 15:54:53 [INFO] Selected 9 Pipes elements
+2026-03-07 15:57:28 [INFO] Dockable panel registered successfully
+2026-03-07 15:57:28 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 15:57:28 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 16:11:03 [INFO] STING Tools shutting down
+2026-03-07 16:11:03 [INFO] StingAutoTagger: unregistered
+2026-03-07 16:12:46 [INFO] Dockable panel registered successfully
+2026-03-07 16:12:46 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 16:12:46 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 16:14:39 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 16:22:48 [INFO] Dockable panel registered successfully
+2026-03-07 16:22:48 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 16:22:48 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 16:23:13 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 16:27:39 [INFO] Dockable panel registered successfully
+2026-03-07 16:27:39 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 16:27:39 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 16:28:23 [INFO] Selected 9 Pipes elements
+2026-03-07 16:29:26 [INFO] Dockable panel registered successfully
+2026-03-07 16:29:26 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 16:29:26 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 16:33:02 [INFO] Project Setup Wizard: starting comprehensive automation
+2026-03-07 16:33:03 [INFO] Project units set to: Millimeters
+2026-03-07 16:33:03 [INFO] Project Setup step 1: Set Display Units (Millimeters) — OK (1.4s)
+2026-03-07 17:10:13 [INFO] Dockable panel registered successfully
+2026-03-07 17:10:13 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 17:10:13 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 17:10:54 [INFO] Selected 9 Pipes elements
+2026-03-07 18:46:59 [INFO] RevitAPI loaded: RevitAPI 25.4.30.0 [C:\Program Files\Autodesk\Revit 2025\RevitAPI.dll]; RevitAPIUI 25.4.30.0 [C:\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll]
+2026-03-07 18:46:59 [WARN] CONFLICT DETECTED: 37 known conflict(s) with co-loaded plugins:
+2026-03-07 18:46:59 [WARN]   - Autodesk.ResultsBuilder.DBApplication references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.StructuralRibbon.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - StructuralAnalysisResults references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.UI references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.RevitBase references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.API references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.CNC references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.CNCExport references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.Commands references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.Geometry references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.RevitGeometry references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.RevitUI references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.ShopDrawings references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.Slab references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.Precast.Wall references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - Autodesk.ResultsExplorer.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - DynamoRevitVersionSelector references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - DynamoRevitDS references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - RevitServices references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - DiRoots.One v2.3.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.Commons v2.3.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.Commons references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.Licensing v0.11.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.UIBehaviours v2.3.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.LanDict v2.3.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.Revit v2.3.0.0
+2026-03-07 18:46:59 [WARN]   - DiRoots.One.Revit references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitLoader v2.7.12.0
+2026-03-07 18:46:59 [WARN]   - pyRevitLoader references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitAssemblyBuilder references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitLabs.PyRevit.Runtime.2025 references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitLabs.PyRevit.Runtime.2026 references RevitAPI 26.4.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitLabs.PyRevit.Runtime.2027 references RevitAPI 27.0.0.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - pyRevitRunner references RevitAPI 25.4.20.0 (host has different version)
+2026-03-07 18:46:59 [WARN]   - StingBIM.AI.Revit v0.0.0.0
+2026-03-07 18:46:59 [WARN] If STING Tools crashes, try disabling conflicting addins. See STINGTOOLS_CRASH_ANALYSIS.md for details.
+2026-03-07 18:46:59 [INFO] Dockable panel registered successfully
+2026-03-07 18:46:59 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 18:46:59 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 18:47:35 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 18:47:35 [INFO] Pass 1: starting universal parameter binding
+2026-03-07 19:01:01 [INFO] RevitAPI loaded: RevitAPI 25.4.30.0 [C:\Program Files\Autodesk\Revit 2025\RevitAPI.dll]; RevitAPIUI 25.4.30.0 [C:\Program Files\Autodesk\Revit 2025\RevitAPIUI.dll]
+2026-03-07 19:01:01 [WARN] CONFLICT DETECTED: 21 known conflict(s) with co-loaded plugins:
+2026-03-07 19:01:01 [WARN]   - Autodesk.ResultsBuilder.DBApplication references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.StructuralRibbon.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - StructuralAnalysisResults references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.UI references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.RevitBase references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.API references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.CNC references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.CNCExport references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.Commands references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.Geometry references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.RevitGeometry references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.RevitUI references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.ShopDrawings references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.Slab references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.Precast.Wall references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - Autodesk.ResultsExplorer.Application references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - DynamoRevitVersionSelector references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - DynamoRevitDS references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - RevitServices references RevitAPI 25.0.0.0 (host has different version)
+2026-03-07 19:01:01 [WARN]   - StingBIM.AI.Revit v0.0.0.0
+2026-03-07 19:01:01 [WARN] If STING Tools crashes, try disabling conflicting addins. See STINGTOOLS_CRASH_ANALYSIS.md for details.
+2026-03-07 19:01:01 [INFO] Dockable panel registered successfully
+2026-03-07 19:01:01 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 19:01:01 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 19:01:56 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 19:01:56 [INFO] Pass 1: starting universal parameter binding
+2026-03-07 19:33:05 [INFO] Dockable panel registered successfully
+2026-03-07 19:33:05 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 19:33:05 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 19:33:35 [INFO] Definition index: 1077 definitions loaded
+2026-03-07 19:33:35 [INFO] Pass 1: starting universal parameter binding
+2026-03-07 19:34:16 [INFO] Dockable panel registered successfully
+2026-03-07 19:34:16 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 19:34:16 [INFO] STING Tools dockable panel loaded successfully
+2026-03-07 19:37:47 [INFO] Selected 9 Pipes elements
+2026-03-07 19:40:16 [INFO] Dockable panel registered successfully
+2026-03-07 19:40:16 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-07 19:40:16 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 01:49:23 [INFO] Dockable panel registered successfully
+2026-03-08 01:49:23 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 01:49:23 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 01:50:43 [INFO] Definition index: 1077 definitions loaded
+2026-03-08 01:50:43 [INFO] Pass 1: starting universal parameter binding
+2026-03-08 01:52:34 [INFO] Dockable panel registered successfully
+2026-03-08 01:52:34 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 01:52:34 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 01:53:41 [INFO] Selected 9 Pipes elements
+2026-03-08 01:54:33 [INFO] Dockable panel registered successfully
+2026-03-08 01:54:33 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 01:54:33 [INFO] STING Tools dockable panel loaded successfully
