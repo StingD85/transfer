@@ -1,0 +1,135 @@
+2026-03-08 03:42:59 [INFO] Dockable panel registered successfully
+2026-03-08 03:42:59 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 03:42:59 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 03:43:53 [INFO] Definition index: 1077 definitions loaded
+2026-03-08 03:43:53 [INFO] Pass 1: starting universal parameter binding
+2026-03-08 03:43:53 [WARN] FindDataFile 'PARAMETER_REGISTRY.json': Could not find a part of the path 'C:\Dev\STINGTOOLS\CompiledPlugin\data'.
+2026-03-08 03:43:53 [WARN] PARAMETER_REGISTRY.json not found — using compiled defaults
+2026-03-08 03:43:53 [ERROR] Pass 1 failed: An item with the same key has already been added. Key: PROJECT_COD
+2026-03-08 03:43:53 [INFO] Pass 1 complete: 0 bound, 0 skipped
+2026-03-08 03:43:53 [INFO] Pass 2: starting discipline parameter binding
+2026-03-08 03:43:53 [WARN] FindDataFile 'PARAMETER_REGISTRY.json': Could not find a part of the path 'C:\Dev\STINGTOOLS\CompiledPlugin\data'.
+2026-03-08 03:43:53 [WARN] PARAMETER_REGISTRY.json not found — using compiled defaults
+2026-03-08 03:43:53 [ERROR] Pass 2 failed: An item with the same key has already been added. Key: PROJECT_COD
+2026-03-08 03:43:53 [INFO] Pass 2 complete: 0 bound, 0 skipped
+2026-03-08 03:43:53 [INFO] Parameter lookup cache cleared after binding
+2026-03-08 03:45:41 [INFO] LoadSharedParams: P1=0, P2=0
+2026-03-08 03:45:41 [WARN] FindDataFile 'PARAMETER_REGISTRY.json': Could not find a part of the path 'C:\Dev\STINGTOOLS\CompiledPlugin\data'.
+2026-03-08 03:45:41 [WARN] PARAMETER_REGISTRY.json not found — using compiled defaults
+2026-03-08 03:45:41 [WARN] Compliance scan failed: An item with the same key has already been added. Key: PROJECT_COD
+2026-03-08 03:50:41 [WARN] FindDataFile 'BLE_MATERIALS.csv': Could not find a part of the path 'C:\Dev\STINGTOOLS\CompiledPlugin\data'.
+2026-03-08 03:55:15 [INFO] Dockable panel registered successfully
+2026-03-08 03:55:15 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 03:55:15 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 03:56:21 [INFO] Definition index: 1077 definitions loaded
+2026-03-08 03:56:21 [INFO] Pass 1: starting universal parameter binding
+2026-03-08 04:11:22 [INFO] Dockable panel registered successfully
+2026-03-08 04:11:22 [INFO] StingAutoTagger: registered (disabled by default)
+2026-03-08 04:11:22 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 04:17:27 [INFO] STING Tools shutting down
+2026-03-08 04:17:27 [INFO] StingAutoTagger: unregistered
+2026-03-08 04:34:54 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 04:34:54 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 04:34:54 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 04:34:54 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 04:34:54 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 04:34:54 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 04:34:54 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 04:34:54 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 04:34:54 [INFO] Dockable panel registered successfully
+2026-03-08 04:34:54 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 04:34:54 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 04:35:48 [INFO] Tab 3 content loaded (lazy)
+2026-03-08 04:35:50 [INFO] RunCommand<CreateParametersCommand>: start
+2026-03-08 04:49:04 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 04:49:04 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 04:49:04 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 04:49:04 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 04:49:04 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 04:49:04 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 04:49:04 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 04:49:04 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 04:49:04 [INFO] Dockable panel registered successfully
+2026-03-08 04:49:04 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 04:49:04 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 04:49:36 [INFO] Tab 3 content loaded (lazy)
+2026-03-08 04:49:38 [INFO] RunCommand<CreateParametersCommand>: start
+2026-03-08 05:03:15 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 05:03:15 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 05:03:15 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 05:03:15 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 05:03:15 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 05:03:15 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 05:03:15 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 05:03:15 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 05:03:15 [INFO] Dockable panel registered successfully
+2026-03-08 05:03:15 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 05:03:15 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 05:03:59 [INFO] Tab 3 content loaded (lazy)
+2026-03-08 05:04:01 [INFO] RunCommand<CreateParametersCommand>: start
+2026-03-08 10:41:08 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 10:41:08 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 10:41:08 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 10:41:08 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 10:41:08 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 10:41:08 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 10:41:08 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 10:41:08 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 10:41:08 [INFO] Dockable panel registered successfully
+2026-03-08 10:41:08 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 10:41:08 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 10:42:48 [INFO] STING Tools shutting down
+2026-03-08 10:42:48 [INFO] StingAutoTagger: unregistered
+2026-03-08 10:51:02 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 10:51:02 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 10:51:02 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 10:51:02 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 10:51:02 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 10:51:02 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 10:51:02 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 10:51:02 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 10:51:02 [INFO] Dockable panel registered successfully
+2026-03-08 10:51:02 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 10:51:02 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 11:09:55 [INFO] Tab 4 content loaded (lazy)
+2026-03-08 11:10:01 [INFO] Tab 5 content loaded (lazy)
+2026-03-08 11:10:53 [INFO] RunCommand<SelectPipesCommand>: start
+2026-03-08 11:10:53 [INFO] Selected 9 Pipes elements
+2026-03-08 11:10:53 [INFO] RunCommand<SelectPipesCommand>: done
+2026-03-08 11:11:03 [INFO] RunCommand<SelectUntaggedCommand>: start
+2026-03-08 11:11:11 [INFO] RunCommand<SelectUntaggedCommand>: done
+2026-03-08 11:11:12 [INFO] RunCommand<SelectPipesCommand>: start
+2026-03-08 11:11:12 [INFO] Selected 9 Pipes elements
+2026-03-08 11:11:12 [INFO] RunCommand<SelectPipesCommand>: done
+2026-03-08 11:12:01 [INFO] RunCommand<SelectPipesCommand>: start
+2026-03-08 11:12:01 [INFO] Selected 9 Pipes elements
+2026-03-08 11:12:01 [INFO] RunCommand<SelectPipesCommand>: done
+2026-03-08 11:13:43 [INFO] RunCommand<SaveColorPresetCommand>: start
+2026-03-08 11:13:46 [INFO] RunCommand<SaveColorPresetCommand>: done
+2026-03-08 11:13:48 [INFO] RunCommand<HighlightInvalidCommand>: start
+2026-03-08 11:13:57 [ERROR] RunCommand<HighlightInvalidCommand> failed: The referenced object is not valid, possibly because it has been deleted from the database, or its creation was undone.
+2026-03-08 11:14:04 [INFO] RunCommand<HighlightInvalidCommand>: start
+2026-03-08 11:14:06 [ERROR] RunCommand<HighlightInvalidCommand> failed: The referenced object is not valid, possibly because it has been deleted from the database, or its creation was undone.
+2026-03-08 11:16:18 [INFO] Tab 3 content loaded (lazy)
+2026-03-08 11:16:19 [INFO] RunCommand<CreateParametersCommand>: start
+2026-03-08 11:24:15 [INFO] STING Tools v1.0.0.0 loaded from C:\Dev\STINGTOOLS\CompiledPlugin\StingTools.dll
+2026-03-08 11:24:15 [INFO] Assembly: WindowsBase v8.0.0.0
+2026-03-08 11:24:15 [INFO] Assembly: System.IO.Packaging v8.0.0.0
+2026-03-08 11:24:15 [INFO] Assembly: RevitAPI v25.4.30.0
+2026-03-08 11:24:15 [INFO] Assembly: Newtonsoft.Json v13.0.0.0
+2026-03-08 11:24:15 [INFO] Assembly: RevitAPIUI v25.4.30.0
+2026-03-08 11:24:15 [INFO] Assembly pre-flight: no version conflicts detected.
+2026-03-08 11:24:15 [INFO] DeferNonActiveTabContent: deferred 5 tabs, active tab=0
+2026-03-08 11:24:15 [INFO] Dockable panel registered successfully
+2026-03-08 11:24:15 [INFO] StingAutoTagger: registered (disabled by default, no triggers)
+2026-03-08 11:24:15 [INFO] STING Tools dockable panel loaded successfully
+2026-03-08 11:25:34 [INFO] RunCommand<SelectAllTaggableCommand>: start
+2026-03-08 11:25:34 [INFO] Selected 19 taggable elements
+2026-03-08 11:25:34 [INFO] RunCommand<SelectAllTaggableCommand>: done
+2026-03-08 11:25:39 [INFO] RunCommand<SelectTaggedCommand>: start
+2026-03-08 11:25:41 [INFO] RunCommand<SelectTaggedCommand>: done
+2026-03-08 11:25:43 [INFO] RunCommand<SelectEmptyMarkCommand>: start
+2026-03-08 11:25:55 [INFO] RunCommand<SelectEmptyMarkCommand>: done
+2026-03-08 11:26:46 [INFO] RunCommand<SelectEmptyMarkCommand>: start
+2026-03-08 11:26:49 [INFO] RunCommand<SelectEmptyMarkCommand>: done
+2026-03-08 11:27:01 [INFO] SelectVisibleOnly: 91 elements
