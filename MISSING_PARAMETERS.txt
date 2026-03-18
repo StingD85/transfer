@@ -1,0 +1,1312 @@
+================================================================================
+STING v5.0 - MISSING PARAMETERS REPORT (132 FAMILIES)
+================================================================================
+
+Total missing parameters: 430
+
+These parameters are referenced in tag configurations but not found
+in MR_PARAMETERS.txt. Add them to the master file to use in tags.
+
+================================================================================
+
+SUMMARY BY DISCIPLINE:
+--------------------------------------------------------------------------------
+ARCH  120 missing parameters
+GEN    47 missing parameters
+MEP   153 missing parameters
+STR   112 missing parameters
+
+================================================================================
+COMPLETE LIST (Alphabetical)
+================================================================================
+
+ARCH_TAG_7_PARA_CURTAIN_TXT
+  Used in 1 tag family: ARCH-021
+
+ARCH_TAG_7_PARA_MULLION_TXT
+  Used in 1 tag family: ARCH-022
+
+ARCH_TAG_7_PARA_RAILING_TXT
+  Used in 3 tag families: ARCH-047, ARCH-083, ARCH-123
+
+BLE_CEILING_GRID_TXT
+  Used in 1 tag family: ARCH-016
+
+BLE_DOOR_CLOSER_TXT
+  Used in 1 tag family: ARCH-025
+
+BLE_DOOR_GLAZING_BOOL
+  Used in 1 tag family: ARCH-025
+
+BLE_FLOOR_LOAD_KN_M2
+  Used in 1 tag family: ARCH-040
+
+BLE_FLOOR_SLIP_RESISTANCE_TXT
+  Used in 1 tag family: ARCH-040
+
+BLE_FLOOR_WATERPROOF_TXT
+  Used in 1 tag family: ARCH-040
+
+BLE_RAMP_HANDRAIL_BOOL
+  Used in 1 tag family: ARCH-084
+
+BLE_ROOM_OCCUPANCY_NR
+  Used in 2 tag families: ARCH-088, MEP-094
+
+ELC_TAG_7_PARA_CIRC_TXT
+  Used in 1 tag family: MEP-131
+
+GEN_TAG_7_PARA_EQUIP_TXT
+  Used in 2 tag families: GEN-045, GEN-095
+
+GEN_TAG_7_PARA_SITE_TXT
+  Used in 9 tag families: GEN-048, GEN-069, GEN-076, GEN-081, GEN-082, GEN-085, GEN-092, GEN-124, GEN-125
+
+PER_CONDENSATION_RISK_BOOL
+  Used in 2 tag families: ARCH-087, ARCH-128
+
+PER_FIRE_RATING_HR
+  Used in 16 tag families: ARCH-016, ARCH-025, ARCH-040, ARCH-041, ARCH-042, ARCH-043, ARCH-087, ARCH-100, ARCH-101, ARCH-128, STR-017, STR-104, STR-108, STR-112, STR-114, STR-115
+
+STR_AREA_LOAD_KN_M2
+  Used in 2 tag families: STR-007, STR-049
+
+STR_BEAM_CAMBER_MM
+  Used in 1 tag family: STR-108
+
+STR_BEAM_CONNECTION_TYPE_TXT
+  Used in 1 tag family: STR-108
+
+STR_BEAM_DEFLECTION_LIM_TXT
+  Used in 3 tag families: STR-103, STR-108, STR-114
+
+STR_BEAM_DEPTH_MM
+  Used in 1 tag family: STR-108
+
+STR_BEAM_MATERIAL_TXT
+  Used in 3 tag families: STR-108, STR-113, STR-114
+
+STR_BEAM_MOMENT_CAPACITY_KNM
+  Used in 1 tag family: STR-108
+
+STR_BEAM_SECTION_TXT
+  Used in 4 tag families: STR-103, STR-108, STR-113, STR-114
+
+STR_BEAM_SPAN_MM
+  Used in 3 tag families: STR-103, STR-108, STR-114
+
+STR_BEAM_WEB_OPENING_TXT
+  Used in 1 tag family: STR-108
+
+STR_BEARING_CAPACITY_KN_M2
+  Used in 1 tag family: GEN-069
+
+STR_BOLT_DIAMETER_MM
+  Used in 1 tag family: STR-011
+
+STR_BOLT_GRADE_TXT
+  Used in 1 tag family: STR-011
+
+STR_BRACE_CONNECTION_TXT
+  Used in 1 tag family: STR-012
+
+STR_BRACE_LENGTH_MM
+  Used in 1 tag family: STR-012
+
+STR_BRACE_MATERIAL_TXT
+  Used in 1 tag family: STR-012
+
+STR_BRACE_SECTION_TXT
+  Used in 1 tag family: STR-012
+
+STR_COL_BASE_PLATE_TXT
+  Used in 1 tag family: STR-104
+
+STR_COL_GRID_REF_TXT
+  Used in 1 tag family: STR-104
+
+STR_COL_HEIGHT_MM
+  Used in 1 tag family: STR-104
+
+STR_COL_MATERIAL_TXT
+  Used in 2 tag families: STR-017, STR-104
+
+STR_COL_MOMENT_CAPACITY_KNM
+  Used in 1 tag family: STR-104
+
+STR_COL_SECTION_TXT
+  Used in 2 tag families: STR-017, STR-104
+
+STR_COL_SIZE_MM
+  Used in 1 tag family: STR-104
+
+STR_COL_SPLICE_DETAIL_TXT
+  Used in 1 tag family: STR-104
+
+STR_CONN_BOLT_SIZE_TXT
+  Used in 1 tag family: STR-105
+
+STR_CONN_CAPACITY_KN
+  Used in 1 tag family: STR-105
+
+STR_CONN_PLATE_THICKNESS_MM
+  Used in 1 tag family: STR-105
+
+STR_CONN_ROTATION_CAPACITY_TXT
+  Used in 1 tag family: STR-105
+
+STR_CONN_TYPE_TXT
+  Used in 1 tag family: STR-105
+
+STR_CONN_WELD_TYPE_TXT
+  Used in 1 tag family: STR-105
+
+STR_FDN_BEARING_KN_M2
+  Used in 1 tag family: STR-107
+
+STR_FDN_COVER_MM
+  Used in 1 tag family: STR-107
+
+STR_FDN_DEPTH_MM
+  Used in 1 tag family: STR-107
+
+STR_FDN_EXPOSURE_CLASS_TXT
+  Used in 1 tag family: STR-107
+
+STR_FDN_MATERIAL_TXT
+  Used in 1 tag family: STR-107
+
+STR_FDN_PILE_TYPE_TXT
+  Used in 1 tag family: STR-107
+
+STR_FDN_REBAR_TXT
+  Used in 1 tag family: STR-107
+
+STR_FDN_SETTLEMENT_MM
+  Used in 1 tag family: STR-107
+
+STR_FDN_SIZE_MM
+  Used in 1 tag family: STR-107
+
+STR_FDN_TYPE_TXT
+  Used in 1 tag family: STR-107
+
+STR_FDN_WATERPROOF_TXT
+  Used in 1 tag family: STR-107
+
+STR_FIRE_PROTECTION_TYPE_TXT
+  Used in 5 tag families: STR-017, STR-104, STR-105, STR-108, STR-114
+
+STR_LINE_LOAD_KN_M
+  Used in 2 tag families: STR-050, STR-054
+
+STR_LOAD_AXIAL_KN
+  Used in 2 tag families: STR-104, STR-115
+
+STR_LOAD_CASE_TXT
+  Used in 6 tag families: STR-007, STR-049, STR-050, STR-051, STR-054, STR-079
+
+STR_LOAD_UDL_KN_M
+  Used in 2 tag families: STR-103, STR-108
+
+STR_POINT_LOAD_KN
+  Used in 2 tag families: STR-051, STR-079
+
+STR_REBAR_HOOK_TYPE_TXT
+  Used in 1 tag family: STR-111
+
+STR_REBAR_SHAPE_TXT
+  Used in 1 tag family: STR-111
+
+STR_REBAR_SIZE_MM
+  Used in 5 tag families: STR-102, STR-106, STR-109, STR-110, STR-111
+
+STR_SECTION_PROFILE_TXT
+  Used in 1 tag family: STR-003
+
+STR_SLAB_COVER_MM
+  Used in 1 tag family: STR-112
+
+STR_SLAB_DEFLECTION_LIMIT_TXT
+  Used in 1 tag family: STR-112
+
+STR_SLAB_LOAD_KN_M2
+  Used in 1 tag family: STR-112
+
+STR_SLAB_MESH_TXT
+  Used in 1 tag family: STR-112
+
+STR_SLAB_REBAR_TXT
+  Used in 1 tag family: STR-112
+
+STR_SLAB_TYPE_TXT
+  Used in 1 tag family: STR-112
+
+STR_TAG_7_PARA_ANLYT_TXT
+  Used in 5 tag families: STR-002, STR-003, STR-004, STR-005, STR-006
+
+STR_TAG_7_PARA_BRACE_TXT
+  Used in 1 tag family: STR-012
+
+STR_TAG_7_PARA_CONN_TXT
+  Used in 3 tag families: STR-011, STR-105, STR-129
+
+STR_TAG_7_PARA_LOAD_TXT
+  Used in 6 tag families: STR-007, STR-049, STR-050, STR-051, STR-054, STR-079
+
+STR_TAG_7_PARA_REBAR_TXT
+  Used in 5 tag families: STR-102, STR-106, STR-109, STR-110, STR-111
+
+STR_TAG_7_PARA_SLAB_TXT
+  Used in 1 tag family: STR-112
+
+STR_TAG_7_PARA_WALL_TXT
+  Used in 1 tag family: STR-115
+
+STR_WALL_COVER_MM
+  Used in 1 tag family: STR-115
+
+STR_WALL_REBAR_TXT
+  Used in 1 tag family: STR-115
+
+STR_WALL_TYPE_TXT
+  Used in 1 tag family: STR-115
+
+STR_WELD_SIZE_MM
+  Used in 1 tag family: STR-129
+
+STR_WELD_TYPE_TXT
+  Used in 1 tag family: STR-129
+
+WARN_ARCH_DETAIL_CODE_MISSING
+  Used in 1 tag family: GEN-024
+
+WARN_ASS_COMMISSIONING_SPECIALTY_EQUIP
+  Used in 1 tag family: MEP-096
+
+WARN_ASS_CRITICALITY_SPECIALTY_EQUIP
+  Used in 1 tag family: MEP-096
+
+WARN_ASS_DESCRIPTION_ENTOURAGE
+  Used in 1 tag family: ARCH-034
+
+WARN_ASS_DESCRIPTION_GENERIC_MODEL
+  Used in 1 tag family: MEP-044
+
+WARN_ASS_EXPECTED_LIFE_GENERIC_MODEL
+  Used in 1 tag family: MEP-044
+
+WARN_ASS_LEAD_TIME_SPECIALTY_EQUIP
+  Used in 1 tag family: MEP-096
+
+WARN_ASS_MANUFACTURER_GENERIC_MODEL
+  Used in 1 tag family: MEP-044
+
+WARN_ASS_TIEIN_DEFERRED_DUCT
+  Used in 1 tag family: MEP-119
+
+WARN_ASS_TIEIN_DEFERRED_FIREPIPE
+  Used in 1 tag family: MEP-120
+
+WARN_ASS_TIEIN_DEFERRED_GAS
+  Used in 1 tag family: MEP-121
+
+WARN_ASS_TIEIN_DEFERRED_PIPE
+  Used in 1 tag family: MEP-122
+
+WARN_ASS_TIEIN_OPEN_CABLETRAY
+  Used in 1 tag family: MEP-117
+
+WARN_ASS_TIEIN_OPEN_CONDUIT
+  Used in 1 tag family: MEP-118
+
+WARN_ASS_TIEIN_OPEN_DUCT
+  Used in 1 tag family: MEP-119
+
+WARN_ASS_TIEIN_OPEN_FIREPIPE
+  Used in 1 tag family: MEP-120
+
+WARN_ASS_TIEIN_OPEN_GAS
+  Used in 1 tag family: MEP-121
+
+WARN_ASS_TIEIN_OPEN_PIPE
+  Used in 1 tag family: MEP-122
+
+WARN_AV_COVERAGE_AV_DEVICES
+  Used in 1 tag family: MEP-010
+
+WARN_AV_POWER_SUPPLY_AV_DEVICES
+  Used in 1 tag family: MEP-010
+
+WARN_BLE_AREA_EFFICIENCY_AREAS
+  Used in 1 tag family: ARCH-008
+
+WARN_BLE_CASEWORK_ACCESSIBLE_CASEWORK
+  Used in 1 tag family: ARCH-015
+
+WARN_BLE_CASEWORK_DEPTH_MM_CASEWORK
+  Used in 1 tag family: ARCH-015
+
+WARN_BLE_CASEWORK_FIRE_CASEWORK
+  Used in 1 tag family: ARCH-015
+
+WARN_BLE_CEILING_HEIGHT_MM_CEILINGS
+  Used in 1 tag family: ARCH-016
+
+WARN_BLE_CEILING_MATERIAL_ROOF_SOFFITS
+  Used in 1 tag family: ARCH-086
+
+WARN_BLE_DOOR_HEIGHT_MM_DOORS
+  Used in 1 tag family: ARCH-025
+
+WARN_BLE_DOOR_THRESHOLD_DOORS
+  Used in 1 tag family: ARCH-025
+
+WARN_BLE_DOOR_WIDTH_MM_ACCESSIBILITY
+  Used in 1 tag family: ARCH-025
+
+WARN_BLE_ENTOURAGE_LOD_ENTOURAGE
+  Used in 1 tag family: ARCH-034
+
+WARN_BLE_FASCIA_FIRE_FASCIA
+  Used in 1 tag family: ARCH-035
+
+WARN_BLE_FLOOR_LOAD_KN_M2_FLOORS
+  Used in 1 tag family: ARCH-040
+
+WARN_BLE_FLOOR_LOAD_KN_M2_SLAB_EDGES
+  Used in 1 tag family: ARCH-093
+
+WARN_BLE_FLOOR_SLIP_RESISTANCE_FLOORS
+  Used in 1 tag family: ARCH-040
+
+WARN_BLE_FOOD_DRAINAGE_FOOD_SERVICE
+  Used in 1 tag family: ARCH-041
+
+WARN_BLE_FOOD_VENTILATION_FOOD_SERVICE
+  Used in 1 tag family: ARCH-041
+
+WARN_BLE_FURNITURE_CLEARANCE_MM_FURNITURE
+  Used in 1 tag family: ARCH-043
+
+WARN_BLE_FURNITURE_FIRE_FURNITURE
+  Used in 1 tag family: ARCH-043
+
+WARN_BLE_FURNITURE_FIRE_FURNITURE_SYS
+  Used in 1 tag family: ARCH-042
+
+WARN_BLE_FURNITURE_STABILITY_FURNITURE
+  Used in 1 tag family: ARCH-043
+
+WARN_BLE_FURNITURE_SYS_CABLE_FURNITURE_SYS
+  Used in 1 tag family: ARCH-042
+
+WARN_BLE_FURNITURE_SYS_CLEARANCE_FURNITURE_SYS
+  Used in 1 tag family: ARCH-042
+
+WARN_BLE_GUTTER_FALL_GUTTERS
+  Used in 1 tag family: ARCH-046
+
+WARN_BLE_GUTTER_OVERFLOW_GUTTERS
+  Used in 1 tag family: ARCH-046
+
+WARN_BLE_HEADROOM_MM_NR_ROOMS
+  Used in 1 tag family: ARCH-088
+
+WARN_BLE_HEADROOM_MM_NR_VERT_CIRC
+  Used in 1 tag family: ARCH-126
+
+WARN_BLE_MASS_VOLUME_MASS
+  Used in 1 tag family: ARCH-055
+
+WARN_BLE_MEDICAL_CLEARANCE_MEDICAL_EQUIP
+  Used in 1 tag family: ARCH-061
+
+WARN_BLE_MEDICAL_POWER_MEDICAL_EQUIP
+  Used in 1 tag family: ARCH-061
+
+WARN_BLE_MULLION_DEFLECTION_MULLION
+  Used in 1 tag family: ARCH-022
+
+WARN_BLE_MULLION_THERMAL_BREAK_MULLION
+  Used in 1 tag family: ARCH-022
+
+WARN_BLE_PANEL_SIZE_STRUCTURAL_CURTAIN
+  Used in 1 tag family: ARCH-021
+
+WARN_BLE_PARK_BAY_LENGTH_PARKING
+  Used in 1 tag family: ARCH-070
+
+WARN_BLE_PARK_BAY_WIDTH_PARKING
+  Used in 1 tag family: ARCH-070
+
+WARN_BLE_PARK_BAY_WIDTH_STD_PARKING
+  Used in 1 tag family: ARCH-070
+
+WARN_BLE_PARK_EV_CHARGING_PARKING
+  Used in 1 tag family: ARCH-070
+
+WARN_BLE_RAILING_BALUSTER_RAILINGS
+  Used in 1 tag family: ARCH-083
+
+WARN_BLE_RAILING_GRIP_TOP_RAILS
+  Used in 1 tag family: ARCH-123
+
+WARN_BLE_RAILING_HEIGHT_MM_HANDRAILS
+  Used in 1 tag family: ARCH-047
+
+WARN_BLE_RAILING_HEIGHT_MM_RAILINGS
+  Used in 1 tag family: ARCH-083
+
+WARN_BLE_RAILING_HEIGHT_MM_TOP_RAILS
+  Used in 1 tag family: ARCH-123
+
+WARN_BLE_RAILING_INFILL_HANDRAILS
+  Used in 1 tag family: ARCH-047
+
+WARN_BLE_RAILING_LOAD_KN_M_RAILINGS
+  Used in 1 tag family: ARCH-083
+
+WARN_BLE_RAILING_LOAD_KN_M_TOP_RAILS
+  Used in 1 tag family: ARCH-123
+
+WARN_BLE_RAMP_HANDRAIL_RAMPS
+  Used in 1 tag family: ARCH-084
+
+WARN_BLE_RAMP_LENGTH_MM_RAMPS
+  Used in 1 tag family: ARCH-084
+
+WARN_BLE_RAMP_WIDTH_MM_RAMPS
+  Used in 1 tag family: ARCH-084
+
+WARN_BLE_ROOF_DRAINAGE_GUTTERS
+  Used in 1 tag family: ARCH-046
+
+WARN_BLE_ROOF_DRAINAGE_ROOFS
+  Used in 1 tag family: ARCH-087
+
+WARN_BLE_ROOF_MATERIAL_FASCIA
+  Used in 1 tag family: ARCH-035
+
+WARN_BLE_ROOF_SLOPE_DEG_ROOFS
+  Used in 1 tag family: ARCH-087
+
+WARN_BLE_ROOM_AREA_SQ_M_AREAS
+  Used in 1 tag family: ARCH-008
+
+WARN_BLE_ROOM_AREA_SQ_M_MASS
+  Used in 1 tag family: ARCH-055
+
+WARN_BLE_ROOM_AREA_SQ_M_ROOMS
+  Used in 1 tag family: ARCH-088
+
+WARN_BLE_ROOM_FIRE_ESCAPE_ROOMS
+  Used in 1 tag family: ARCH-088
+
+WARN_BLE_ROOM_HEIGHT_MM_ROOMS
+  Used in 1 tag family: ARCH-088
+
+WARN_BLE_ROOM_OCCUPANCY_SPACES
+  Used in 1 tag family: MEP-094
+
+WARN_BLE_ROOM_VENTILATION_ROOMS
+  Used in 1 tag family: ARCH-088
+
+WARN_BLE_ROOM_VENTILATION_SPACES
+  Used in 1 tag family: MEP-094
+
+WARN_BLE_SIGN_ACCESSIBILITY_SIGNAGE
+  Used in 1 tag family: ARCH-091
+
+WARN_BLE_SIGN_FIRE_EXIT_SIGNAGE
+  Used in 1 tag family: ARCH-091
+
+WARN_BLE_SIGN_HEIGHT_MM_SIGNAGE
+  Used in 1 tag family: ARCH-091
+
+WARN_BLE_SLAB_EDGE_THERMAL_BRIDGE_SLAB_EDGES
+  Used in 1 tag family: ARCH-093
+
+WARN_BLE_SOFFIT_VENTILATION_ROOF_SOFFITS
+  Used in 1 tag family: ARCH-086
+
+WARN_BLE_STAIR_GOING_MM_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_BLE_STAIR_GOING_MM_STAIR_RUNS
+  Used in 1 tag family: ARCH-099
+
+WARN_BLE_STAIR_HEADROOM_MM_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_BLE_STAIR_LANDING_LENGTH_LANDINGS
+  Used in 1 tag family: ARCH-098
+
+WARN_BLE_STAIR_LANDING_SLIP_LANDINGS
+  Used in 1 tag family: ARCH-098
+
+WARN_BLE_STAIR_NOSING_STAIR_RUNS
+  Used in 1 tag family: ARCH-099
+
+WARN_BLE_STAIR_PITCH_DEG_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_BLE_STAIR_RISER_MM_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_BLE_STAIR_RISER_MM_STAIR_RUNS
+  Used in 1 tag family: ARCH-099
+
+WARN_BLE_STAIR_SUPPORT_LOAD_STAIR_SUPPORTS
+  Used in 1 tag family: ARCH-100
+
+WARN_BLE_STAIR_WIDTH_MM_LANDINGS
+  Used in 1 tag family: ARCH-098
+
+WARN_BLE_STAIR_WIDTH_MM_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_BLE_STAIR_WIDTH_MM_STAIR_RUNS
+  Used in 1 tag family: ARCH-099
+
+WARN_BLE_VERT_CIRC_ACCESSIBILITY_VERT_CIRC
+  Used in 1 tag family: ARCH-126
+
+WARN_BLE_VERT_CIRC_FIRE_VERT_CIRC
+  Used in 1 tag family: ARCH-126
+
+WARN_BLE_WALL_FIRE_WALL_SWEEPS
+  Used in 1 tag family: ARCH-127
+
+WARN_BLE_WALL_SLENDERNESS_RATIO_WALLS
+  Used in 1 tag family: ARCH-128
+
+WARN_BLE_WALL_TYPE_WALL_SWEEPS
+  Used in 1 tag family: ARCH-127
+
+WARN_BLE_WINDOW_SAFETY_GLASS_WINDOWS
+  Used in 1 tag family: ARCH-130
+
+WARN_BLE_WIN_VENT_AREA_WINDOWS
+  Used in 1 tag family: ARCH-130
+
+WARN_COM_C_COVERAGE_COMM_DEVICES
+  Used in 1 tag family: MEP-018
+
+WARN_COM_C_DATA_RATE_COMM_DEVICES
+  Used in 1 tag family: MEP-018
+
+WARN_COM_C_POWER_SUPPLY_COMM_DEVICES
+  Used in 1 tag family: MEP-018
+
+WARN_COM_C_PROTOCOL_COMM_DEVICES
+  Used in 1 tag family: MEP-018
+
+WARN_ELC_CDT_BEND_RADIUS_CONDUITS
+  Used in 1 tag family: MEP-020
+
+WARN_ELC_CDT_BEND_RADIUS_CONDUIT_FITTINGS
+  Used in 1 tag family: MEP-019
+
+WARN_ELC_CDT_CBL_FILL_PCT_CONDUITS
+  Used in 1 tag family: MEP-020
+
+WARN_ELC_CDT_EARTHING_CONDUITS
+  Used in 1 tag family: MEP-020
+
+WARN_ELC_CDT_FIRE_BARRIER_CONDUITS
+  Used in 1 tag family: MEP-020
+
+WARN_ELC_CDT_RUN_LENGTH_CONDUITS
+  Used in 1 tag family: MEP-020
+
+WARN_ELC_CDT_SZ_CONDUIT_FITTINGS
+  Used in 1 tag family: MEP-019
+
+WARN_ELC_CIRCUIT_LOAD_ELECTRICAL_FIX
+  Used in 1 tag family: MEP-033
+
+WARN_ELC_CONN_IP_CONNECTORS
+  Used in 1 tag family: MEP-031
+
+WARN_ELC_CONN_RATING_CONNECTORS
+  Used in 1 tag family: MEP-031
+
+WARN_ELC_CTR_BEND_RADIUS_CABLE_TRAY_FTGS
+  Used in 1 tag family: MEP-013
+
+WARN_ELC_CTR_EARTHING_CABLE_TRAYS
+  Used in 1 tag family: MEP-014
+
+WARN_ELC_CTR_FILL_PCT_CABLE_TRAYS
+  Used in 1 tag family: MEP-014
+
+WARN_ELC_CTR_FIRE_RATING_CABLE_TRAYS
+  Used in 1 tag family: MEP-014
+
+WARN_ELC_CTR_LOAD_CABLE_TRAYS
+  Used in 1 tag family: MEP-014
+
+WARN_ELC_CTR_MAT_CABLE_TRAY_FTGS
+  Used in 1 tag family: MEP-013
+
+WARN_ELC_CTR_SEGREGATION_CABLE_TRAYS
+  Used in 1 tag family: MEP-014
+
+WARN_ELC_DISCRIMINATION_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_EARTH_FAULT_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_EMERGENCY_BATTERY_ELECTRICAL_FIX
+  Used in 1 tag family: MEP-033
+
+WARN_ELC_IP_RATING_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_IP_RATING_ELECTRICAL_FIX
+  Used in 1 tag family: MEP-033
+
+WARN_ELC_LABELLING_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_SHORT_CIRCUIT_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_SPARE_CAPACITY_ELECTRICAL_EQUI
+  Used in 1 tag family: MEP-032
+
+WARN_ELC_VLT_DROP_PCT_ELECTRICAL_FIX
+  Used in 1 tag family: MEP-033
+
+WARN_ELC_WIRE_AMPACITY_MISSING
+  Used in 1 tag family: MEP-131
+
+WARN_FAB_CONTAINMENT_DIMENSIONS
+  Used in 1 tag family: MEP-062
+
+WARN_FAB_CONTAINMENT_FILL_RATIO
+  Used in 1 tag family: MEP-062
+
+WARN_FAB_CONTAINMENT_FIRE_RATING
+  Used in 1 tag family: MEP-062
+
+WARN_FAB_DCT_DIMENSIONS_DUCTWORK
+  Used in 1 tag family: MEP-064
+
+WARN_FAB_DCT_LEAKAGE_DUCTWORK
+  Used in 1 tag family: MEP-064
+
+WARN_FAB_DCT_MATERIAL_DUCTWORK
+  Used in 1 tag family: MEP-064
+
+WARN_FAB_HANGER_SEISMIC
+  Used in 1 tag family: GEN-065
+
+WARN_FAB_HANGER_SPACING
+  Used in 1 tag family: GEN-065
+
+WARN_FAB_PIPE_DN_PIPEWORK
+  Used in 1 tag family: MEP-066
+
+WARN_FAB_PIPE_WALL_PIPEWORK
+  Used in 1 tag family: MEP-066
+
+WARN_FAB_PIPE_WELD_PIPEWORK
+  Used in 1 tag family: MEP-066
+
+WARN_FAB_STIFF_SPACING_STIFFENERS
+  Used in 1 tag family: MEP-063
+
+WARN_FAB_STIFF_TYPE_STIFFENERS
+  Used in 1 tag family: MEP-063
+
+WARN_FLS_BATTERY_BACKUP_FIRE_ALARM
+  Used in 1 tag family: MEP-036
+
+WARN_FLS_COVERAGE_FIRE_ALARM
+  Used in 1 tag family: MEP-036
+
+WARN_FLS_DETECTOR_SENSITIVITY_FIRE_ALARM
+  Used in 1 tag family: MEP-036
+
+WARN_FLS_FLOW_RATE_SPRINKLERS
+  Used in 1 tag family: MEP-097
+
+WARN_FLS_HEAD_TYPE_SPRINKLERS
+  Used in 1 tag family: MEP-097
+
+WARN_FLS_LOOP_CAPACITY_FIRE_ALARM
+  Used in 1 tag family: MEP-036
+
+WARN_FLS_OBSTRUCTION_SPRINKLERS
+  Used in 1 tag family: MEP-097
+
+WARN_FLS_PROT_EVACUATION_TIME
+  Used in 1 tag family: MEP-037
+
+WARN_FLS_PROT_FIRE_RESISTANCE
+  Used in 1 tag family: MEP-037
+
+WARN_FLS_PROT_TRAVEL_DISTANCE
+  Used in 1 tag family: MEP-037
+
+WARN_FLS_SOUND_LEVEL_FIRE_ALARM
+  Used in 1 tag family: MEP-036
+
+WARN_FLS_SPACING_SPRINKLERS
+  Used in 1 tag family: MEP-097
+
+WARN_FLS_TEMP_RATING_SPRINKLERS
+  Used in 1 tag family: MEP-097
+
+WARN_GEN_ASSEMBLY_CODE_MISSING
+  Used in 1 tag family: GEN-009
+
+WARN_GEN_GROUP_EXCLUDED_MEMBERS
+  Used in 1 tag family: GEN-067
+
+WARN_GEN_LINK_NOT_LOADED
+  Used in 1 tag family: GEN-089
+
+WARN_GEN_MATERIAL_SPEC_MISSING
+  Used in 1 tag family: GEN-056
+
+WARN_GEN_NO_EXPECTED_LIFE
+  Used in 1 tag family: GEN-045
+
+WARN_GEN_NO_MANUFACTURER
+  Used in 1 tag family: GEN-045
+
+WARN_GEN_PARTS_HOST_MISSING
+  Used in 1 tag family: GEN-071
+
+WARN_GEN_PROFILE_DIM_MISSING
+  Used in 1 tag family: GEN-080
+
+WARN_GEN_SPEC_EQUIP_LEAD_TIME
+  Used in 1 tag family: GEN-095
+
+WARN_GEN_SPEC_EQUIP_NO_COMMISSION
+  Used in 1 tag family: GEN-095
+
+WARN_GEN_SPEC_EQUIP_NO_SYS
+  Used in 1 tag family: GEN-095
+
+WARN_GEN_TAG_INCOMPLETE_TXT
+  Used in 1 tag family: GEN-045
+
+WARN_HVC_AIRFLOW_CAPACITY_AIR_TERMINALS
+  Used in 1 tag family: MEP-001
+
+WARN_HVC_AIR_CHANGES_PER_HR_SPACES
+  Used in 1 tag family: MEP-094
+
+WARN_HVC_BMS_MECHANICAL_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_CAPACITY_MECHANICAL_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_CONTROL_TYPE_ZONES
+  Used in 1 tag family: MEP-132
+
+WARN_HVC_DCT_PROPERTY_DUCT_ACC
+  Used in 1 tag family: MEP-026
+
+WARN_HVC_DUCT_AREA_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_DUCT_CLASS_DUCT_FITTINGS
+  Used in 1 tag family: MEP-027
+
+WARN_HVC_DUCT_CLASS_MISMATCH_FITTINGS
+  Used in 1 tag family: MEP-027
+
+WARN_HVC_FIRE_DAMPER_RATING_DUCT_ACC
+  Used in 1 tag family: MEP-026
+
+WARN_HVC_FIRE_RATING_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_INSULATION_FLEX_DUCTS
+  Used in 1 tag family: MEP-038
+
+WARN_HVC_INSULATION_THK_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_LEAKAGE_CLASS_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_LEAKAGE_CLASS_DUCT_ACC
+  Used in 1 tag family: MEP-026
+
+WARN_HVC_LENGTH_FLEX_DUCTS
+  Used in 1 tag family: MEP-038
+
+WARN_HVC_LOSS_COEFF_DUCT_FITTINGS
+  Used in 1 tag family: MEP-027
+
+WARN_HVC_MAINTENANCE_ACCESS_MECH_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_MOUNTING_HEIGHT_AIR_TERMINALS
+  Used in 1 tag family: MEP-001
+
+WARN_HVC_NOISE_MECHANICAL_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_NOISE_NC_AIR_TERMINALS
+  Used in 1 tag family: MEP-001
+
+WARN_HVC_PIPE_PRESSURE_KPA_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_PRESSURE_DROP_AIR_TERMINALS
+  Used in 1 tag family: MEP-001
+
+WARN_HVC_PRESSURE_DROP_DUCT_ACC
+  Used in 1 tag family: MEP-026
+
+WARN_HVC_PRESSURE_DROP_FLEX_DUCTS
+  Used in 1 tag family: MEP-038
+
+WARN_HVC_REFRIGERANT_MECHANICAL_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_SOUND_LEVEL_DUCTS
+  Used in 1 tag family: MEP-030
+
+WARN_HVC_THROW_DISTANCE_AIR_TERMINALS
+  Used in 1 tag family: MEP-001
+
+WARN_HVC_VIBRATION_MECHANICAL_EQUIP
+  Used in 1 tag family: MEP-060
+
+WARN_HVC_ZONE_AREA_ZONES
+  Used in 1 tag family: MEP-132
+
+WARN_HVC_ZONE_SENSOR_ZONES
+  Used in 1 tag family: MEP-132
+
+WARN_ICT_CABLE_CATEGORY_DATA_DEVICES
+  Used in 1 tag family: GEN-023
+
+WARN_ICT_CABLE_CATEGORY_TELEPHONE
+  Used in 1 tag family: GEN-116
+
+WARN_ICT_COVERAGE_DATA_DEVICES
+  Used in 1 tag family: GEN-023
+
+WARN_ICT_COVERAGE_TELEPHONE
+  Used in 1 tag family: GEN-116
+
+WARN_ICT_DATA_RATE_DATA_DEVICES
+  Used in 1 tag family: GEN-023
+
+WARN_ICT_OUTLET_TYPE_DATA_DEVICES
+  Used in 1 tag family: GEN-023
+
+WARN_ICT_OUTLET_TYPE_TELEPHONE
+  Used in 1 tag family: GEN-116
+
+WARN_INS_ACOUSTIC_DUCT_LINING
+  Used in 1 tag family: MEP-029
+
+WARN_INS_EROSION_DUCT_LINING
+  Used in 1 tag family: MEP-029
+
+WARN_INS_FIRE_CLASS_DUCT_INS
+  Used in 1 tag family: MEP-028
+
+WARN_INS_FIRE_CLASS_PIPE_INSULATION
+  Used in 1 tag family: MEP-074
+
+WARN_INS_THICKNESS_DUCT_LINING
+  Used in 1 tag family: MEP-029
+
+WARN_INS_THICKNESS_PIPE_INSULATION
+  Used in 1 tag family: MEP-074
+
+WARN_INS_VAPOUR_BARRIER_DUCT_INS
+  Used in 1 tag family: MEP-028
+
+WARN_INS_VAPOUR_BARRIER_PIPE_INSULATION
+  Used in 1 tag family: MEP-074
+
+WARN_LTG_COLOUR_RENDERING_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_LTG_COLOUR_TEMP_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_LTG_CTRL_TYPE_LIGHTING_DEVICES
+  Used in 1 tag family: MEP-052
+
+WARN_LTG_EFFICACY_LIGHTING_DEVICES
+  Used in 1 tag family: MEP-052
+
+WARN_LTG_EFFICACY_LM_W_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_LTG_EMERGENCY_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_LTG_EMERGENCY_LIGHTING_DEVICES
+  Used in 1 tag family: MEP-052
+
+WARN_LTG_GLARE_RATING_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_LTG_ILLUMINANCE_LIGHTING_DEVICES
+  Used in 1 tag family: MEP-052
+
+WARN_LTG_POWER_DENSITY_LIGHTING
+  Used in 1 tag family: MEP-053
+
+WARN_MEC_CTRL_CALIBRATION_CTRL_DEV
+  Used in 1 tag family: MEP-058
+
+WARN_MEC_CTRL_FUNCTION_CTRL_DEV
+  Used in 1 tag family: MEP-058
+
+WARN_MEC_CTRL_SIGNAL_CTRL_DEV
+  Used in 1 tag family: MEP-058
+
+WARN_MEC_SET_CAPACITY_EQUIP_SETS
+  Used in 1 tag family: MEP-059
+
+WARN_MEC_SET_REDUNDANCY_EQUIP_SETS
+  Used in 1 tag family: MEP-059
+
+WARN_NCL_BATTERY_NURSE_CALL
+  Used in 1 tag family: GEN-068
+
+WARN_NCL_RESPONSE_TIME_NURSE_CALL
+  Used in 1 tag family: GEN-068
+
+WARN_NCL_ZONE_NURSE_CALL
+  Used in 1 tag family: GEN-068
+
+WARN_PER_ACOUSTIC_IIC_RATING_FLOORS
+  Used in 1 tag family: ARCH-040
+
+WARN_PER_ACOUSTIC_NRC_RATING_CEILINGS
+  Used in 1 tag family: ARCH-016
+
+WARN_PER_ACOUSTIC_STC_RATING_NR_DOORS
+  Used in 1 tag family: ARCH-025
+
+WARN_PER_ACOUSTIC_STC_RATING_NR_WALLS
+  Used in 1 tag family: ARCH-128
+
+WARN_PER_ACOUSTIC_STC_RATING_NR_WINDOWS
+  Used in 1 tag family: ARCH-130
+
+WARN_PER_CONDENSATION_RISK_BOOL_ROOFS
+  Used in 1 tag family: ARCH-087
+
+WARN_PER_CONDENSATION_RISK_BOOL_WALLS
+  Used in 1 tag family: ARCH-128
+
+WARN_PER_EMBODIED_CARBON_KG_CO2_M2_FLOORS
+  Used in 1 tag family: ARCH-040
+
+WARN_PER_EMBODIED_CARBON_KG_CO2_M2_ROOFS
+  Used in 1 tag family: ARCH-087
+
+WARN_PER_EMBODIED_CARBON_KG_CO2_M2_STR
+  Used in 1 tag family: STR-104
+
+WARN_PER_EMBODIED_CARBON_KG_CO2_M2_WALLS
+  Used in 1 tag family: ARCH-128
+
+WARN_PER_EMBODIED_CARBON_KG_STR_BEAMS
+  Used in 1 tag family: STR-108
+
+WARN_PER_FIRE_RATING_HR_ARCH_COLUMNS
+  Used in 1 tag family: STR-017
+
+WARN_PER_FIRE_RATING_HR_NR_CEILINGS
+  Used in 1 tag family: ARCH-016
+
+WARN_PER_FIRE_RATING_HR_NR_DOORS
+  Used in 1 tag family: ARCH-025
+
+WARN_PER_FIRE_RATING_HR_NR_FLOORS
+  Used in 1 tag family: ARCH-040
+
+WARN_PER_FIRE_RATING_HR_NR_ROOFS
+  Used in 1 tag family: ARCH-087
+
+WARN_PER_FIRE_RATING_HR_NR_STAIRS
+  Used in 1 tag family: ARCH-101
+
+WARN_PER_FIRE_RATING_HR_NR_STR_BEAMS
+  Used in 1 tag family: STR-108
+
+WARN_PER_FIRE_RATING_HR_NR_STR_BRACES
+  Used in 1 tag family: STR-012
+
+WARN_PER_FIRE_RATING_HR_NR_STR_COLUMNS
+  Used in 1 tag family: STR-104
+
+WARN_PER_FIRE_RATING_HR_NR_STR_SLABS
+  Used in 1 tag family: STR-112
+
+WARN_PER_FIRE_RATING_HR_NR_STR_WALLS
+  Used in 1 tag family: STR-115
+
+WARN_PER_FIRE_RATING_HR_NR_WALLS
+  Used in 1 tag family: ARCH-128
+
+WARN_PER_FIRE_RATING_HR_STAIR_SUPPORTS
+  Used in 1 tag family: ARCH-100
+
+WARN_PER_FIRE_RATING_HR_STR_TRUSSES
+  Used in 1 tag family: STR-114
+
+WARN_PER_SOLAR_G_VALUE_NR_CURTAIN
+  Used in 1 tag family: ARCH-021
+
+WARN_PER_SOLAR_G_VALUE_NR_WINDOWS
+  Used in 1 tag family: ARCH-130
+
+WARN_PER_SUST_EPD_MATERIALS
+  Used in 1 tag family: GEN-057
+
+WARN_PER_SUST_RECYCLABILITY_MATERIALS
+  Used in 1 tag family: GEN-057
+
+WARN_PER_THERM_U_VALUE_W_M2K_NR_CURTAIN
+  Used in 1 tag family: ARCH-021
+
+WARN_PER_THERM_U_VALUE_W_M2K_NR_MULLION
+  Used in 1 tag family: ARCH-022
+
+WARN_PER_THERM_U_VALUE_W_M2K_NR_WINDOWS
+  Used in 1 tag family: ARCH-130
+
+WARN_PLM_CAPACITY_PLM_EQUIP
+  Used in 1 tag family: MEP-077
+
+WARN_PLM_CONNECTION_TYPE_PIPE_FITTINGS
+  Used in 1 tag family: MEP-073
+
+WARN_PLM_FIRE_RATING_PIPE_ACC
+  Used in 1 tag family: MEP-072
+
+WARN_PLM_FIXTURE_ACCESSIBILITY
+  Used in 1 tag family: MEP-078
+
+WARN_PLM_FIXTURE_BACKFLOW
+  Used in 1 tag family: MEP-078
+
+WARN_PLM_FIXTURE_FLOW_RATE
+  Used in 1 tag family: MEP-078
+
+WARN_PLM_FIXTURE_WASTE_SIZE
+  Used in 1 tag family: MEP-078
+
+WARN_PLM_FIXTURE_WATER_EFFICIENCY
+  Used in 1 tag family: MEP-078
+
+WARN_PLM_GRADIENT_PIPES
+  Used in 1 tag family: MEP-075
+
+WARN_PLM_HOT_WATER_TEMP_PLM_EQUIP
+  Used in 1 tag family: MEP-077
+
+WARN_PLM_INSULATION_THK_PIPES
+  Used in 1 tag family: MEP-075
+
+WARN_PLM_MAINTENANCE_ACCESS_PLM_EQUIP
+  Used in 1 tag family: MEP-077
+
+WARN_PLM_MATERIAL_MISMATCH_PIPE_FITTINGS
+  Used in 1 tag family: MEP-073
+
+WARN_PLM_NOISE_PIPES
+  Used in 1 tag family: MEP-075
+
+WARN_PLM_PPE_LENGTH_FLEX_PIPE
+  Used in 1 tag family: MEP-039
+
+WARN_PLM_PPE_PSR_RATING_PIPE_FITTINGS
+  Used in 1 tag family: MEP-073
+
+WARN_PLM_PPE_SZ_PIPE_ACC
+  Used in 1 tag family: MEP-072
+
+WARN_PLM_PSR_RATING_PIPES
+  Used in 1 tag family: MEP-075
+
+WARN_PLM_PSR_RATING_PIPE_ACC
+  Used in 1 tag family: MEP-072
+
+WARN_PLM_TRAP_SEAL_PIPES
+  Used in 1 tag family: MEP-075
+
+WARN_PLM_VEL_MPS_FLEX_PIPE
+  Used in 1 tag family: MEP-039
+
+WARN_PROP_FIRE_RATING_MATERIALS
+  Used in 1 tag family: GEN-057
+
+WARN_PROP_THERMAL_COND_MATERIALS
+  Used in 1 tag family: GEN-057
+
+WARN_RGL_STD_AV_DEVICES
+  Used in 1 tag family: MEP-010
+
+WARN_RGL_STD_FOOD_SERVICE
+  Used in 1 tag family: ARCH-041
+
+WARN_RGL_STD_MEDICAL_EQUIP
+  Used in 1 tag family: ARCH-061
+
+WARN_SEC_BATTERY_BACKUP_SECURITY
+  Used in 1 tag family: GEN-090
+
+WARN_SEC_COVERAGE_SECURITY
+  Used in 1 tag family: GEN-090
+
+WARN_SEC_DEV_ZONE_SECURITY
+  Used in 1 tag family: GEN-090
+
+WARN_SEC_TAMPER_SECURITY
+  Used in 1 tag family: GEN-090
+
+WARN_SITE_HARDSCAPE_SPEC_MISSING
+  Used in 1 tag family: GEN-048
+
+WARN_SITE_LOC_MISSING
+  Used in 1 tag family: GEN-092
+
+WARN_SITE_PAD_BEARING_MISSING
+  Used in 1 tag family: GEN-069
+
+WARN_SITE_PARKING_WIDTH
+  Used in 1 tag family: GEN-092
+
+WARN_SITE_PLANTING_SPEC_MISSING
+  Used in 1 tag family: GEN-076
+
+WARN_SITE_PROPERTY_AREA_MISSING
+  Used in 1 tag family: GEN-082
+
+WARN_SITE_PROPERTY_BEARING_MISSING
+  Used in 1 tag family: GEN-081
+
+WARN_SITE_ROAD_GRADIENT
+  Used in 1 tag family: GEN-092
+
+WARN_SITE_ROAD_SPEC_MISSING
+  Used in 1 tag family: GEN-085
+
+WARN_SITE_TOPOSOLID_LINK_MISSING
+  Used in 1 tag family: GEN-124
+
+WARN_SITE_TOPOSOLID_MATERIAL_MISSING
+  Used in 1 tag family: GEN-125
+
+WARN_STR_ANLYT_LINK_RIGIDITY
+  Used in 1 tag family: STR-002
+
+WARN_STR_ANLYT_NODE_UNCONNECTED
+  Used in 1 tag family: STR-004
+
+WARN_STR_ANLYT_NO_HOST
+  Used in 1 tag family: STR-003
+
+WARN_STR_ANLYT_OPENING_OVERSIZED
+  Used in 1 tag family: STR-005
+
+WARN_STR_ANLYT_PANEL_MATERIAL
+  Used in 1 tag family: STR-006
+
+WARN_STR_BEAM_DEFLECTION_TRUSSES
+  Used in 1 tag family: STR-114
+
+WARN_STR_BEAM_LATERAL_BRACING
+  Used in 1 tag family: STR-108
+
+WARN_STR_BOLT_GRADE_MISSING
+  Used in 1 tag family: STR-011
+
+WARN_STR_BRACE_SLENDERNESS
+  Used in 1 tag family: STR-012
+
+WARN_STR_COL_BASE_PLATE
+  Used in 1 tag family: STR-104
+
+WARN_STR_COL_SLENDERNESS
+  Used in 1 tag family: STR-104
+
+WARN_STR_CONN_WELD_SIZE
+  Used in 1 tag family: STR-105
+
+WARN_STR_FDN_BEARING_KN_M2
+  Used in 1 tag family: STR-107
+
+WARN_STR_FDN_COVER_MM
+  Used in 1 tag family: STR-107
+
+WARN_STR_FDN_DEPTH_MM_FROST
+  Used in 1 tag family: STR-107
+
+WARN_STR_FDN_SETTLEMENT_MM
+  Used in 1 tag family: STR-107
+
+WARN_STR_GRADE_STIFFENERS
+  Used in 1 tag family: STR-113
+
+WARN_STR_LOAD_AXIAL_KN_COLUMNS
+  Used in 1 tag family: STR-104
+
+WARN_STR_LOAD_CASE_MISSING_AR
+  Used in 1 tag family: STR-007
+
+WARN_STR_LOAD_CASE_MISSING_INT_AR
+  Used in 1 tag family: STR-049
+
+WARN_STR_LOAD_CASE_MISSING_INT_LN
+  Used in 1 tag family: STR-050
+
+WARN_STR_LOAD_CASE_MISSING_INT_PT
+  Used in 1 tag family: STR-051
+
+WARN_STR_LOAD_CASE_MISSING_LN
+  Used in 1 tag family: STR-054
+
+WARN_STR_LOAD_CASE_MISSING_PT
+  Used in 1 tag family: STR-079
+
+WARN_STR_LOAD_UDL_KN_M_BEAM_SYS
+  Used in 1 tag family: STR-103
+
+WARN_STR_REBAR_COVER_MM_AREA
+  Used in 1 tag family: STR-102
+
+WARN_STR_REBAR_COVER_MM_FABRIC
+  Used in 1 tag family: STR-106
+
+WARN_STR_REBAR_COVER_MM_PATH
+  Used in 1 tag family: STR-109
+
+WARN_STR_REBAR_GRADE_COUPLERS
+  Used in 1 tag family: STR-110
+
+WARN_STR_REBAR_SPACING_MM_AREA
+  Used in 1 tag family: STR-102
+
+WARN_STR_SLAB_COVER_MM
+  Used in 1 tag family: STR-112
+
+WARN_STR_WALL_SLENDERNESS
+  Used in 1 tag family: STR-115
+
+WARN_STR_WELD_SPEC_MISSING
+  Used in 1 tag family: STR-129
+
