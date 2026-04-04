@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WarningsManager version="1">
+  <defined_warnings>
+<revit_warning id="2e48fcd8-94a8-4253-bf64-a90491144a20" builtin_class="AnalyticalModelFailures" builtin_name="SupportCheckDone">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aa45c7f7-ced2-44b2-9265-b90d3d7f277a" builtin_class="AnalyticalModelFailures" builtin_name="StructuralElementMayNotBeSupported">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="df5f86cf-0c06-4c18-8c3d-ef9312ad95ae" builtin_class="AnalyticalModelFailures" builtin_name="StructWallAnalyticalErrorConversion">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="59376eb0-4664-4917-a9fe-8dcedc838354" builtin_class="AnalyticalModelFailures" builtin_name="StructWallAnalyticalErrorAlign">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3b3f8086-3d80-4ce2-86fa-44a72c9a6c0b" builtin_class="AnalyticalModelFailures" builtin_name="StructAnalyticalErrorProjection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e4b4f3d6-71fb-428c-b05d-d85889d11064" builtin_class="AnalyticalModelFailures" builtin_name="ProjectionPlaneInvalidWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="69c4a586-7366-47e1-afd6-e89610ae95e7" builtin_class="AnalyticalModelFailures" builtin_name="LoadsMayBeNotUpToDate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b6618344-f428-4d6f-b1f0-8e2b9f5bf53f" builtin_class="AnalyticalModelFailures" builtin_name="CannotKeepAnalyticalAdjustment">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0305a501-0884-472a-aa9f-6871fae77838" builtin_class="AnalyticalModelFailures" builtin_name="AutoDetectIgnoreLeaderWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="afa95bf0-78b5-4952-9381-ba34660077e4" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalTopBottomPlanesReversed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c1e3c926-7870-41e7-9bbd-daa83108c9aa" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalSupportCycleWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b8e8d734-f0e8-425c-b425-b751a948f5a9" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalPhysicalCheckDone">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5106dde8-7db9-440a-a71c-8f3998e34ed6" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalModelIsIncorrect">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c19049a1-1d09-4118-911b-52bc2d8a3e21" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalModelInstability">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6a04cc8c-0a5e-4463-b0d1-f387ef243ab9" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalMemberInstability">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="414f1542-b710-48aa-9acd-230dc73cb438" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalGapWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4abeffe1-ad36-4221-826c-4f149ea75d76" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalDiscrepancyWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2a7a74a0-f0b0-44dc-a5df-7de0663bf340" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalBeamSlabWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c724f06c-3fa1-4939-b0da-24ae0e464257" builtin_class="AnalyticalModelFailures" builtin_name="AdjustEdgeTooShortWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b11aa9ab-aad2-4dcc-b7d4-f00249154052" builtin_class="ArrayFailures" builtin_name="IdenticalGeometryCopiesInArray">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f300b54b-6647-4635-a7a3-111e9aea39af" builtin_class="ArrayFailures" builtin_name="ArrayMixedModAndViewSpecElemsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="334a9d9f-71e6-4df9-9a6c-828f107b7381" builtin_class="AssemblyFailures" builtin_name="NoEligibleElementsInAssembly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="01d8c862-7307-4468-9102-31793eeeb425" builtin_class="AssemblyFailures" builtin_name="NoElementsLeftInExistingAssembly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="168638c9-7f69-43d0-a660-f1de60561886" builtin_class="AssemblyFailures" builtin_name="NoElementsAddedtoNewAssembly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4bd6d8db-1097-49b1-beac-99596d1454fa" builtin_class="AssemblyFailures" builtin_name="IneligibleElementsInAssembly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1764f7fb-8e24-4600-b638-fbeabcb483df" builtin_class="AssemblyFailures" builtin_name="ElementsNotAllowedAreNotAddedToAssembly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="355c35cb-f518-4fb7-97c5-9be135273c57" builtin_class="AssemblyFailures" builtin_name="AssemblyRenameTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1f82236b-e271-49eb-8ed4-8288df919ef8" builtin_class="AssemblyFailures" builtin_name="AssemblyNewTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1b0a16d2-264b-4d05-b504-a3d5ea22ad54" builtin_class="AssemblyFailures" builtin_name="AssemblyInvalidMember">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e69208f0-ef97-4d85-a6e0-6d656613930c" builtin_class="AssemblyFailures" builtin_name="AssemblyInheritTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="830e1393-cf20-4a20-ac98-de74a1734d63" builtin_class="AssemblyFailures" builtin_name="AssemblyDisassembleInstanceWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="85dad513-0145-478a-b925-f9688494a69b" builtin_class="AssemblyFailures" builtin_name="AssemblyDidNotMatchRequestedTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="16f356e5-5432-452c-acce-4592ee79a910" builtin_class="AssemblyFailures" builtin_name="AssemblyDeleteTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="26c3c00a-50fc-4b42-bbae-4300bf4fb4f4" builtin_class="AutoJoinFailures" builtin_name="WorksetJoinWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9f8ae893-f9e8-4fa9-97b9-09bb0a3569a4" builtin_class="AutoJoinFailures" builtin_name="Unknown">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fdcd3b86-3e1a-4e7e-ae41-cabc367d5e0b" builtin_class="AutoJoinFailures" builtin_name="UnexpectedJoinFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2724c90c-ff27-48b8-8208-94539ee7901a" builtin_class="AutoJoinFailures" builtin_name="OtherNonEditJoinFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="da202a31-9db6-423c-8a50-23891f69f733" builtin_class="AutoJoinFailures" builtin_name="DesignOptionCannotReference">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ed753913-4fd6-4446-8e62-869f75527fe9" builtin_class="AutoJoinFailures" builtin_name="DesignOptionAndWorksetViolation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="da460863-626d-44f7-aaef-e0956d9f41e1" builtin_class="AutoRouteFailures" builtin_name="ZeroLengthSegmentWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c1cdf473-fd75-4db7-9262-4e7a3fd2d4f4" builtin_class="AutoRouteFailures" builtin_name="UnableToMakeConnectionInDirection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fe26e879-d6b9-46c1-90e0-b018cfa9025d" builtin_class="AutoRouteFailures" builtin_name="SpecifiedAnglesNotCompatibleWithLayoutWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4b88b5f9-78c5-4732-a41a-d97fc9dd2edd" builtin_class="AutoRouteFailures" builtin_name="SolutionIsOppositeToConnectionWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="704f6a22-d912-464a-bb7b-adc76784c05f" builtin_class="AutoRouteFailures" builtin_name="SegmentsAngleTooGreatWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0da646b6-4ad7-40ee-b2e0-4b8e5aeb6c6d" builtin_class="AutoRouteFailures" builtin_name="SegmentDrawnFromWrongSideWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="35261a8f-b1a3-47a8-8bb7-7061baed703a" builtin_class="AutoRouteFailures" builtin_name="NotEnoughRoomForFittingsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="429dd204-0575-4d14-864d-464b71160a8b" builtin_class="AutoRouteFailures" builtin_name="NotAllPartsWereConvertedPlaceholdersWereAddedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="10f4dc5a-e9e3-429b-a4c5-f35fd0ba44af" builtin_class="AutoRouteFailures" builtin_name="NotAllPartsWereConvertedCannotAddPlaceholderWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="25c26519-0160-4f72-8c5e-279ba9175189" builtin_class="AutoRouteFailures" builtin_name="NoValidSolutionAtSelectedPoint">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3915c937-557b-4186-83af-5a2b2ed4e662" builtin_class="AutoRouteFailures" builtin_name="NoSolutionInView">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="be06d578-71c0-4934-81e3-9513b5796ac6" builtin_class="AutoRouteFailures" builtin_name="NoFittingInProjectWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c7798923-1c73-4b05-ac70-b09053ce3783" builtin_class="AutoRouteFailures" builtin_name="NoAutoRouteSolutionFoundWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="81f0f3da-1c10-47b6-91d0-60b3ad58575f" builtin_class="AutoRouteFailures" builtin_name="MismatchedSystemTypeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2be042dd-86da-49c9-bf59-a67189e883a5" builtin_class="AutoRouteFailures" builtin_name="MismatchedSystemClassificationNoSystemWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9bea92ec-b2af-48a4-85f4-e35a8aab0a96" builtin_class="AutoRouteFailures" builtin_name="MismatchedSystemClassificationHasSystemWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9f981be2-e8ab-474c-a948-405c2e47f7b2" builtin_class="AutoRouteFailures" builtin_name="InappropriateSlopeForPipe">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="71a0612b-5d5b-4858-b763-f07640b6fcb8" builtin_class="AutoRouteFailures" builtin_name="HighlightedElementDisconnected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bc0d897d-1e25-418e-81fd-2b6d3326d38c" builtin_class="AutoRouteFailures" builtin_name="FittingParamsCauseGeometryToFailWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="815bef82-b1d2-4708-8522-abf1fb8a96c5" builtin_class="AutoRouteFailures" builtin_name="FailToIntersectParallelSegmentsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7357f4ef-44a6-40ed-bedb-12d2a1d92a5d" builtin_class="AutoRouteFailures" builtin_name="FailToDoCompatiblePhaseWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5b23574e-f3d7-4fd6-b5cf-2b786602063b" builtin_class="AutoRouteFailures" builtin_name="ElementHasOpenConnection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8dcf6863-6c69-44f5-bfdb-120e8d7b3833" builtin_class="AutoRouteFailures" builtin_name="ElementHasFlowCalculation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e0c23ddc-4542-4b41-94ec-b72199bb2e4f" builtin_class="AutoRouteFailures" builtin_name="DesignOptionConflictWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="60f41ca3-0a1c-42a0-9499-189e4f6a8860" builtin_class="AutoRouteFailures" builtin_name="AttemptToComnnectNonSlopingElementToSlopedPipeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c749901c-95f6-4c09-9e1c-bd3f4be6085e" builtin_class="BeamSystemFailures" builtin_name="BeamSystemEdgeBeamTooWide">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="80b55b92-ed68-433f-9daf-290606587626" builtin_class="BendFailures" builtin_name="NotBentSymbolicLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a38b85fd-66ad-4329-abe3-7c0d74b8cf51" builtin_class="BendFailures" builtin_name="NotBentSymbol">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="339a941c-6813-4648-bc16-487b2ecbce0a" builtin_class="BendFailures" builtin_name="NotBentSharedFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c980fdf5-9255-41fd-acc6-d72a5903e236" builtin_class="BendFailures" builtin_name="NotBentRefPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5f7e05d6-615a-4c4e-92dc-7e924322b1c3" builtin_class="BendFailures" builtin_name="NotBentRefLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="361c612d-bdf1-4686-9dc2-65020f5551ac" builtin_class="BendFailures" builtin_name="NotBentOpening">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5113728c-88cd-4233-a4f9-718ac54252ba" builtin_class="BendFailures" builtin_name="NotBentModelLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="62597805-627d-4399-b663-f8a698c6c728" builtin_class="BendFailures" builtin_name="NotBentMaskingRegion">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eaffb03c-bad9-45ce-8b08-220677743562" builtin_class="BendFailures" builtin_name="NotBentImport">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="953d839d-7714-455d-836c-a12f5d198385" builtin_class="BendFailures" builtin_name="NotBentImage">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="179d6ed5-bf21-4445-af50-63ee15522a30" builtin_class="BendFailures" builtin_name="NotBentFilledRegion">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="20887264-339e-4e04-876a-97f7b0471392" builtin_class="BendFailures" builtin_name="NotBentDetailComponent">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="12dc6061-f171-4f4a-9b1a-750f458e8604" builtin_class="BendFailures" builtin_name="NotBentControl">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cc9187ae-8369-4815-a506-f9c0d46e40ff" builtin_class="ColorFillFailures" builtin_name="SymtemColorFillLegendNotAllowed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="271917a1-0c56-4656-86e9-001b47c3ae5e" builtin_class="ColumnFailures" builtin_name="ColumnJoinNonhitFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3186b996-7685-4a55-ac87-834161def2cc" builtin_class="ColumnFailures" builtin_name="ColumnAndTargetAreConcrete">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1aaa0289-300c-41b2-bcff-53a03a6c532b" builtin_class="ColumnInsideWallFailures" builtin_name="StopCutShadowJoin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ed283873-b073-4d64-bd84-0941467158b2" builtin_class="ColumnInsideWallFailures" builtin_name="StartCutShadowJoin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="298c9dbf-c36e-4507-8517-099adb0b7d44" builtin_class="ColumnInsideWallFailures" builtin_name="CopingWarningOffset">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="10fee75a-98de-44d2-ac3b-5a2ff152f2c2" builtin_class="ColumnInsideWallFailures" builtin_name="CopingWarningMedium">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6c906ca5-8ccf-41bf-aa99-ad5c85cb36e2" builtin_class="ColumnInsideWallFailures" builtin_name="CopingWarningIgnored">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="19023a24-bd49-4da2-a603-f591bdc49a93" builtin_class="ColumnInsideWallFailures" builtin_name="CopingWarningExtension">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="505d84a1-67e4-4987-8287-21ad1792ffe9" builtin_class="ColumnInsideWallFailures" builtin_name="ColumnInsideWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ff072d0c-73bb-4e4d-800a-61181f70838e" builtin_class="ComponentRepeaterFailures" builtin_name="ComponentRepeater_ThereIsOnlyOneInstanceInThisRepeater">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f2bcf436-f8d0-4501-a8e6-f69f1735ad1e" builtin_class="ConnectorFailures" builtin_name="UndefinedConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4bd6a12e-2f5b-482d-809c-50d805092dab" builtin_class="ConnectorFailures" builtin_name="UnconnectedDevice">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4f237af7-f75e-4ea6-9ff3-068b9db13b90" builtin_class="ConnectorFailures" builtin_name="UnconnectedCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2375cec8-4d28-40df-a2f2-01d6b163f4ed" builtin_class="ConnectorFailures" builtin_name="SizingFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2d493c21-0686-4e10-afa5-d77b8bd636f5" builtin_class="ConnectorFailures" builtin_name="SizingCalculationNoneWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2b456113-ab46-4397-be52-72babfa83955" builtin_class="ConnectorFailures" builtin_name="SizingCalculationFlowOnlyWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eee5d266-d437-45d5-b863-66cd36b9e0d7" builtin_class="ConnectorFailures" builtin_name="ShapesNotMatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ddaca0af-b6d2-4582-ae31-63d264ab7722" builtin_class="ConnectorFailures" builtin_name="RemoveConnectorLinksWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aba243ad-db70-4e1e-accd-cef892ff2e22" builtin_class="ConnectorFailures" builtin_name="RemoveConnectorLinkWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8ab06826-dde5-4749-a9a0-a49de17a3200" builtin_class="ConnectorFailures" builtin_name="OpenConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b92d3691-aa1c-4575-b2aa-e9e0054f7f94" builtin_class="ConnectorFailures" builtin_name="NotAllowedToModifyGroupElementsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b6ea0a08-695b-4f0b-a6a3-a200391203c6" builtin_class="ConnectorFailures" builtin_name="NoSupportKCoefficientTable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="068074aa-1fe7-48f3-b9ee-0e1db2fa5ea7" builtin_class="ConnectorFailures" builtin_name="NoLossDefined">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c1da5ba6-6269-41a5-9c6f-cdd6f070f32d" builtin_class="ConnectorFailures" builtin_name="MultipleNetwork">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cad86a80-fc31-4130-ba7f-e26da00a0f39" builtin_class="ConnectorFailures" builtin_name="MismatchNoAvailableConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a2a7a253-ef5d-4879-8c3c-527095e3bc4c" builtin_class="ConnectorFailures" builtin_name="LayoutConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c3194472-21cf-47b0-8e2a-4163db721d82" builtin_class="ConnectorFailures" builtin_name="JointTypeMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1b4b5dbd-db5d-49d2-addd-e5efb2f5c149" builtin_class="ConnectorFailures" builtin_name="JointSizeMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="00c4f67d-80f1-4e38-be00-5b6e69b509b1" builtin_class="ConnectorFailures" builtin_name="JointShapeMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c815bf27-a805-43e3-a5fc-d6e9074edb2a" builtin_class="ConnectorFailures" builtin_name="JointGenderMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7a519e15-c62f-41d8-9a38-82a27e72fae2" builtin_class="ConnectorFailures" builtin_name="InvalidConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c758f24c-abe2-44ed-bbc8-36f1eb927484" builtin_class="ConnectorFailures" builtin_name="InvalidConnectionRef">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f4307247-db46-43d8-9785-26e14c4f9930" builtin_class="ConnectorFailures" builtin_name="FittingMustBeOnPipeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="37704b1c-de05-43bd-8500-01522bdf1c90" builtin_class="ConnectorFailures" builtin_name="FittingMustBeOnDuctWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d85dfa7b-d344-48c3-b925-505ebf52a845" builtin_class="ConnectorFailures" builtin_name="ExistsForSelectedElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="96a76666-db46-4655-893d-1140e32570c4" builtin_class="ConnectorFailures" builtin_name="ElementsConnectedToParent">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e0050eda-d1d6-403e-a4ec-aa1c70ada2bb" builtin_class="ConnectorFailures" builtin_name="ElementAssignedToDefaultSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="efddbd0d-93c3-46cf-a11d-3faaf6d11ad8" builtin_class="ConnectorFailures" builtin_name="DisconnectedElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="97af86c1-acea-42ce-a8c1-c93d2a22807f" builtin_class="ConnectorFailures" builtin_name="AllElementsRemovedFromCircuitGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="54d6091a-4e24-42d2-b047-10220af74050" builtin_class="ConstraintFailures" builtin_name="UndeletedConstraintsInGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="21b91ba2-523a-42a9-94c7-82ad07dbde1f" builtin_class="ConstraintFailures" builtin_name="UndeletedConstraints">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c8af0641-bd35-4095-b053-2c53f63d5146" builtin_class="CopyMonitorFailures" builtin_name="LevelDeletedSameName">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3c4f0388-54b4-48c3-8754-ec979f9c4895" builtin_class="CopyMonitorFailures" builtin_name="GridDeletedSameName">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c3aa4692-975c-4720-8cb4-389532cf43a4" builtin_class="CopyMonitorFailures" builtin_name="CopyWatchAlert">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ca8bd897-5be8-493e-bedc-748a786fdd9f" builtin_class="CopyMonitorFailures" builtin_name="CannotMoveHostedFixtureViaCopyMonitor">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ff121823-6b9d-489f-bbed-e30102617257" builtin_class="CopyMonitorFailures" builtin_name="CannotCopyCuttingInsert">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b89030e7-a63a-46e0-b0a1-3c59d032ce7d" builtin_class="CopyMonitorFailures" builtin_name="AlreadyWatched">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="70e292b3-162a-4749-8a73-b86ca448d2c8" builtin_class="CopyMonitorFailures" builtin_name="AlreadyCopiedAndStopWatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="582cde41-2f26-46eb-86b0-1c2cb2431868" builtin_class="CopyPasteFailures" builtin_name="SomeElementsNotCopiedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3740165f-ac67-4f30-a471-fc5ea9e0496e" builtin_class="CopyPasteFailures" builtin_name="LostReference">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="700123bb-139e-46bb-abef-2f902ccb25a6" builtin_class="CopyPasteFailures" builtin_name="FinalizedElementsWillBeModifiedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="62db0792-8249-4f79-ae56-4111a5db9bf4" builtin_class="CopyPasteFailures" builtin_name="FinalizedElementsWillBeDeletedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bd40c9c1-f126-4a0a-bbcd-052a5161fdb2" builtin_class="CopyPasteFailures" builtin_name="ElementRenamedOnPaste">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a63689cf-a087-4c88-807e-55c425907b17" builtin_class="CopyPasteFailures" builtin_name="CopyImposterLightWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8edb45ed-3aff-4116-bd04-e0ee41388e15" builtin_class="CopyPasteFailures" builtin_name="CopyImposterContentWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="31147413-cffc-4071-860b-193fde9d211f" builtin_class="CopyPasteFailures" builtin_name="CopingColumnBeamFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="55e1ed8f-b05c-47f8-bbb1-035071cb6cf4" builtin_class="CopyPasteFailures" builtin_name="CannotPasteCircularLinks">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="de74d963-faa7-4a1e-9e77-374e0e29eb89" builtin_class="CopyPasteFailures" builtin_name="CannotPasteAlignedSomeLevels">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="794ca539-7a74-4a93-a5ef-a2ab05cdaa41" builtin_class="CopyPasteFailures" builtin_name="CannotFinalizeOrphanSerf">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1fc848d1-0026-448b-afbd-46e217e3e2b4" builtin_class="CopyPasteFailures" builtin_name="CannotFinalizeClusterInconsistency">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="77867fff-4cae-45c9-ab9e-2e68144a1a72" builtin_class="CopyPasteFailures" builtin_name="CannotDuplicateWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4b5e5228-4f01-457c-aa82-635ee3971744" builtin_class="CopyPasteFailures" builtin_name="CannotDuplicateInOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="285c3017-1919-4eb3-8639-64a19edb47cf" builtin_class="CopyPasteFailures" builtin_name="CannotCopyZoneWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="21094433-16c2-441c-821a-fa5faf5e03bd" builtin_class="CopyPasteFailures" builtin_name="CannotCopyWallPanelsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="687db89d-2e05-4e07-b287-c2e7edd01730" builtin_class="CopyPasteFailures" builtin_name="CannotCopySunAndShadowSettingsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="77b77ddc-3f26-4d8c-83e6-11fce05fa3ee" builtin_class="CopyPasteFailures" builtin_name="CannotCopySketchGridWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1ad8eb3f-ec40-4496-b9af-cdee05c27afb" builtin_class="CopyPasteFailures" builtin_name="CannotCopyRevolveAxisWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2784515a-999c-4f58-98c3-422cc0dee6ff" builtin_class="CopyPasteFailures" builtin_name="CannotCopyNoAttachedParentWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7f2d9d54-9f4d-4501-8eba-3cf3ebbd6a5b" builtin_class="CopyPasteFailures" builtin_name="CannotCopyMustBeUniqueWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3035783f-b522-4c5d-9c87-454a4f4c38ed" builtin_class="CopyPasteFailures" builtin_name="CannotCopyMustBeUniqueViewportWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="500ac2a2-fe83-46d6-a93e-f14e10923f53" builtin_class="CopyPasteFailures" builtin_name="CannotCopyMullionsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6de396e5-fe68-4513-ab37-0c5eb8352b39" builtin_class="CopyPasteFailures" builtin_name="CannotCopyMassingWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5d3e0a11-4280-4233-8672-df7dfb3f5ba2" builtin_class="CopyPasteFailures" builtin_name="CannotCopyLockedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a043e403-b9a0-4933-90ef-4062246d2f12" builtin_class="CopyPasteFailures" builtin_name="CannotCopyJoinedGeometryWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad6a0ce5-24df-4f10-824b-b49deee0e294" builtin_class="CopyPasteFailures" builtin_name="CannotCopyIncompleteElementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bddb95be-3daa-45ac-bde8-61a8030106f9" builtin_class="CopyPasteFailures" builtin_name="CannotCopyImportInstancesAcrossProjects">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1e68a12-7d19-4476-89e2-b3608bc39519" builtin_class="CopyPasteFailures" builtin_name="CannotCopyGridLinesWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d9ccd267-7f73-49af-bc0b-faa7594b02b0" builtin_class="CopyPasteFailures" builtin_name="CannotCopyFromProjectAndLink">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="98a88e24-e810-4de7-8f1b-93a16116e6d7" builtin_class="CopyPasteFailures" builtin_name="CannotCopyElevationArrowWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5df37c4f-6499-4109-85cc-e37837d0e85f" builtin_class="CopyPasteFailures" builtin_name="CannotCopyDuplicates">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18a7ea3b-d553-4fcb-b9d2-00baebe880b2" builtin_class="CopyPasteFailures" builtin_name="CannotCopyDetails">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="49e92791-1180-468c-b02b-fa5d413f7533" builtin_class="CopyPasteFailures" builtin_name="CannotCopyAttachedTypeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0d97b35d-0ef9-4817-89cd-4c4067f742a5" builtin_class="CreationFailures" builtin_name="SwitchFromLegendBeforeCreateSimilar">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="496c6b96-ee5f-49d9-a463-8abb5dbb96af" builtin_class="CreationFailures" builtin_name="CannotMakeSurfaceWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7b75ca44-d59f-449d-925b-650cfed804a2" builtin_class="CreationFailures" builtin_name="CannotDrawRoofWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f06b33e9-6d70-426c-a1c4-b877fb02a327" builtin_class="CreationFailures" builtin_name="CannotCreateSlabEdgeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eb89b4da-b7f6-4097-971b-12c0c946eda9" builtin_class="CreationFailures" builtin_name="CannotCreateRevealWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="30604429-fd0d-4426-bede-2a80b44f5c8f" builtin_class="CreationFailures" builtin_name="CannotCreateRevealIntegralWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2357b26b-5be2-4e61-ab22-0cd363db3b1e" builtin_class="CreationFailures" builtin_name="CannotCreateGutterWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b375e33b-a8fc-4352-8090-eed706bb797b" builtin_class="CreationFailures" builtin_name="CannotCreateFasciaWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="17f416b5-6849-4d3e-8be2-1e82505eddd5" builtin_class="CreationFailures" builtin_name="CannotCreateExplicitCrease">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="95049b95-607c-41d9-b88d-65816a826492" builtin_class="CreationFailures" builtin_name="CannotCreateElementInView">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="68449071-2a09-4a3b-aa26-1e6fabfdff11" builtin_class="CreationFailures" builtin_name="CannotCreateElementInFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dfca045e-785a-4265-9c78-20f5b902d04f" builtin_class="CreationFailures" builtin_name="CannotCreateCutoutWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c7377ea8-f944-4443-90e3-65e90ef8c1a3" builtin_class="CreationFailures" builtin_name="CannotCreateCorniceWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f38537cc-3480-417c-bfc6-6083fad5c255" builtin_class="CreationFailures" builtin_name="CannotCreateCorniceIntegralWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="620b8537-1e4d-4966-b19f-c1f84fcdc3f2" builtin_class="CurtainGridFamilyFailures" builtin_name="SomeMullionsAreTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6144eb01-1c49-47b7-9944-7f052c71511a" builtin_class="CurtainGridFamilyFailures" builtin_name="PanelsSlightlyMalformedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5bf61ea3-191d-4c38-9a57-5daf61347c4c" builtin_class="CurtainGridFamilyFailures" builtin_name="InvalidCurtainPanelInModel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8b3cfab9-b9dc-4ce0-a8f0-0bbefed85c39" builtin_class="CurtainGridFamilyFailures" builtin_name="CurtainSystemCouldnotReacquireFaces">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9503cbb2-78d9-4abd-b5e5-d2d75ccaf6e8" builtin_class="CurtainGridFamilyFailures" builtin_name="CurtainPanelsParamDefinedTypeDefinedCirculary">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c05af278-92aa-4bc6-bdd0-fd3eb2d8b814" builtin_class="CurtainGridFamilyFailures" builtin_name="CannotCreateCurtainPanelInOpeningWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3710cc88-bf51-4e15-af7a-dfbc586347e0" builtin_class="CurtainGridFamilyFailures" builtin_name="AllMullionsAreTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="03baffa8-c8ba-46a9-8029-5739f3cd9cf7" builtin_class="CurtainWallFailures" builtin_name="TypePanelsFronNonRectCellsUnlocked">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ced56ffb-a605-4388-817c-be0b9b238dff" builtin_class="CurtainWallFailures" builtin_name="RequestOrphanMullionDeletion">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d1ffe97a-617e-4709-82ed-d8b609b6a5e6" builtin_class="CurtainWallFailures" builtin_name="MultipleIdsInCurtainSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7152759a-1319-4a65-b87b-de17ddecb5e9" builtin_class="CurtainWallFailures" builtin_name="MultipleDominatingMullions">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="775fe4e6-11bf-410e-bca0-c3353da9340a" builtin_class="CurtainWallFailures" builtin_name="InvalidSkipSegments">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="915e0a38-782a-46bb-b213-0595d6466800" builtin_class="CurtainWallFailures" builtin_name="GridlinesWerePushed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5417eec0-cc49-4753-98fd-904106eb5cdf" builtin_class="CurtainWallFailures" builtin_name="GridlinesOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b916cacd-c916-4bc3-abf6-1859c5099bcb" builtin_class="CurtainWallFailures" builtin_name="GridlinesOutOfBoundsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2bd6e5e8-4e99-4fc3-bb4a-ee4dd7a8ece5" builtin_class="CurtainWallFailures" builtin_name="DependentGridlineMayBeDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dd4071c3-4ad8-44ef-bcf2-a0f2cb1adb8e" builtin_class="CurtainWallFailures" builtin_name="DeletingCurtainSystemFaceGridLines">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b701143d-35e5-44be-9039-b7ed9be3de0e" builtin_class="CurtainWallFailures" builtin_name="DanglingCurtainWallCorner">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4bac555f-b006-45b8-9da6-8b729ae995a3" builtin_class="CurtainWallFailures" builtin_name="CurtainSystemHostInvisible">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0fb2c908-aa01-45a2-8ed5-42bcfb6ddaae" builtin_class="CurtainWallFailures" builtin_name="AllGridSegmentsRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b68006e7-ac8a-4433-96d8-1683e3c89cae" builtin_class="CurveByPointFailures" builtin_name="UnableToGenerateCurve">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0924ba8f-cf3c-4d6d-a1c7-2936df37e684" builtin_class="CurveFailures" builtin_name="LineTooShortWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b6c72078-be55-470e-aed2-5f7385288e7d" builtin_class="CurveFailures" builtin_name="CurveNotEditableWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b13e2938-04ad-4284-8ad0-38bf67be4cc0" builtin_class="CurveFailures" builtin_name="CannotFindAreaScheme">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ae27e417-e00d-4034-a61e-e405000a242d" builtin_class="CutFailures" builtin_name="DormerCutProblemWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="abdbd7c1-00c8-47f2-ae8b-2497627e4ff0" builtin_class="CutFailures" builtin_name="CutoutNotCuttingAnythingDeleteOpening">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="147d81df-84ad-421f-ad13-ae606783fd09" builtin_class="CutFailures" builtin_name="CutoutNotCuttingAnything">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="82151826-b7b6-4157-b769-e15ed6035746" builtin_class="CutFailures" builtin_name="CannotCutInstanceOutWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="34e643ce-2d64-4089-966d-1e7f4308c705" builtin_class="CutFailures" builtin_name="CannotCutInstanceOutGenWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="807adcd9-c8be-4986-a60f-b8fe131c293c" builtin_class="CutFailures" builtin_name="CannotCutGeometryWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3182d8b6-bfda-4342-afc4-4ed431df5858" builtin_class="CuttingFailures" builtin_name="NoFileSaved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ba733a31-10d1-4dd4-adf3-acb8549f78db" builtin_class="CuttingFailures" builtin_name="ElementsWithNotCopiedParentsDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e1fc6b2a-812b-4482-bead-1e5052fc9585" builtin_class="CuttingFailures" builtin_name="CannotCopyFromMultipleLinks">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="999fd960-c454-4b88-9418-2d13eef55d5b" builtin_class="DPartFailures" builtin_name="SourceInUnloadedLink">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="306b523c-1844-44ff-b32c-6244ca689fec" builtin_class="DPartFailures" builtin_name="RemovingUndividedDPartParents">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2deeefca-5da6-419f-a4fd-a4e899b144fe" builtin_class="DPartFailures" builtin_name="RemovingInvalidDPartParents">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2cffa4be-05ae-4ce3-aa43-ee845b8c76d5" builtin_class="DPartFailures" builtin_name="NoPartMakerCreatedInEditMode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="610bf7a0-84a0-4877-b43a-c3de57101eaf" builtin_class="DPartFailures" builtin_name="IneligibleElementsForParts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="42a9f1dd-df18-4a70-93d3-1bec9f9309df" builtin_class="DPartFailures" builtin_name="ElementsAlreadyHaveParts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="14138efd-7fee-4c19-8f17-1960643e4be3" builtin_class="DPartFailures" builtin_name="DivisionContainsNoReferences">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="376b9451-08a1-44b3-850d-2430795aabc1" builtin_class="DPartFailures" builtin_name="DivisionContainsNoParts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3b1a170d-d127-41f3-beb0-95273f21f98e" builtin_class="DPartFailures" builtin_name="DivideVolumesSketchesWithProfileUnfriendlyCurves">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e68f250a-8856-49ff-ac41-64553d418b83" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesNonSlabSources">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1852c904-ebcd-43e4-ac2c-921479d78ef6" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesGapForWidthSome">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="df22f273-6283-4290-ac5d-f424b42e737f" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesGapForWidthAll">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ec9f51a8-8a40-4d5f-824c-4558ca86a61d" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesForWidthSome">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2c5fc05c-7caf-4e55-ae6c-984e7255a8d6" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesForWidthAll">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="56896528-9d3a-467d-9f98-6681d9d3c11f" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesEdgeMatchForWidthSome">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d07ce73c-70c6-48a5-99ae-efbd4b1a9039" builtin_class="DPartFailures" builtin_name="DivideVolumesProfilesEdgeMatchForWidthAll">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e86791b9-6b93-492f-aeeb-4f41a5643053" builtin_class="DPartFailures" builtin_name="DeletingOriginalWillDeleteParts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="92417820-0264-469a-a9d6-6955c3dd2f59" builtin_class="DPartFailures" builtin_name="DeletingDPartWillDeleteAllPartsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8544b1f4-52ca-424f-b057-be24ee0d66fd" builtin_class="DPartFailures" builtin_name="BindLinkWillDeleteAllPartsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="477ba7c3-cc21-4748-a5ed-0b4ae41bad46" builtin_class="DebugTabBindingFailures" builtin_name="OptionValueOutOfRange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="de49fee3-af22-459d-a568-c05e9f9ec125" builtin_class="DesignOptionFailures" builtin_name="SelectionIncludesOptionItems">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d2f62ca7-6351-47f5-894d-61e6cc28762f" builtin_class="DesignOptionFailures" builtin_name="OptionElementsDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f1ed09a3-6a2b-4bd2-b38a-4b36cd63c81c" builtin_class="DesignOptionFailures" builtin_name="NeverInOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="71022533-f6ee-44eb-be3c-f8788dec5d1b" builtin_class="DesignOptionFailures" builtin_name="MustAddKingWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a8d5ec15-d90f-436f-8e68-095baa68525e" builtin_class="DesignOptionFailures" builtin_name="KingNeverInOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8e115b2e-8756-476e-878c-e5aab4f751c0" builtin_class="DesignOptionFailures" builtin_name="ElementsWillBeDeletedNoOption">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1f5782ed-3ee9-45db-8dce-3a6b3d933816" builtin_class="DesignOptionFailures" builtin_name="DebugLevelsInOptionsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="73cb52bd-e26c-42d2-8ab4-3650c0befd14" builtin_class="DesignOptionFailures" builtin_name="ConfusingSweepByElementsInMainModelWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ca4a601f-a7bc-47e1-91ff-86b54866bdcc" builtin_class="DesignOptionFailures" builtin_name="ConfusingSweepByElementsInDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bc4311b3-4f3f-41a6-b136-c69398a04f30" builtin_class="DesignOptionFailures" builtin_name="ConfusingSweepByElementsInAnotherDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6167b068-8e4d-4ab5-8f1f-5acd4c9163e1" builtin_class="DesignOptionFailures" builtin_name="ConfusingPadByElementsInMainModelWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5f9e3d28-098c-431d-bd3a-4a0e66bd7848" builtin_class="DesignOptionFailures" builtin_name="ConfusingPadByElementsInDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e72dd33f-2594-4d5b-a90f-bb339d06b9a1" builtin_class="DesignOptionFailures" builtin_name="ConfusingPadByElementsInAnotherDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e41de656-5dd0-43c8-b7d6-733d6526b3c9" builtin_class="DesignOptionFailures" builtin_name="ConfusingHostByElementsInMainModelWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cc668325-9b9c-4b0a-b034-3e5f467830a9" builtin_class="DesignOptionFailures" builtin_name="ConfusingHostByElementsInDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c40dce6f-53bb-4599-ae6c-a1ab00e1f3f3" builtin_class="DesignOptionFailures" builtin_name="ConfusingHostByElementsInAnotherDesignOptionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dae30b03-5bd6-4cec-b30e-7759f2814c61" builtin_class="DesignOptionFailures" builtin_name="CannotAddToOptionsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4dc7394b-0653-4c36-acf0-130a4089e280" builtin_class="DesignOptionFailures" builtin_name="BadReferenceToSecondaryWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bd908025-9fae-446d-acff-329fab391ab3" builtin_class="DesignOptionFailures" builtin_name="BadReferenceBetweenOptionsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bde8c8fa-f582-4d06-95b1-a4e39e51ef1b" builtin_class="DimensionFailures" builtin_name="WrongConstraintInTrussSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="54f6582f-1e33-4192-9ea7-46dc70722460" builtin_class="DimensionFailures" builtin_name="WrongConstraintInSkeletonSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e0df4711-dc87-4870-b4ee-c14faaa57068" builtin_class="DimensionFailures" builtin_name="WrongConstraintInJoistSystemSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0fbe0d39-d0d4-42b2-a86a-3d1953e57583" builtin_class="DimensionFailures" builtin_name="WrongConstraintInGridChainSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9fa49d99-48fd-4f87-8819-6b89f01aff68" builtin_class="DimensionFailures" builtin_name="SpotElevationLostEdgeReferences">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="20fc0293-7a7c-4625-94bf-23e6d8ead19f" builtin_class="DimensionFailures" builtin_name="SomeSpotDimensionsLostOnPaste">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6b370caa-5d37-4f5a-90ac-5b62efdca63f" builtin_class="DimensionFailures" builtin_name="SomeDimensionsLostWitnessLines">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="61013162-2a2e-470a-ba82-6c2a14388a7e" builtin_class="DimensionFailures" builtin_name="SomeDimensionsLostOnPaste">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="88c78a02-9e1f-4beb-b76b-83be86bde3b1" builtin_class="DimensionFailures" builtin_name="RegenConstraintUnsatisfiedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fad8f867-fcd3-4e33-b565-7ed9a3f81b69" builtin_class="DimensionFailures" builtin_name="NoConstraintsToLinks">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0730a99b-6c6a-43c8-b533-f861c78d0ef1" builtin_class="DimensionFailures" builtin_name="NoConstraintsInProperSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8057f813-9a77-4c55-a38c-67df3261989c" builtin_class="DimensionFailures" builtin_name="EqualityConstraintsUnsatisfiedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="94e01ec8-e269-4c2c-9501-d487dbc3adfa" builtin_class="DimensionFailures" builtin_name="DimensionUnlockedAndUnequaled">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="989c1a3a-f6a8-4ec0-a7ce-4af0ce454b57" builtin_class="DimensionFailures" builtin_name="DimensionUnlocked">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2c7e9092-1f7e-474e-b2e4-96c54385b6dd" builtin_class="DimensionFailures" builtin_name="DimensionUnequaled">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a359f2bb-aaa4-47dc-b33b-177a073698a8" builtin_class="DimensionFailures" builtin_name="DimensionOverrideNearByIsLost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5f01500f-7596-4d9f-a3e2-fbf504e11390" builtin_class="DisplacementElementFailures" builtin_name="DetectedCycleInDisplacedElementParents">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2a7d850a-b0d4-47a3-a37d-55fbfd804c1c" builtin_class="DisplacementElementFailures" builtin_name="CannotRemoveLastDisplacedElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="607b534c-1d16-49ee-990a-587abdab2086" builtin_class="DividedPathFailures" builtin_name="DividedPathCannotCreateFromGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1cfd67e-4b71-4781-b58c-8406086c4076" builtin_class="DividedPathFailures" builtin_name="DividedPathCannotApplyDivideSettings">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8fd09c6d-10bb-4a46-a61a-a487fe43d336" builtin_class="DividedSurfaceFailures" builtin_name="MeshTopologicalSortFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="015c520f-bf80-454d-b71f-9d70d3304904" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceZeroLengthSplittingCurve">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6e3f37ed-8d68-4e93-b2f4-b6ade7f53312" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSplittingCurvesWithMultipleNeighbors">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="834f2a11-fa5a-4ece-ab15-0f541268b480" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSplittingCurveChainsBetweenMultipleNeighbors">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eaf698a0-f09f-487d-8ee0-3fb1ff2705ca" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSplitRefInvisible">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3e371b42-2590-47a6-b748-b07b30a3ae75" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSplitManagerProblemClosedArcOrEllipse">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5756e687-6592-4bb5-b250-e11e20f3d517" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSplitManagerProblem1dNonWPCurve">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d1e75080-b466-4a45-8a97-a921f5086cb7" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSingleCurveMultipleIntersBetweenOppositeVirtualGrids">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="64c69a8e-3c98-40c3-b036-8d9f21e81ffd" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSingleCurveLoopsAsSplitters">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="defea8e0-c942-4ffb-800d-c80be04873c2" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceSelfIntersectingCurveLoopChain">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="149a66fe-7140-4513-a561-6078f14c9b39" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceMultipleIntersBetweenOppositeVirtualGrids">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6b3416c8-76b3-4a41-9d4b-76312f896712" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceLoopsOfSplittingCurves">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a553962c-6998-4dcd-a789-32efcfbe3d49" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceIgnoresSplitters">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c0ffacf0-b1c7-4eb9-a1c4-f3dc296a7df5" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceDiscardedSplittersWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1ef07b0e-ea89-4e5b-a4f9-11ef0a14d329" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceDidNotRegenerateProperly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9a24fe7d-80e8-4381-81b9-27bb10c5a711" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCuttingSurfaceMakesMultipleCuts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="792f23e6-b0b2-4bfe-be1c-c4427e00c75f" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCuttingSurfaceGeneralProblem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="82498c01-5b42-441c-958c-9b0ed073b04b" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCuttingSurfaceDoesNotCutMeshFace">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a7e9dad0-5d27-48e5-b6ae-939abe0a37f9" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveLoopChainIntersectedByExtensions">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ea667490-5179-41da-9d13-1f43eddb44e8" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveFromChainMultipleIntersWithDivLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ca5de61b-f199-4468-9afd-e4f787d5198c" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainUnsortableBucket">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4442abfe-842b-4083-b025-15b9c3573374" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainNonSeqIntersWithDivLines">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="26ccd3ac-3791-4414-84e4-33134e1bd158" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainMultipleSeqIntersWithDivLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1ef55bbc-aa0b-44c6-a9ed-893051465e1b" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainIsTooClosedToGridlines">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c0489f95-d8ce-4492-8ebd-e75314a1d42e" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainIntersection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9e310907-fd55-4e57-9cd8-7b7be2b0729a" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainGeneralProblem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c24dab72-0952-4371-965c-2637e3c6236a" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainDoesNotEngageUorV">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9366b494-805b-4cf7-9dbd-73f7a393557a" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainBothUandV">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3844c733-eba6-47bd-b338-573100a1165c" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCurveChainBelongsToMultipleBeltIntervals">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fd8ee020-d968-4669-936b-c82b3f6238c1" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCoincidingSplittingWorkplanes">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7b4d41ae-c868-4766-8d51-9bc141505fbb" builtin_class="DividedSurfaceFailures" builtin_name="DividedSurfaceCannotApplyDivideSettings">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a03fabea-38a3-4153-989e-a9dce0cc9df5" builtin_class="DuctFailures" builtin_name="PartNotFoundDueToNoDuctConnectedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="48f40b3c-4f24-4fec-8f02-934b82683d75" builtin_class="DuctFailures" builtin_name="NoDuctFittingsInProject">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="637a21bb-78ba-486e-a3a9-0c4d1a5361ba" builtin_class="DuctFailures" builtin_name="FlexDuctLengthOutOfLimits">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a57bc7b1-0886-4876-8dfd-62bde096f377" builtin_class="DuctFailures" builtin_name="CannotCreateGeometryForDuct">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ba89db97-4493-4912-b42e-93b17ae5b769" builtin_class="EditingFailures" builtin_name="WorksetHasChangedInCentralFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="55524883-eeab-448d-9b66-925660176b60" builtin_class="EditingFailures" builtin_name="TemporaryChangesTransparentPermissions">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="48aedd0c-5385-44c4-8c22-9de34de39f0b" builtin_class="EditingFailures" builtin_name="TemporaryChangesOutOfDate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9edfe34c-81fe-4982-ac93-e2390b79e530" builtin_class="EditingFailures" builtin_name="PressShowToSee">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="efb26d0a-ab7a-4b6a-a1fc-49378eb12115" builtin_class="EditingFailures" builtin_name="PinnedObjectSomeDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5e2efb72-eb12-4aca-9ce5-509863ab3e72" builtin_class="EditingFailures" builtin_name="PinnedObjectNotDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad420510-400f-409d-89a9-23e74cad8a94" builtin_class="EditingFailures" builtin_name="PinnedObjectHostDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fa24297f-64de-4d16-aabc-b8e901f726ed" builtin_class="EditingFailures" builtin_name="OutOfDateElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a64edce3-89ed-4c7b-a0dd-6adfbf9af533" builtin_class="EditingFailures" builtin_name="NElementsWrongPosition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ef10cb82-b399-4ad4-b325-b9c56ac171d9" builtin_class="EditingFailures" builtin_name="NElementsDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6aed185b-896a-4c77-860e-95bb7d99a822" builtin_class="EditingFailures" builtin_name="MirrorProjectSuccess">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="08f4395b-20e8-41f8-841f-0c94369130e2" builtin_class="EditingFailures" builtin_name="LockedDeletedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="32d59bf5-c3b7-4784-9f9d-cf174384b665" builtin_class="EditingFailures" builtin_name="HiddenBeamsEditingWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3e4679e6-2c57-4768-a07a-5b203384b06c" builtin_class="EditingFailures" builtin_name="GeneratedByMassing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d91a617e-0ee1-46ab-8fdd-e786477d852d" builtin_class="EditingFailures" builtin_name="ExtendToOtherWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3b0ae16e-83c3-4582-a7de-2717944948fd" builtin_class="EditingFailures" builtin_name="ElementsDeletedPastedToKeep">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="94ceaa55-4878-4b08-9f0b-2d29a14bc580" builtin_class="EditingFailures" builtin_name="ElementsDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f5f9d23b-0013-43ed-8075-cce6d54c58b8" builtin_class="EditingFailures" builtin_name="ElementNotEditable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="097d9661-9344-499f-83f7-fc063619850b" builtin_class="EditingFailures" builtin_name="DeletedRequestedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e8b9866d-121d-4971-b676-e390683b3bbb" builtin_class="EditingFailures" builtin_name="DeleteElementsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ef53d39a-b13e-4ca1-aee8-c36c7b62a99d" builtin_class="EditingFailures" builtin_name="CannotMoveElementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="22ed62f5-9a8e-4f1c-994e-1c60a1a0789b" builtin_class="EditingFailures" builtin_name="CannotEditElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c101b714-50d8-46bc-a2ce-03cb99695355" builtin_class="EditingFailures" builtin_name="CannotDeletePredefinedFamilyElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c5913c73-64d0-4c23-a874-c65758a174c6" builtin_class="EditingFailures" builtin_name="CannotCheckoutWorksets">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="781a731c-6576-414d-b1d7-bee731e548d5" builtin_class="EditingFailures" builtin_name="AllInvisibleInViewWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b1c8f862-00fc-4046-b92c-6ca64d53384f" builtin_class="EditingFailures" builtin_name="AllInvisibleInPlanViewWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e6384d33-2454-4b60-97cd-69f70c89b8f9" builtin_class="ElectricalFailures" builtin_name="VoltageIsOutOfRange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="85b6f145-c651-4fc4-8bad-bd8acad30fdd" builtin_class="ElectricalFailures" builtin_name="UnsignedCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="91f5e88b-e4ce-4255-9c6c-e96f00300f9f" builtin_class="ElectricalFailures" builtin_name="SelectedElementsArePartOfOtherCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3e2ec3ee-39af-4608-a586-bc5f106590ec" builtin_class="ElectricalFailures" builtin_name="PanelMismatchCircuitType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ead1f996-fbc0-4f88-a2e2-ed0776c8633d" builtin_class="ElectricalFailures" builtin_name="ObjsDemolished">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a711b944-6a71-4b16-87fa-860b1dea4dbd" builtin_class="ElectricalFailures" builtin_name="NotSupportConcentricBend">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c3481d0f-8741-4cfd-9c9e-1e5c5cd093f8" builtin_class="ElectricalFailures" builtin_name="NotEnoughRoomForParallelPipes">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="034b1115-92b1-479d-9a0d-76851adf52b5" builtin_class="ElectricalFailures" builtin_name="NotEnoughRoomForParallelConduits">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e8bae448-3e33-4f14-b01b-8397a7d39859" builtin_class="ElectricalFailures" builtin_name="NotEnoughAvailSlotsOnPanel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4b572273-dc63-4869-a7be-04fdfcbf114c" builtin_class="ElectricalFailures" builtin_name="NoAvailableMatchingConnector">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="576a1c12-f53b-426b-9104-8b82d8bb165f" builtin_class="ElectricalFailures" builtin_name="MissingOrInvalidWireSizeTable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="30ce5258-66cf-4538-8c9a-a557a7b19f85" builtin_class="ElectricalFailures" builtin_name="MismatchVoltageToCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8e71e40b-a654-45d8-b14d-835e6b276611" builtin_class="ElectricalFailures" builtin_name="MismatchVoltageLineToLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d4580652-d7fa-46cd-b427-beaf47779c9f" builtin_class="ElectricalFailures" builtin_name="MismatchNmbOfPolesToCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a4da4fc7-4a72-46fa-bffa-d03b26bb067a" builtin_class="ElectricalFailures" builtin_name="MismatchNmbAssignedDistSysToCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e97430bb-ee82-4ccb-a2ad-9a2aa0694858" builtin_class="ElectricalFailures" builtin_name="MismatchConnectorDistSysToCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1bd835ec-8af5-40cb-b06f-8af634f7c0d1" builtin_class="ElectricalFailures" builtin_name="ElementsBelongToOtherCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dae5d6e7-5a4f-4a9b-82f0-16873d2abf21" builtin_class="ElectricalFailures" builtin_name="CircuitOverload">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1cfaf08c-6427-4384-9a28-202f6b6aceb2" builtin_class="ElectricalFailures" builtin_name="CannotRemoveMembersInCircuitHavingParent">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c3dc1439-744f-4291-9b0d-80268d8f1509" builtin_class="ElectricalFailures" builtin_name="CannotConnectDifferentDesignOptsObjects">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a2a4bce4-eb52-4ed5-8429-29bb2129296d" builtin_class="ElectricalFailures" builtin_name="CannotAssignSecondaryDistSysToCircuit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="812e2398-e533-4799-be8f-b2580fce941e" builtin_class="ElectricalFailures" builtin_name="AllSlotsOnPanelOccupied">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fa20fc96-d743-4cab-ae38-93b3485bd0e0" builtin_class="ElementFailures" builtin_name="SplitElementHasTagsWithoutLeaders">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4d93bb2a-31eb-4841-a4bb-d9e4ecb8c971" builtin_class="ElementFailures" builtin_name="NotAllowedToRemoveAllElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c0543005-b6a7-4e07-936d-f19d46e33d8d" builtin_class="ElementFailures" builtin_name="FailedToRemoveElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9d3bbe4e-1d3d-4b09-a2f2-c91e6b5ded6b" builtin_class="ElevationFailures" builtin_name="WarnElevSheet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9c67244f-92fb-4d16-a547-4b0570c14d39" builtin_class="EnergyAnalysisFailures" builtin_name="ZoneWithoutSpacesWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2d48b515-9839-40d4-9313-27a6748ad149" builtin_class="EnergyAnalysisFailures" builtin_name="UndefinedSpaces">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="19ce6de6-ee2a-455e-9384-1401771fa25b" builtin_class="EnergyAnalysisFailures" builtin_name="UndefinedRooms">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eca1f5ab-04a4-46f1-a8e5-6ab074d0c7df" builtin_class="EnergyAnalysisFailures" builtin_name="RoomVolumeNotComputedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f21f053a-9d88-4f62-b11d-b8875b7c6276" builtin_class="EnergyAnalysisFailures" builtin_name="RoomVolumeNegativeWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6787bcfd-8299-436d-8f65-1810fd8ff1a2" builtin_class="EnergyAnalysisFailures" builtin_name="RoomNotUpperBoundedByElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="91ba755a-bb44-4e98-965b-e939bb70b2fa" builtin_class="EnergyAnalysisFailures" builtin_name="RoomNotPlacedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="635885c6-5105-4ea3-80da-19dff3bd87ae" builtin_class="EnergyAnalysisFailures" builtin_name="RoomGeometryCannotTrimBoundingElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3341b869-0e13-4a0a-b56e-673a361987e6" builtin_class="EnergyAnalysisFailures" builtin_name="RoomGeometryCannotOverlapBoundingElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ee033415-eee8-4e36-a456-acc9f78d93b6" builtin_class="EnergyAnalysisFailures" builtin_name="RoomGeometryCannotFindFreeFacesBoundingElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dc2bccfb-3104-4503-82f4-a53abfd39c07" builtin_class="EnergyAnalysisFailures" builtin_name="ProblemWithPowerLoadWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f241a0a8-d38c-4d3b-8ab0-66509b31a2c4" builtin_class="EnergyAnalysisFailures" builtin_name="ProblemWithPeopleLoadWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e3cfd3a0-2c3f-4113-b36c-139d97dd6bb6" builtin_class="EnergyAnalysisFailures" builtin_name="ProblemWithLightingLoadWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="664ea410-a37e-4031-85a7-2c510c4c46a9" builtin_class="EnergyAnalysisFailures" builtin_name="PlenumWithNoCeilingWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c14ede39-ecb2-4eb5-9f43-1d6c10bb8670" builtin_class="EnergyAnalysisFailures" builtin_name="NoSpacesWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cddae480-b5b4-41d6-a7bc-51caee7aa7fc" builtin_class="EnergyAnalysisFailures" builtin_name="NoSpaceBoundingElementsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="28c4b0fd-d9a2-429a-b602-13e48e511c83" builtin_class="EnergyAnalysisFailures" builtin_name="NoRoomsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0d087ee7-93f6-4b9f-bdaa-cb7e64c44a1d" builtin_class="EnergyAnalysisFailures" builtin_name="NoRoomBoundingElementsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4e494f47-c236-4393-acb5-f8438889136e" builtin_class="EnergyAnalysisFailures" builtin_name="NoRoofsSpacesBoundingWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="79c8147a-7932-4734-a663-b534d6e56b36" builtin_class="EnergyAnalysisFailures" builtin_name="NoRoofsRoomBoundingWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="afb38bac-26c4-4f75-8c56-ba694bd1b765" builtin_class="EnergyAnalysisFailures" builtin_name="ModelWithNoOccupiedSpacesWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1e5c74e2-aaeb-4b16-8536-a67344825630" builtin_class="EnergyAnalysisFailures" builtin_name="ModelWithNoConditionedSpacesWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="452e010c-fec3-4e28-8808-d5ba28613856" builtin_class="EnergyAnalysisFailures" builtin_name="ComputeRoomVolumeNotCheckedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="85238e0e-407e-4f4c-890f-45fbfb2824b6" builtin_class="ExportFailures" builtin_name="IFCGenericExportWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d6e21219-4697-48ef-ae9d-b793dd1dffea" builtin_class="FabricAreaFailures" builtin_name="FabricAreaOutSideOfHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d238cb9f-9a12-41fb-bf91-b99500a60c0e" builtin_class="FabricAreaFailures" builtin_name="FabricAreaLapSplicesIncorrect">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bf80dc0a-b973-4dec-a257-c2dd7433837a" builtin_class="FabricFailures" builtin_name="WrongFabricSheetStartOverhang">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="40a2a074-d362-4f00-89c3-fb45fb9c2ef6" builtin_class="FabricFailures" builtin_name="WrongFabricSheetSpacing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="00e3a8a9-6f63-429c-aafd-6b5f8a7eef8e" builtin_class="FabricFailures" builtin_name="WrongFabricSheetOverallLength">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="09757ca7-e7af-425a-b631-8062e1bae21f" builtin_class="FabricFailures" builtin_name="WrongFabricSheetNumberOfWires">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="af9bb0d7-6f17-4be7-b1ec-be52773c44ee" builtin_class="FabricFailures" builtin_name="WrongFabricSheetLayoutPattern">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bdaa4c44-e9a8-4fbb-8890-a4a49928755d" builtin_class="FabricFailures" builtin_name="WrongFabricSheetEndOverhang">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="57d6a1b1-9b76-4be1-b21f-46168c78c1f7" builtin_class="FabricFailures" builtin_name="WireDiameterTooLarge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3ae80322-257d-45ec-990f-b1a62367ced0" builtin_class="FabricFailures" builtin_name="NoWireMaterialDensity">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="45448b83-51db-4a4e-a79c-efc53f530a6a" builtin_class="FabricFailures" builtin_name="NoSurfPatternOnWire">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dc542e5a-5fe1-4f61-b2f6-f31f6ddb4d7d" builtin_class="FabricFailures" builtin_name="MinorSpacingFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9227f8c2-784c-4e7a-87c7-cf021d6d0b62" builtin_class="FabricFailures" builtin_name="MinorOverhangFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6caebacf-1b73-44a0-9adb-b902c2f8986f" builtin_class="FabricFailures" builtin_name="MinorLapSpliceFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b08679c9-3821-403d-a6d0-c2b8f9dc0706" builtin_class="FabricFailures" builtin_name="MajorSpacingFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2d09db55-4df5-4c3f-81ac-a3cdddc0aa93" builtin_class="FabricFailures" builtin_name="MajorOverhangFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fc61d190-f263-4b38-9490-be975a4dfc7e" builtin_class="FabricFailures" builtin_name="MajorLapSpliceFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="42e705de-3bc0-415a-b035-a7fe330d32ed" builtin_class="FabricFailures" builtin_name="CoverOffsetTooLong">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c05c2f46-ffbd-4763-9dab-62a8d104e28a" builtin_class="FabricFailures" builtin_name="CannotPlaceFabricSheetWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0650a15b-e577-450d-9271-2fb1c6ebb250" builtin_class="FabricFailures" builtin_name="CannotPlaceFabricSheet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5473582e-1a61-415f-89d6-5bb44ab1237e" builtin_class="FabricFailures" builtin_name="CannotPlaceFabricAreaWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f6615dc0-0c5a-4a9a-a8a8-8b6135e6acf7" builtin_class="FabricFailures" builtin_name="CannotPlaceFabricArea">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7b840788-e4d5-4e5a-aa14-a1d08fef16ce" builtin_class="FabricFailures" builtin_name="BendDiameterNegative">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="074490d0-306a-4a57-a601-71a1e21f3902" builtin_class="FabricSheetFailures" builtin_name="FabricSheetOutSideOfHostWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="27875c7e-ee24-46b9-a9c1-a59f7122e538" builtin_class="FabricSheetFailures" builtin_name="BentFabricSheetTooLongBendingProfile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9932932b-a8d8-4b6d-9a79-58558655f2f9" builtin_class="FamilyFailures" builtin_name="WhileScanningParametersForType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="40647647-c754-48e3-983b-ebbda3a683df" builtin_class="FamilyFailures" builtin_name="UnexpectedFamilyChangeResultsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5e9f12d6-e125-4f68-b9b8-22f22952dc53" builtin_class="FamilyFailures" builtin_name="TypeRecursiveElementIdParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9207a647-0755-48b7-9b9b-213818658af8" builtin_class="FamilyFailures" builtin_name="TryingToAttachWhenJoined">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="12ad76e7-40ab-4e60-b03b-a64cf6ab0101" builtin_class="FamilyFailures" builtin_name="StructuralColumnAttachedToNonStructuralTarget">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8df4adae-5bfb-4ee5-ae3a-6200039d9f58" builtin_class="FamilyFailures" builtin_name="SizeLookupTableIsNotAvailableForType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="77a2727d-2432-402d-a78b-fe4bc919e0aa" builtin_class="FamilyFailures" builtin_name="SharedParameterReplacedByBuiltInOne">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad878767-ab40-4277-aa58-4acdb5036462" builtin_class="FamilyFailures" builtin_name="InvalidContextForAdaptivePlacement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7b5f515b-0b48-432a-979a-696a673982c7" builtin_class="FamilyFailures" builtin_name="InstOutsideFaceBoundary">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f6cc8d3c-6d79-4ad6-9e42-734011818964" builtin_class="FamilyFailures" builtin_name="InstMayCutMoreOrFewerHosts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ee9ae1ac-9fe8-4300-8501-4ea91203c1c5" builtin_class="FamilyFailures" builtin_name="HighlightedElementFamRefsInvalidWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="137762d5-2c4e-43a6-9a9b-de5381714312" builtin_class="FamilyFailures" builtin_name="FormulasFailedForType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ef2318b4-abed-4c6e-a654-2f2bfe716793" builtin_class="FamilyFailures" builtin_name="FamilyValidationResult">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1543ca9a-4b22-4a6a-b87c-923c42b5e4db" builtin_class="FamilyFailures" builtin_name="FamilyParameterNoExist">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9a31fa4c-605d-4c38-9346-c1e8ff9969c9" builtin_class="FamilyFailures" builtin_name="FamilyNotFitHostShape">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="40c86d6a-020d-41ab-83e7-cba916119ee5" builtin_class="FamilyFailures" builtin_name="FamilyNoExternalParametersWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5bef5c4a-f08f-4457-ab8e-eaf2d1f09c70" builtin_class="FamilyFailures" builtin_name="FamilyMembersReferToOutsideFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9b9c8610-8d55-418d-8023-4c9f5b7d7d11" builtin_class="FamilyFailures" builtin_name="FamilyConnectorDeletedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9ad57cfb-2990-44e4-abe4-313252b99d3a" builtin_class="FamilyFailures" builtin_name="ElementTypeParameterized">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9a3b3c85-6def-4c11-ad8b-47e776b688e5" builtin_class="FamilyFailures" builtin_name="DuplicateTypeName">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="93009b70-2b48-4e7d-90d4-132621ffa08d" builtin_class="FamilyFailures" builtin_name="DuplicateFamilyParameterNameWithSharedParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c7d0c2f1-efc3-4708-816e-34e5a1ca7b5d" builtin_class="FamilyFailures" builtin_name="DeletingBadFamTypeDumped">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b2661a1e-b21e-439a-af92-4c8c537c7b84" builtin_class="FamilyFailures" builtin_name="DeletingBadFamType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ef13f209-038c-44f2-a9d9-e070b5ef922d" builtin_class="FamilyFailures" builtin_name="CustomFittingCreated">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="df75f1b0-0e34-4126-b579-670ea6c60fed" builtin_class="FamilyFailures" builtin_name="ColumnAlreadyAttachedWillBeReattached">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0fef5d0c-086c-4c4a-8f41-39bece9a3b0e" builtin_class="FamilyFailures" builtin_name="CantPlaceInstanceWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d91194b3-f78d-4396-8920-50c057fee9d1" builtin_class="FamilyFailures" builtin_name="CantPlaceInsertsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1cb6ac26-e50f-40c5-98fb-f7b9f65078d9" builtin_class="FamilyFailures" builtin_name="CannotFindHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="77dc2c4b-8e3c-4726-99b4-f9601d2abe15" builtin_class="FamilyFailures" builtin_name="CannotCutRefPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7bda2ba8-a352-4307-bf34-5684d94001c5" builtin_class="FamilyFailures" builtin_name="CannotConvertInstWorkPlaneToHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="126b4eb6-1050-42d0-924b-0503ba662242" builtin_class="FamilyFailures" builtin_name="CannotConvertInstHostToWorkPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0af9a207-4078-4446-98bf-d8e540db798d" builtin_class="FamilyFailures" builtin_name="CannotChangeInstFam">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f58a5ef5-e976-44fe-90ea-14765df8904a" builtin_class="FloorFailures" builtin_name="FloorSlopeExceedsThreshold">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="feeeb6f2-200d-452f-8c9b-05e5e1c99528" builtin_class="FormFailures" builtin_name="DissolveNoValidInputs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6a58c2ed-ac4f-4294-a4b8-62e801f49134" builtin_class="GeneralFailures" builtin_name="WarningInFamilyDismissed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b9df39cd-1169-4cc5-8d9b-58a23acd4538" builtin_class="GeneralFailures" builtin_name="TransactionFailedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="07b0d232-60eb-4cad-b590-aed053b0a0d3" builtin_class="GeneralFailures" builtin_name="NoRelatedWarnings">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ea433563-b138-45c5-9623-08ad25bc4a95" builtin_class="GeneralFailures" builtin_name="InvalidInputWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8e8c9fec-2199-4002-9da4-09ec90930b7b" builtin_class="GeneralFailures" builtin_name="InaccuracyDetected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e165f7f7-eea0-42f3-ac2b-b02072de3381" builtin_class="GeneralFailures" builtin_name="GenericWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e06f807d-776d-4c78-89a7-3cb0f8fba4cd" builtin_class="GeneralFailures" builtin_name="ErrorResolved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="84551420-8967-4e4e-8702-ee1260d07fd0" builtin_class="GeneralFailures" builtin_name="ErrorInFamilyResolved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6e1efefe-c8e0-483d-8482-150b9f1da21a" builtin_class="GeneralFailures" builtin_name="DuplicateValue">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="66a91370-568b-4edf-874c-b5b46b5f8f66" builtin_class="GeneralFailures" builtin_name="ConvertingOldAxisToNormal">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cd5623a8-cb02-4e67-90ad-9cff769ee62f" builtin_class="GenericMEPFailures" builtin_name="ValidatePHSegmentLengthWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a5fb88e1-8085-4f91-b59a-26547ff1c5d9" builtin_class="GenericMEPFailures" builtin_name="ValidatePHSegmentConnWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0fb6dd52-ed10-448f-af08-b927d1d56053" builtin_class="GenericMEPFailures" builtin_name="SizingFailedZeroFlow">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ce44e657-c7a0-437d-a609-0636c5954c4a" builtin_class="GenericMEPFailures" builtin_name="MaxWidthAndHeightReached">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d876a12e-e296-4caf-9bc4-744238edacc3" builtin_class="GenericMEPFailures" builtin_name="FlowDirectionMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a03d464f-bdb8-4626-989b-8cc32c712ce4" builtin_class="GenericMEPFailures" builtin_name="FlowConfigMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e9736c2f-8177-4a8f-99d6-5294d0eb0bbb" builtin_class="GenericMEPFailures" builtin_name="FailedToPlaceCapWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e78c77ad-407e-4b3a-acb1-7f70c0ae132a" builtin_class="GenericMEPFailures" builtin_name="CapsWereAddedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1dbe4bf4-c856-40e3-9c40-2c569f0f1723" builtin_class="GenericMEPFailures" builtin_name="CapWasAddedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="49778866-807b-42f3-8bcd-98ef062f2b3e" builtin_class="GeometryFailures" builtin_name="SuccessToConvertLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1321031f-b46d-4284-a7a7-a3310baf11c1" builtin_class="GeometryFailures" builtin_name="ElementIsTooThin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c836ca59-d150-4869-8e2c-4d96b6110523" builtin_class="GeometryFailures" builtin_name="ConvertFaceRegionsToFacesFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9bac6cd4-6b3a-4666-8ab0-9c5b8866592d" builtin_class="GroupFailures" builtin_name="UnableToTransferAttachedGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="924ac817-9002-4346-837b-54361b478652" builtin_class="GroupFailures" builtin_name="UnableToRemapDetails">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b501af1d-619f-4137-8c9a-8880632da975" builtin_class="GroupFailures" builtin_name="UnableToMaintainExclusionsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1b527f58-4a94-4746-8437-180786f73894" builtin_class="GroupFailures" builtin_name="UnableToLoadDetailGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eed05d24-79de-4aa6-ac24-55be775b6d38" builtin_class="GroupFailures" builtin_name="UnableToLoadAttachedGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="34fd5e05-eadc-4c80-8701-12063798b566" builtin_class="GroupFailures" builtin_name="UnableToGroupElems">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0e5e0c54-7656-4f2a-a484-36ff899c1831" builtin_class="GroupFailures" builtin_name="UnableToCreateAttachedGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18a5fd72-9e5f-41f0-9d11-fe3c89286ddc" builtin_class="GroupFailures" builtin_name="UnableToBindLinkInstances">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0403d9bc-5895-4e1f-9147-434a298a2bff" builtin_class="GroupFailures" builtin_name="SomeMembersNotRestored">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9ec83340-218e-45ed-b97b-0b6a49187eb9" builtin_class="GroupFailures" builtin_name="SomeGroupInstsBecameEmpty">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f9ce5a7c-bed2-442b-b7fa-ececc04ef8b3" builtin_class="GroupFailures" builtin_name="RemovingReferencesFromGroupedCurve">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1fcfaabb-2679-40b3-bb13-f99811ecd0f5" builtin_class="GroupFailures" builtin_name="RemovingElemCannotBeGrouped">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0ebcd3d4-ebf5-4636-81b4-101521143ad4" builtin_class="GroupFailures" builtin_name="ReferencesOutsideGroupAreNotAllowed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a83ee178-9fbb-45ec-be50-59f480e4e9e0" builtin_class="GroupFailures" builtin_name="NotAllGroupsFullyRestored">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dc04907c-e23d-4b7c-8622-2acf53777479" builtin_class="GroupFailures" builtin_name="MembersMovedToProjectToMakeConsistent">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e7d780be-851d-47de-a3f8-b19ba498ed8e" builtin_class="GroupFailures" builtin_name="MembersExcludedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bdf1290c-f31f-44ba-8705-324d6aa631c6" builtin_class="GroupFailures" builtin_name="LinkVisibilityLost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f654a048-6a1d-4456-ab83-1ec1b5203f7a" builtin_class="GroupFailures" builtin_name="LastGroupMemberExcluded">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d6fa4bcf-fd0a-4a95-ae23-125c0113aab4" builtin_class="GroupFailures" builtin_name="LastCopyOfGroupDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4a81fe83-93aa-4b33-95f1-27d8ccf9deab" builtin_class="GroupFailures" builtin_name="GroupHadFailedElementsWhileUpdating">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="84fc5340-221f-4396-a3d0-215eac13c457" builtin_class="GroupFailures" builtin_name="GroupCannotSaveWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dc94421a-5b54-4802-a521-4dd675d381ea" builtin_class="GroupFailures" builtin_name="GroupAmongstLoadedRenamed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a065d994-ffd5-4f7c-9535-3f087402b411" builtin_class="GroupFailures" builtin_name="ExcludedElementsRestoredInLink">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2cb45374-7208-4872-ab1c-34b4c2536155" builtin_class="GroupFailures" builtin_name="DimensionsOrTagsReferecedRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="46ca6588-d07c-4802-a771-2230f4e56f91" builtin_class="GroupFailures" builtin_name="DimRefsGroupMemberSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9eaa71a3-9ea5-46a0-b524-2be1c3e58030" builtin_class="GroupFailures" builtin_name="DetailsOfNestedGroupsLost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5efcded6-7868-4f4a-8465-050b23e51356" builtin_class="GroupFailures" builtin_name="ChildrenLostOnGroupSwap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="438bd623-8601-4977-a7c7-2cbd58c5a5b2" builtin_class="GroupFailures" builtin_name="ChildrenDeletedOnGroupSwap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e2f03310-49e2-47d8-8397-b88b0949d772" builtin_class="GroupFailures" builtin_name="CannotRemoveSubordFromGroupWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c8c0c2c1-ea90-4d11-9de7-53ea1bded724" builtin_class="GroupFailures" builtin_name="CannotRemoveGroupMemberConstraintWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dfe9e260-d3ea-4bf3-aaa6-cba1d3ac1b46" builtin_class="GroupFailures" builtin_name="CannotLinkAnnotationsForSomeViews">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e6e65181-c3ba-49ff-af83-de48984bed54" builtin_class="GroupFailures" builtin_name="CannotFinishGroupInSketchMode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c674f44d-0f0b-45ba-8535-1caa02a6a4ca" builtin_class="GroupFailures" builtin_name="CannotCreateGroupWithInvalidReferences">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="782a8955-da3e-4680-a3d4-fb996602680d" builtin_class="GroupFailures" builtin_name="CannotAddToGroupFormatWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1cf87747-c70a-406c-9bbf-f62733d3e116" builtin_class="GroupFailures" builtin_name="BadViewForAttachedGroupWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d1b42cd7-f513-4b57-8243-8d63273d901d" builtin_class="GroupFailures" builtin_name="AttachedGroupNoPasteToView">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c519d291-2e28-4075-b0d0-3cbc8c848bc2" builtin_class="GroupFailures" builtin_name="AtomViolationWhenOnePlaceInstance">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fbb22818-37c2-4264-8e2a-d9fd9077cbee" builtin_class="GroupFailures" builtin_name="AllElementsRemovedFromGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="533dca96-610b-4628-b1da-0d655f1f4de0" builtin_class="GroupFailures" builtin_name="AdditionalElementsRequiredRemove">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9a34fc0c-04a8-45db-acc8-4de5503f13eb" builtin_class="GroupFailures" builtin_name="AdditionalElementsRequired">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="734ac9ce-42b1-405f-b5fb-aaad57536b4e" builtin_class="IlluminationFailures" builtin_name="RoomLightLossFactorWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="59b0f0d4-fa14-437d-8736-8aa911a0ee6b" builtin_class="IlluminationFailures" builtin_name="RoomCoefficientUtilizationWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e25950d3-581e-46aa-8d40-2c9dbf7e691a" builtin_class="IlluminationFailures" builtin_name="LightingFixtureLumensWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2420e606-6b61-43d6-8206-e29e45296b68" builtin_class="IlluminationFailures" builtin_name="IESFileNotFoundWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ae09b06c-49f1-4535-a567-c0f1a8d64cea" builtin_class="ImportExportFailures" builtin_name="ViewBoundariesTooLarge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a261bfc6-cf81-4eb0-ac1d-53c76ee56b77" builtin_class="ImportFailures" builtin_name="WorksetCreatedForLinkWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1afedcce-31a7-45f6-b005-71801a3bf38a" builtin_class="ImportFailures" builtin_name="TooManyPickFaces">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ab81abe4-eed7-480e-8038-b34b778b15cc" builtin_class="ImportFailures" builtin_name="TextNotImported">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f52e7932-7097-424e-99e0-ac0c9d20e532" builtin_class="ImportFailures" builtin_name="SomeObjectsNotExploded">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bc6cfa96-7590-43dc-9f62-ebc36a8b3c98" builtin_class="ImportFailures" builtin_name="LostAcisObjectsOnImport">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="575e3ebe-afe4-456f-ab53-75acd2d17572" builtin_class="ImportFailures" builtin_name="ImportTooFarAway">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aa2ef573-1bf4-439e-b297-c11273812473" builtin_class="ImportFailures" builtin_name="ImportModelTooLarge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4702cefa-e3d9-443c-9da4-3a7c79985d8a" builtin_class="ImportFailures" builtin_name="ImportModelOutOfRange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="762fe029-c883-4310-9db5-cb6d5a2a3b45" builtin_class="ImportFailures" builtin_name="IFCGenericRevitImportWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a6f2a118-d37e-4dea-814b-dad927740189" builtin_class="ImportFailures" builtin_name="IFCGenericImportWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="12862de0-b276-4512-8bd0-a21d1f96010f" builtin_class="ImportFailures" builtin_name="IFCCantUpdateLinkedFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c9a2b356-dfc9-4504-9de8-b1edc65631ef" builtin_class="ImportFailures" builtin_name="BadFaceFoundInDwg">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fb1d4583-6b62-4ccb-9cb8-7c2e849b4d43" builtin_class="InaccurateFailures" builtin_name="InaccurateWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="334c76b0-b834-4e69-8c61-c11e3e959740" builtin_class="InaccurateFailures" builtin_name="InaccurateSpaceSeparation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ec905b6a-064b-48e1-a6c7-51e2cf092490" builtin_class="InaccurateFailures" builtin_name="InaccurateSketchLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f657364a-e0b7-46aa-8c17-edd8e59683b9" builtin_class="InaccurateFailures" builtin_name="InaccurateRoomSeparation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ce961443-d03b-4cda-94c9-6b9beab9d2a6" builtin_class="InaccurateFailures" builtin_name="InaccurateRefPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e4b4847a-1cbc-4283-854e-85431403a2a0" builtin_class="InaccurateFailures" builtin_name="InaccurateMassingSketchLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7b8f75b6-a3f2-48a4-8b5d-d767c9a20b32" builtin_class="InaccurateFailures" builtin_name="InaccurateLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="782fa18a-a934-4a9e-b9e8-d8fe49aa3931" builtin_class="InaccurateFailures" builtin_name="InaccurateLevel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1ebba84f-b6da-4623-90f4-96c3953d69c5" builtin_class="InaccurateFailures" builtin_name="InaccurateGrid">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="86bf8494-61c7-4ac5-aadf-7e577d1ea28f" builtin_class="InaccurateFailures" builtin_name="InaccurateDriveCurve">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e9b42850-030f-4909-990b-cf7cddf165a6" builtin_class="InaccurateFailures" builtin_name="InaccurateCurveBasedFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7cba70c0-2107-421e-9fe6-d2a2e05ead62" builtin_class="InaccurateFailures" builtin_name="InaccurateBeamOrBrace">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="77535238-e93a-46c4-9822-97072116aefc" builtin_class="InaccurateFailures" builtin_name="InaccurateAreaLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f38ffcaf-472f-41e9-bbc0-a048f2b1bd42" builtin_class="InfillFailures" builtin_name="MovedInfillToHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bd9038df-2586-4b78-a4cd-828e9f582764" builtin_class="InfillFailures" builtin_name="InsertOverlapsOrOut">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7240576f-66ca-40e7-bc79-be5af5f891f5" builtin_class="InfillFailures" builtin_name="InsertJoinedWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="af0ffeb7-b614-4757-8661-bde7f1d8ea1c" builtin_class="InfillFailures" builtin_name="InfillDifferentPhase">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ca08dcfd-d709-4c30-9d84-c264a60ccb56" builtin_class="InfillFailures" builtin_name="InPlaceFamilyNotCuttingHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6d261e68-85f5-4d32-80c5-e94bd6396d71" builtin_class="InfillFailures" builtin_name="FamilyInstanceIsNotCuttingHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="320c68ff-fe75-4dd3-a358-acc10f979940" builtin_class="InterferenceFailures" builtin_name="GeometryWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="89548851-ab64-494b-9998-a9fbfbbaced2" builtin_class="JoinElementsFailures" builtin_name="StructGroupMemberWillDetachFromGrid">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1b9dacf3-db22-45d5-b071-42516278ffb1" builtin_class="JoinElementsFailures" builtin_name="JoiningDisjointWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0245ae89-2083-49c6-b358-aad1f9f70602" builtin_class="JoinElementsFailures" builtin_name="FootingWillMoveToBottom">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8a4ff9b9-13e8-4996-a7f7-ce3bfdae9fc1" builtin_class="JoinElementsFailures" builtin_name="ElementWillBeDetachedFromPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f8219229-ad01-4e8f-831f-6205a65d96d8" builtin_class="JoinElementsFailures" builtin_name="CannotKeepReferenceOfJoinedElementWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f93a6694-6b6e-45ab-87d8-b101bdb0f316" builtin_class="JoinElementsFailures" builtin_name="CannotJoinElementsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3841c657-0bd3-4b85-83f6-39af7aca7c6f" builtin_class="JoinElementsFailures" builtin_name="CannotJoinDesignOptions">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="19c183ee-fd53-4cfe-aab8-6c17d2351822" builtin_class="KeyBasedTreeEntryFailures" builtin_name="MissingParent">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7a4175eb-c66c-45c1-9404-c2b0c10c2d19" builtin_class="KeyBasedTreeEntryFailures" builtin_name="DuplicateEntry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d2b1d8ee-984d-46b0-9f27-b8c739e88806" builtin_class="KeyBasedTreeEntryFailures" builtin_name="CircularParentage">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1cb27bc7-f439-414e-b863-c0589e8b89a9" builtin_class="KeyBasedTreeEntryFailures" builtin_name="BadClassificationLevel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c39f21a4-b7d8-48ff-ac18-a868120eeb4f" builtin_class="KeyBasedTreeFileFailures" builtin_name="CannotUnderstandAtLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="41cd90cd-a68f-4190-aeed-02a8d089d1f7" builtin_class="KeyBasedTreeFileFailures" builtin_name="CannotOpenFileForRead">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f0ae9c53-b568-4e84-9585-4cfb3582ed7d" builtin_class="KeynoteFailures" builtin_name="NotAssociatedKeynoteParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ffacc118-f992-41fd-9924-41c030709eb7" builtin_class="KeynoteFailures" builtin_name="MissKeynotingSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a32f127d-89cd-4fd0-9f06-652a90e1d9eb" builtin_class="KeynoteFailures" builtin_name="MissKeynoteParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1b0be7e4-89f1-4cac-a2ef-baf9d3df7994" builtin_class="KeynoteTagFailures" builtin_name="NoKeynoteAssignedToLinkedElement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dac56b69-b415-4520-ba5a-87792ce66360" builtin_class="KeynoteTagFailures" builtin_name="KeynoteOnLinkWithDifferentKeynoteFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="15c72258-3a6a-444b-8fbd-00ad326a5de1" builtin_class="LevelFailures" builtin_name="StoryAboveNonStoryLevel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9e47672e-5442-451c-b715-1e65812186f5" builtin_class="LevelFailures" builtin_name="StoryAboveMoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a4dca18e-8ed9-419a-932c-7596d84dc640" builtin_class="LevelFailures" builtin_name="StoryAboveDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c6d534b0-95bd-4047-89c1-32e3878440a6" builtin_class="LinkFailures" builtin_name="WatchedLinkMoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="99212cb9-57fd-4caf-85a5-8b5a491d0918" builtin_class="LinkFailures" builtin_name="NoConstraintsToLinks1">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cb11f811-2e36-4ab7-bce4-92eee381f058" builtin_class="LinkFailures" builtin_name="ModifyingLinkedFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7c71a819-f7a1-41e1-8aaf-bc70a0f642bb" builtin_class="LinkFailures" builtin_name="LinkedFileOpenInOtherDoc">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3d983f31-9ee3-4c3a-bed8-663b32cecec5" builtin_class="LinkFailures" builtin_name="LinkInstanceNeedsReconcile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d10c7f05-0896-4d57-854d-953f6b92aa08" builtin_class="LinkFailures" builtin_name="DeleteLinkSymbolPrompt">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="33b50b6e-a1f2-4d7f-8fb8-a8df55e5622f" builtin_class="LooseDimensionFailures" builtin_name="LooseWallsweepsForCurtainWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f2a4b36f-b6f3-462f-ad7e-c87bb533ebac" builtin_class="LooseDimensionFailures" builtin_name="LooseInsertsForCurtainWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="49d8a3ad-56eb-4f94-85dd-b19ef93d0fdc" builtin_class="LooseDimensionFailures" builtin_name="LooseFaceSplitsForCurtainWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6011e071-af9b-46f8-837a-c80883b94759" builtin_class="LooseDimensionFailures" builtin_name="LooseDimensionsForCurtainWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="54be49ad-2c37-463f-9475-dfa83910f955" builtin_class="LooseDimensionFailures" builtin_name="LooseCurtainWallData">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f8abebb3-99ce-4944-847c-09640ab1c625" builtin_class="MEPCalculationFailures" builtin_name="PlumbingFlowCalculatorNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="afadef7b-81b5-4593-a2a2-e32fd4471238" builtin_class="MEPCalculationFailures" builtin_name="PipePressureDropCalculatorNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eb0a9027-5038-40ca-a3a3-999ac6af19c8" builtin_class="MEPCalculationFailures" builtin_name="PipeFittingAndAccessoryPressureDropCalculatorNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="79dee4aa-3a2d-4322-8c35-4e3886843fb8" builtin_class="MEPCalculationFailures" builtin_name="DuctPressureDropCalculatorNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b8b6a2de-967b-40f5-88ed-ecd1fb2495ae" builtin_class="MEPCalculationFailures" builtin_name="DuctFittingAndAccessoryPressureDropCalculatorNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f31f8a98-053b-40f2-bf31-e8f41bcb721d" builtin_class="MEPFabricationFailures" builtin_name="NoStructuralHostToAttachWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a40cbf9b-a070-4a5c-a276-5e663a60765d" builtin_class="MEPFabricationFailures" builtin_name="FabricationRodsDisconnectedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="739be16b-4590-4bfe-adef-bb13a8ec730c" builtin_class="MEPFabricationFailures" builtin_name="FabricationRodsConnectionChangedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f5386e57-1571-49a3-b8e7-49319cf460e3" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartNoPartTypeFound">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0f974baa-8485-4c87-8744-ae30ab2f6b36" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartInvalidConnection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e74c7194-d69e-4ed8-aa7d-5b03a2a4a451" builtin_class="MEPFabricationFailures" builtin_name="FabricationHangerSizeNotMatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f610e6f6-4ab0-4912-9af4-694fe573ee4a" builtin_class="MEPFabricationFailures" builtin_name="FabricationHangerOutOfHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c6449431-5fc2-4069-892d-694a4e7b5c98" builtin_class="MEPFabricationFailures" builtin_name="FabricationHangerNotConnectToHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6041797d-fc40-4329-9dff-d583ebcb3940" builtin_class="MEPFabricationFailures" builtin_name="FabricationConfigurationCorrupted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="69e031d4-685c-437c-8dbb-b65047b43842" builtin_class="MEPFabricationFailures" builtin_name="FabDbOpenJobConn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="619079f9-c3a3-4e55-9d22-29d415f3eedb" builtin_class="MEPFabricationFailures" builtin_name="FabDbChangeConn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3609f9ff-bdb0-4041-81bd-43e602bc1aab" builtin_class="MassFailures" builtin_name="UpgradedMassingWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="658b1fb0-2281-4592-a7fb-3ded4ae21d4a" builtin_class="MassFailures" builtin_name="TooManyGeometries">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7e0f7780-3580-4c59-aedf-eb6be1d47e3f" builtin_class="MassFailures" builtin_name="SplitOverlappingFacesFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="eac939f2-109f-4cd6-aeb5-95f47304dbeb" builtin_class="MassFailures" builtin_name="SplitFacesByGroundPlaneFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3597bce5-c261-4b38-8e5f-71be44ea70e0" builtin_class="MassFailures" builtin_name="OverlappingSolids">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0d40c083-91e4-43b4-b416-c0d04df9b911" builtin_class="MassFailures" builtin_name="OpenGeometryOnly">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cc599d7f-fd4a-4920-9701-b8be9bd24fce" builtin_class="MassFailures" builtin_name="OpenAndSolidGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9aed5ba7-c98f-40c2-b4fb-1a90040d5f59" builtin_class="MassFailures" builtin_name="NonOccupiableMassZone">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="68666e2b-cbf8-4b39-96e1-0a374414a290" builtin_class="MassFailures" builtin_name="NoSolidInMass">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b92de6e2-4a74-412d-88fe-800f0b0771a7" builtin_class="MassFailures" builtin_name="FloorMightLookWrong">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="93c62fec-9add-492a-a0cb-e05fb6a3fce5" builtin_class="MassFailures" builtin_name="FloorAreaFaceFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d02f835f-6b5c-4e7d-b4ad-d78d78dd69a1" builtin_class="MassFailures" builtin_name="DividePerimeterZoneFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="979b3f33-83ed-445a-a86f-378d799bf211" builtin_class="MassFailures" builtin_name="CreateCoreGeometryFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4cc41b13-ce8a-4b67-b473-028bf73b0c12" builtin_class="MassFailures" builtin_name="CannotMergeGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6ddb60e8-16eb-4bf9-909a-adcb79309c66" builtin_class="MassFailures" builtin_name="BooleanUnionFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aa58cdcc-33a2-4d60-b843-e3cd84a9ae84" builtin_class="MechanicalFailures" builtin_name="TwoPointsSelectedBeforeEdit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="25f32372-f0bc-41cd-a861-c30197e60e10" builtin_class="MechanicalFailures" builtin_name="LiningThicknessIsLargeForWidth">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bf9899d4-92b3-466e-a1c8-74d4efa2e6da" builtin_class="MechanicalFailures" builtin_name="LiningThicknessIsLargeForHeight">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8aa7fffd-c715-42d2-af1a-75482f8bb2e5" builtin_class="MechanicalFailures" builtin_name="LiningThicknessIsLargeForDiameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cdef2004-c40d-41a6-9fc5-635f51b11000" builtin_class="MechanicalFailures" builtin_name="InitialEqualFrictionSizingFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="89dd1179-95e7-45cb-b7d7-f827a89f9c1e" builtin_class="NumberingFailures" builtin_name="SampleNumberingError">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d29a731d-966f-4e95-9493-328b46fa6123" builtin_class="OpeningFailures" builtin_name="PropertyNotClosed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9e039ed2-44c3-4f24-b836-27068f12c4e5" builtin_class="OpeningFailures" builtin_name="OpeningRectDoesnotCutHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7c795937-c96a-4428-8379-487e872dc742" builtin_class="OpeningFailures" builtin_name="OpeningPartiallyCutsHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8eca6f42-32d3-46a0-a675-c3fcf2eacb8d" builtin_class="OpeningFailures" builtin_name="OpenStringerConflictNosing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7eee93d5-5461-4549-99f5-65790cc33fa1" builtin_class="OpeningFailures" builtin_name="InvalidComplexCut">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="72acea12-71fe-4016-bf97-b63ca8092105" builtin_class="OpeningFailures" builtin_name="HostForCutHasNoGeometryWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="988a6cb2-7050-4a5c-a946-60d652df66c3" builtin_class="OverlapFailures" builtin_name="WallsOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2c43d4cb-5e40-46e0-9c65-e95e895bd18f" builtin_class="OverlapFailures" builtin_name="WallSpaceSeparationOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f7b3a015-c3eb-4a3f-b345-c474ec07d43f" builtin_class="OverlapFailures" builtin_name="WallRoomSeparationOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b5f9a9ca-a4c8-4a97-a0f1-c1f26de50af4" builtin_class="OverlapFailures" builtin_name="WallAreaBoundaryOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="76a1755e-1bf3-497d-aecb-0558af254dff" builtin_class="OverlapFailures" builtin_name="SpaceSeparationLinesOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="374396c0-984d-4f72-a081-30ab7dacb66d" builtin_class="OverlapFailures" builtin_name="RoomSeparationLinesOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d28bcb69-e669-4e2a-a0b5-98d5d599fd14" builtin_class="OverlapFailures" builtin_name="OverlappingElementsTest">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="56a60dbe-1ce5-4328-bfa9-32d49bbb8e7a" builtin_class="OverlapFailures" builtin_name="LevelsOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="645aa91f-55f3-4f68-81a4-e7110eb4bcc3" builtin_class="OverlapFailures" builtin_name="DuplicateRebar">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dcc135c7-e06d-4015-b61b-c421c12870d2" builtin_class="OverlapFailures" builtin_name="DuplicatePoints">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b4176cef-6086-45a8-a066-c3fd424c9412" builtin_class="OverlapFailures" builtin_name="DuplicateInstances">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d33ba99f-2aab-4a59-b33d-b69779a39064" builtin_class="OverlapFailures" builtin_name="DuplicateFabricSheet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cf6d30d0-833d-4334-b550-40fb48e6b314" builtin_class="OverlapFailures" builtin_name="DivisionSketchOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6891f0e6-5858-4e2f-bb34-801e0b87f60d" builtin_class="OverlapFailures" builtin_name="CurvesOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9699bbec-393c-42fa-8ba4-35b5d20d93eb" builtin_class="OverlapFailures" builtin_name="AreaBoundaryLinesOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a0720263-60bc-422c-974a-40c0132a8269" builtin_class="PartMakerMethodForMergePartFailures" builtin_name="PartsCannotBeMerged">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5107326f-6b28-42af-b523-132ab8cded64" builtin_class="PartMakerMethodForMergePartFailures" builtin_name="PartNotIncludedInMerge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5c7c7ade-5a67-433e-aa56-0cf7ec63706a" builtin_class="PartMakerMethodForMergePartFailures" builtin_name="NeedTwoPartsToMerge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="43deeaf5-5f2e-46a0-bb35-25637cba8501" builtin_class="PartMakerMethodForWallFailures" builtin_name="CouldNotAdjustWallPartsAtJoin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3dbb220f-43ba-4280-9628-56f4262d6edf" builtin_class="PerformanceFailures" builtin_name="WallsOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fe02e5fe-8847-48f5-8b72-c6da21ee8467" builtin_class="PerformanceFailures" builtin_name="ViewDetailLevelIsHighInLargeView">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f0fb3478-240f-4515-8574-70f3b91d9c0d" builtin_class="PerformanceFailures" builtin_name="UnusedTypesInTheProject">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="61b2044e-58a8-4a58-bd50-4661fce0edb1" builtin_class="PerformanceFailures" builtin_name="UnjoinedRoomSeparationLinesFound">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5146e027-e18e-4478-a308-c490fcd01c8a" builtin_class="PerformanceFailures" builtin_name="TooManyElementsInSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d08d908c-520e-4c4c-b8c5-2d7d41316143" builtin_class="PerformanceFailures" builtin_name="TooManyAreaBoundaryLinesFound">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="90c03913-7ed1-4d0b-8e00-f5a265cc768b" builtin_class="PerformanceFailures" builtin_name="TooLargeSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0fe07ac2-cae6-4d79-a2f8-6fc45748c56f" builtin_class="PerformanceFailures" builtin_name="MultipleLoopsInSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="05361ada-ff14-406a-8d1f-b3ca61d841a3" builtin_class="PerformanceFailures" builtin_name="ManyUnusedNestedFamilies">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2470ddc8-d4f6-416a-95bd-14da8afe578e" builtin_class="PerformanceFailures" builtin_name="ManyElementInFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="667041a9-5a9b-4d61-a4ad-280613096c8a" builtin_class="PerformanceFailures" builtin_name="LargeFamilyFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="323944ca-922e-4bdd-a1e8-db49b3490d26" builtin_class="PerformanceFailures" builtin_name="InteriorCategoriesEnabledInLargeView">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad95acc6-15a1-4d4b-9b66-b6de4485f224" builtin_class="PerformanceFailures" builtin_name="HostHasTooManyInserts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="934fc481-1377-4210-bcd1-f09f5f605d82" builtin_class="PerformanceFailures" builtin_name="FamilyContainsViewSpecificImports">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="05e62a0c-c174-4a63-ab54-9991a3819df9" builtin_class="PerformanceFailures" builtin_name="DuplicateInstances">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f7a9cd53-bbec-4e9f-ade9-a0f379882aa9" builtin_class="PerformanceFailures" builtin_name="DisjoinedSolidsInInPlaceFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5ff8e06a-b61d-44e1-8629-50cc8a327c01" builtin_class="PerformanceFailures" builtin_name="ClippingIsDisabled">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9833e258-1f18-408d-a41f-9de241cf8ffe" builtin_class="PipingFailures" builtin_name="PartNotFoundInRoutingPreferenceWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="52e38ef2-3ced-41c1-b73f-322f711b3732" builtin_class="PipingFailures" builtin_name="PartNotFoundDueToNoPipeConnectedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ffc851fe-7630-4e9a-abac-bc35a35302d6" builtin_class="PipingFailures" builtin_name="MaxPipeSizeReached">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9879106e-ea5d-436c-bd16-07b0c23b3624" builtin_class="PipingFailures" builtin_name="InvalidPipeSize">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b4b1430f-f9f8-4aea-8f41-f3d998d17909" builtin_class="PipingFailures" builtin_name="CircularLoopInPipeSizing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="19a05b36-7f5e-460f-886d-09962836996d" builtin_class="PipingFailures" builtin_name="CannotCreateGeometryForPipe">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="73def732-e165-4bb6-9c17-ecfcc8dfb5ee" builtin_class="PlanRegionFailures" builtin_name="DeletedViewRangeLevel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ed75a80b-4dee-4123-8c42-b1ae63d3d4f4" builtin_class="PointFailures" builtin_name="EdgeHostedPointToBeUnhosted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2ff34f68-3ad5-4da0-b913-58cd724a7a0a" builtin_class="PointFailures" builtin_name="CannotMakePointHostedByIntersection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6b2409e1-5c83-4d51-afcb-f4b28d6246a8" builtin_class="ProfileFailures" builtin_name="SketchNotEmpty">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6fc073b4-3fcb-4002-b9c5-c679bde53040" builtin_class="RebarFailures" builtin_name="SketchDimsBWFRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7ec0e59f-da61-40b9-badc-99c561292a40" builtin_class="RebarFailures" builtin_name="SketchDimensionsRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dabb43e6-e337-4ad0-a235-1039d3bcf156" builtin_class="RebarFailures" builtin_name="RebarIllegalBarType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d0562b1e-5737-4946-b4a6-3337ed9d4d1a" builtin_class="RebarFailures" builtin_name="RebarContainerOutSideOfHostWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="86c23281-a9fb-4c61-93ff-e020719297bd" builtin_class="RebarFailures" builtin_name="RebarConstraintWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f76d8f33-1b12-495f-8888-45c3b6805757" builtin_class="RebarFailures" builtin_name="RebarBendRadiusTooBigWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9bb2e1e3-830c-40bf-ae33-18ddaf04c184" builtin_class="RebarFailures" builtin_name="OutSideOfHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="197fc46c-900e-4ba4-88c8-f60f1e008a1e" builtin_class="RebarFailures" builtin_name="NoSurfPatternOnRebar">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="46e44940-a806-410f-8ba4-4c6b785c19e2" builtin_class="RebarFailures" builtin_name="ChangeUnitsFormatWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="330f332c-f784-4f25-92e6-4c0a41eb92f4" builtin_class="RebarFailures" builtin_name="CannotPlaceRebarWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1805452-03a1-4f84-adf7-6442f34f871e" builtin_class="RebarShapeFailures" builtin_name="WrongDepthDimensionLabel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9fea05e1-388a-4bfc-a867-a9f82f8ce806" builtin_class="RebarShapeFailures" builtin_name="ShapeFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f0e136b0-67e1-4d4d-ab39-8cc2977eca02" builtin_class="RebarShapeFailures" builtin_name="PlanarMultiPlanarShape">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="23c6216a-0dc7-4193-b8a2-bc6466505ec1" builtin_class="RebarShapeFailures" builtin_name="ParameterValueNotDefined">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="23e30de3-48d9-44b6-ab15-fd4468503cb6" builtin_class="RebarShapeFailures" builtin_name="MultipleArcsMustOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="675f2f93-2d5f-4b9b-bcdb-1d78e57a3068" builtin_class="RebarShapeFailures" builtin_name="MultiPlanarDepth">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e300ebe7-3a24-4572-82df-71078adbdedb" builtin_class="RebarShapeFailures" builtin_name="FormulaDrivenDimension">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d9601989-b54c-47b5-bac9-f47959eb3be6" builtin_class="RebarShapeFailures" builtin_name="DimensionWithoutParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a45fbf52-e23e-4e35-87dc-2ff305268a48" builtin_class="RebarShapeFailures" builtin_name="DimensionWithCommonLengthUnit">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="56f6281f-1920-495c-ae73-8e9b9eec0be1" builtin_class="RebarShapeFailures" builtin_name="DimensionLoose">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bbe77657-8fba-4469-9fa5-d97449f75768" builtin_class="RebarShapeFailures" builtin_name="DiagonalEdgesAreUnderconstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e207e354-aa11-4747-9976-d2345aa87ca4" builtin_class="RebarShapeFailures" builtin_name="DepthDimensionNotExisted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="61afb3eb-0a74-4a55-a574-d2ab42dcad55" builtin_class="RebarShapeFailures" builtin_name="DefaultParamaterValuesIncorrect">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2f16656b-fa3a-4b7a-816a-2c3d93f05677" builtin_class="RebarShapeFailures" builtin_name="CurvesUnlooped">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7a43635c-e94a-499d-adba-1c533befd7ed" builtin_class="RebarShapeFailures" builtin_name="CurvesCollinear">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0bab9893-01ed-48ff-bf63-84be800e787a" builtin_class="RebarShapeFailures" builtin_name="CurveUnderconstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="98126e27-ef0a-4b0c-ac16-0a6e3d958794" builtin_class="RebarShapeFailures" builtin_name="CurveOverconstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="70a22cbb-3c06-4820-8b9f-f172abf7f011" builtin_class="RebarShapeFailures" builtin_name="CircleUnbounded">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d5ddf6d6-6135-4386-b01d-d86f76ead497" builtin_class="RebarShapeFailures" builtin_name="CircleMultiPlanarShape">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="284d1f9e-c0c6-4b6c-aabb-5bc899c05063" builtin_class="RebarSystemFailures" builtin_name="RebarSystemOffset">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="005731dc-7648-42ed-ba05-e24d840a452e" builtin_class="RebarSystemFailures" builtin_name="DPartReinfDeletedEditDivision">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e8452a19-bf71-46f8-8788-c78205b74523" builtin_class="RebarSystemFailures" builtin_name="CannotPlacePathReininforcementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f8e49e66-cbf2-4471-9725-772e4cdbb033" builtin_class="RebarSystemFailures" builtin_name="CannotPlacePathReinforcementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="337579cd-bb0b-4349-8b92-5cc6f7a32c7c" builtin_class="RebarSystemFailures" builtin_name="CannotPlaceAreaReininforcementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="449680d0-bf9f-4eaf-9f57-052efcb1258d" builtin_class="RebarSystemFailures" builtin_name="CannotPlaceAreaReinforcementWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a861fe6d-d84f-48a2-bdb5-845d4355db78" builtin_class="RebarSystemFailures" builtin_name="AreaReinforcementsCollision">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9bef6935-92c2-4c0f-b445-1758a83de191" builtin_class="RebarSystemFailures" builtin_name="AreaReinforcementOutSideOfHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="72f608da-fc53-4aac-9b5d-102f0a5f2c85" builtin_class="RegenFailures" builtin_name="RegeneratedElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bd2575b4-0726-4557-bd8c-390d4f51940e" builtin_class="RegenFailures" builtin_name="RegenElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2ebe812f-07a1-46c4-ab9c-244255b56381" builtin_class="RenderFailures" builtin_name="RenderLibNotInstalledWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3bdd454a-c198-4c8f-84dd-03744c57b92f" builtin_class="RenderFailures" builtin_name="ProhibitDeletionLightSource">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="93e6d3dc-28ed-4084-b3b6-1f7eecbcd93e" builtin_class="RenderFailures" builtin_name="LightSourceInsideGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="536dc12f-8c27-4a6e-8fdf-3252d9383303" builtin_class="RenderFailures" builtin_name="LightParametersNotInRange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0c5c8146-8577-4753-88a6-0037001f3a49" builtin_class="RevisionCloudFailures" builtin_name="ModifyingIssuedRevisionCloudOnUpgrade">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e7b7b349-917b-4f4d-b704-506f27647b8b" builtin_class="RoofFailures" builtin_name="RoofSlopeExceedsThreshold">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0ae753ab-6926-4f44-864f-b1fe308b4690" builtin_class="RoofFailures" builtin_name="RoofExceedsMaxHeight">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f4fb005d-b090-4064-97ba-10e6c78f0347" builtin_class="RoofFailures" builtin_name="RoofCutoffRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c15f8a09-6691-4293-a911-3284a85fb836" builtin_class="RoofFailures" builtin_name="OnlyUpwardFacesUsed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a4866470-84fd-4b9d-887b-2b1a881c3ba2" builtin_class="RoofFailures" builtin_name="HadToAlignEaves">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aad6c305-ffb6-4e54-9d5c-f9306362e8b0" builtin_class="RoofFailures" builtin_name="ExtrudedRoofCutBySketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d61ca19e-65cc-4904-92e6-e00b070d79d4" builtin_class="RoofFailures" builtin_name="CurveRoofSkippedLoopsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3713dd06-e233-4c70-8787-ea26d5786d11" builtin_class="RoomFailures" builtin_name="SpaceUnplaceWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c35e5dc1-dee0-448d-953d-fa7e454e1e08" builtin_class="RoomFailures" builtin_name="ShowRoomBoundingElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1aacb3b7-3541-420c-9d29-bb0605c81ab2" builtin_class="RoomFailures" builtin_name="RoomsReallyFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a22de05c-4c92-4bdc-9ce3-a965d2cf316c" builtin_class="RoomFailures" builtin_name="RoomsOverlapInHeight">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9ce8825a-7718-4533-af93-194b475f9008" builtin_class="RoomFailures" builtin_name="RoomsInSameRegionSpaces">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="83d4a67c-818c-4291-adaf-f2d33064fea8" builtin_class="RoomFailures" builtin_name="RoomsInSameRegionRooms">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e4d98f16-24ac-4cbe-9d83-80245cf41f0a" builtin_class="RoomFailures" builtin_name="RoomsInSameRegionAreas">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="839fe87c-ab20-401f-bedb-0d80d6dbecf0" builtin_class="RoomFailures" builtin_name="RoomsInSameRegion">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="249aaf1d-3f4b-4f27-a67a-c45a9d888cf7" builtin_class="RoomFailures" builtin_name="RoomsFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7a2da5e0-4190-41fb-8299-ef7e3204cc26" builtin_class="RoomFailures" builtin_name="RoomsCreatedAutomatically">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8644b554-f5b8-4076-9098-dc451238e7cc" builtin_class="RoomFailures" builtin_name="RoomUnplaceWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="37f5bb58-0db1-42bc-aa69-64c0e536910c" builtin_class="RoomFailures" builtin_name="RoomTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d6ecb6c4-febe-4f17-8e44-1cc6682e7f8a" builtin_class="RoomFailures" builtin_name="RoomTagVolumeNotComputed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7728e455-6b7d-4d87-8522-c65389aa886b" builtin_class="RoomFailures" builtin_name="RoomTagNotInRoomToSpace">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4f0bba25-e17f-480a-a763-d97d184be18a" builtin_class="RoomFailures" builtin_name="RoomTagNotInRoomToRoom">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9a662e55-acc5-496d-a920-6c891b59c153" builtin_class="RoomFailures" builtin_name="RoomTagNotInRoomToArea">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a6644d65-0506-457d-af98-40980dd6b9db" builtin_class="RoomFailures" builtin_name="RoomTagNotInRoom">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c5464936-583a-4a50-9e6f-deefc3e4e7c3" builtin_class="RoomFailures" builtin_name="RoomTagDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2a3a7a6d-796e-4d3b-be1e-b988957c4949" builtin_class="RoomFailures" builtin_name="RoomNotEnclosedSpaces">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cd681a61-403b-44e5-aa01-ff6894a821c4" builtin_class="RoomFailures" builtin_name="RoomNotEnclosedRooms">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8a4611ee-39d9-468e-85d4-3b8a8f43dd75" builtin_class="RoomFailures" builtin_name="RoomNotEnclosedAreas">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ce3275c6-1c51-402e-8de3-df3a3d566f5c" builtin_class="RoomFailures" builtin_name="RoomNotEnclosed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b60a68a0-40aa-4c9d-a281-1a4da562455e" builtin_class="RoomFailures" builtin_name="RoomBoundaryMisalignment">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f70270ee-4d70-49da-bbf9-4a8717a73ce3" builtin_class="RoomFailures" builtin_name="RoomBelowCompHeight">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ee646ef7-0a8d-4545-8395-edd9051ffbf2" builtin_class="RoomFailures" builtin_name="OptionConflictRoomOverlapOption">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="95927fcb-7a2b-41dd-95fb-48068ed6fcea" builtin_class="RoomFailures" builtin_name="OptionConflictRoomOverlapMain">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ab61339a-7658-4418-a54c-de971422ad20" builtin_class="RoomFailures" builtin_name="OptionConflictInLinkRoomOverlapOption">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5d30f20c-cb13-455c-af8e-461b98ba6fc2" builtin_class="RoomFailures" builtin_name="OptionConflictInLinkRoomOverlapMain">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18c4fda4-2579-41a6-8c88-ebc7d5ebb1e0" builtin_class="RoomFailures" builtin_name="OptionConflictInLinkBoundariesVaryOptionSeparate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="70567bb8-7bb9-4f16-8a7c-27c37429f0d8" builtin_class="RoomFailures" builtin_name="OptionConflictInLinkBoundariesVaryMainSeparate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0bb136ed-711a-41db-a5a3-bfd1cb712017" builtin_class="RoomFailures" builtin_name="OptionConflictInLinkBoundariesVaryMainAddToOptionSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3f59f9ab-8ca2-4614-8e66-48682e7bb0f5" builtin_class="RoomFailures" builtin_name="OptionConflictBoundariesVaryOptionSeparate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b6b6d3ab-e6d7-4220-8154-07ba0c339d1c" builtin_class="RoomFailures" builtin_name="OptionConflictBoundariesVaryMainSeparate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0c880f8b-bd3f-43a6-8c40-c36f507fb9d8" builtin_class="RoomFailures" builtin_name="OptionConflictBoundariesVaryMainAddToOptionSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fab3ae77-4b24-44ac-887d-bc852552d588" builtin_class="RoomFailures" builtin_name="InvisibleRoomBoundElemement">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="abdd378d-7b69-4d4b-83b8-f676c6f1697f" builtin_class="RoomFailures" builtin_name="ExtensionsOverlapWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cbd5deb4-c4a3-4b95-abfe-7eeb9dc3f06c" builtin_class="RoomFailures" builtin_name="CannotMakeRoomsGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4184158d-5e12-4106-9763-c44e2c1ae549" builtin_class="RoomFailures" builtin_name="AreaUnplaceWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f71b1bc9-ce7f-449c-ada6-4cdece1e67ab" builtin_class="ScheduleViewFailures" builtin_name="PanelScheduleSlotInconsistency">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18032451-a1d0-4049-b65d-a64694c77673" builtin_class="ScheduleViewFailures" builtin_name="PanelScheduleLoadClassInconsistency">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3fa487a1-7bb9-417d-91f3-51ca48ba0842" builtin_class="ScheduleViewFailures" builtin_name="NotGridName">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b475b7ac-a0fe-4756-a2c3-ecda9fdcc252" builtin_class="ScheduleViewFailures" builtin_name="NoColumnsJoinedToGridLines">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b4d062aa-62ee-4648-b34c-1b23a7abe77c" builtin_class="ScheduleViewFailures" builtin_name="DuplicateFieldRemovedFromKeySchedule">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="682db07c-3e59-4576-9c0d-bb03011e128e" builtin_class="ScheduleViewFailures" builtin_name="ColumnsExcluded">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="89ba6658-633f-48dd-b4cd-611af961eb2d" builtin_class="ScheduleViewFailures" builtin_name="ColumnsExceedSegment">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c240b22b-5572-4078-b21e-9849f273f764" builtin_class="SculptingFailures" builtin_name="FaceSculptingFaceLoss">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cbe0d71f-cc67-4fb7-a05a-413bb5eebdbf" builtin_class="SelectionFailures" builtin_name="NoValidElementSelected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6dd831cd-0238-4f69-8d48-f8dfae971cf3" builtin_class="SelectionFailures" builtin_name="NoElementSelected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1ac247c9-3880-4bec-9806-eadd9414252c" builtin_class="SiteFailures" builtin_name="SitePhasesDontOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="da8c1b56-61d3-40f6-92ba-895686428087" builtin_class="SiteFailures" builtin_name="SiteEditPointsInvisible">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9ee00ce1-98ae-467f-8425-c85fb6189350" builtin_class="SiteFailures" builtin_name="SiteEditPointsClipped">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f6bb9dae-15c5-408b-a917-447cea5fc6ee" builtin_class="SiteFailures" builtin_name="ResetToposurfacePhaseCreated">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="231c2d57-0dca-47da-b4e3-8f214bc71006" builtin_class="SiteFailures" builtin_name="RegionPhaseMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18db9a4a-b113-4bda-a6e4-6c7e140af2a1" builtin_class="SiteFailures" builtin_name="PropertyIntersect">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="292918e4-a4c3-4c67-8ac2-51900b759937" builtin_class="SiteFailures" builtin_name="NoHostForSubregionWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="421e9ea5-aa42-4b2c-a67d-b1766ab7dba6" builtin_class="SiteFailures" builtin_name="GradingInSamePhase">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cdb72536-da4e-46bf-9799-4a5890da7570" builtin_class="SiteImportFailures" builtin_name="UnusedPoints">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="59385f2e-f8c7-4685-bdc7-2e418a8dedda" builtin_class="SiteImportFailures" builtin_name="TooManyMeshes">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="48fdae10-1d95-4d4e-909d-9027ca87acfd" builtin_class="SiteImportFailures" builtin_name="TooFarAway">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1c168053-c78f-4712-aa71-6d2d3d693293" builtin_class="SiteImportFailures" builtin_name="SurfaceExists">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="997434e5-1b48-4964-b31e-e4bb30e13b5f" builtin_class="SiteImportFailures" builtin_name="DifferentEntityTypes">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e41e4ac1-eb5f-48c1-bbd1-df3581001d6c" builtin_class="SiteImportFailures" builtin_name="ContoursNoncontours">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="36a35508-3a6b-4264-895c-99a8a83f8ac0" builtin_class="SiteImportFailures" builtin_name="BoundaryDetectError">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="045fc48e-182f-4a63-aca2-f58714e3292f" builtin_class="SketchFailures" builtin_name="TooManyElementsInSketch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1a9a80d7-90bb-4b61-8c10-85d6243e8efe" builtin_class="SketchFailures" builtin_name="SuspendedSketchWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad9e2d4f-78a2-4242-846c-380b90e6fde0" builtin_class="SketchFailures" builtin_name="SuggestMakingFamilyNonParametric">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e8080f28-7c1d-48d6-b0b4-52aaf1e7d99b" builtin_class="SketchFailures" builtin_name="SketchOverconstrainedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e431b9e1-9a4d-469f-81b3-51432f904a65" builtin_class="SketchFailures" builtin_name="NoPlane">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7f9f1f52-786b-48e8-80ee-1e85b4a9af56" builtin_class="SketchFailures" builtin_name="CannotComputeRailingsElevationWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fe981ef2-c56a-482b-b68c-ca1694f51ff7" builtin_class="SketchFailures" builtin_name="BadRailingsProfile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="84bee45c-cb21-49bb-821e-448b13774090" builtin_class="SketchFailures" builtin_name="BadNosingProfile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="74b60f1c-ee25-4079-89f2-d2ee0a7ec3f1" builtin_class="SlabShapeFailures" builtin_name="SlabShapeWarnVerticesDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e30111c4-1b30-4f03-8a9a-d198c99b2a80" builtin_class="SlantedColumnFailures" builtin_name="SlantedColumnCannotCutEndWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="63a74b48-8501-4e5b-8e7e-d04956426077" builtin_class="StairRampFailures" builtin_name="TreadDepthFailsEq">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="56c84087-eb8c-4f5f-b2be-d321c2f0dc1c" builtin_class="StairRampFailures" builtin_name="TreadDepthBelowMin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="20d0d9cd-45f1-4b34-943c-923435185734" builtin_class="StairRampFailures" builtin_name="TooShortCurveDowngradeGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1810be51-86a6-44e0-892c-36282cb00899" builtin_class="StairRampFailures" builtin_name="StringerCurvesNotSplitStairs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a0008fc9-9b7e-43d2-83cd-4e599ce2ef6f" builtin_class="StairRampFailures" builtin_name="StringerCurveTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="057af793-26e5-4556-bc69-91d67e8a6fd2" builtin_class="StairRampFailures" builtin_name="StairsTopEndExceedsOrNotReachWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="69367e37-c231-4c7a-9b7e-c403816a8da3" builtin_class="StairRampFailures" builtin_name="StairsSupportTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3cb50fb0-840c-4ea9-b06f-e2c1ab524da8" builtin_class="StairRampFailures" builtin_name="StairsSubElementsNotConnectedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="782c5177-cb5d-4d0d-8d64-72493ebe572b" builtin_class="StairRampFailures" builtin_name="StairsRunRunJoinNotAllowedFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f866255e-3925-4a20-9e5f-0f634b479e20" builtin_class="StairRampFailures" builtin_name="StairsPathPositionResetWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ff333642-5b8f-407e-bb74-4dc1b8921fce" builtin_class="StairRampFailures" builtin_name="StairsCannotExtendToFloorStructureLayerWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e79a1d64-a28f-4abe-9a89-3963be321f97" builtin_class="StairRampFailures" builtin_name="StairsBottomEndExceedsOrNotReachWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f1e4fad3-5dd0-49d8-a426-5036c0023ed3" builtin_class="StairRampFailures" builtin_name="StairsAutomaticLandingLayoutWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1dd57c7-a66f-468c-b3fd-7eee3c1e8279" builtin_class="StairRampFailures" builtin_name="StairsActualTreadDepthLessThanMinimumFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5d337ec0-5ec1-4039-917a-55b1c420db59" builtin_class="StairRampFailures" builtin_name="StairsActualRunWidthLessThanMinimumFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5e59fb09-9f8e-4600-89c8-c524dc481196" builtin_class="StairRampFailures" builtin_name="StairsActualRiserHeightGreaterThanMaximumFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bc9938ad-d0cb-4ebd-aad3-afa391446d3c" builtin_class="StairRampFailures" builtin_name="StairIncompleteFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="31843105-cc58-42b5-8659-89eaf0895ec6" builtin_class="StairRampFailures" builtin_name="RunIsJoiningLandingWithRiserSoNotchDoesNotWorkWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="96b1c0cb-bbe8-43fc-a0d2-04798cc260a4" builtin_class="StairRampFailures" builtin_name="RiserThicknesssResetToZero">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="19f211d0-ecfe-4c3d-ac99-8b7b4f3309c3" builtin_class="StairRampFailures" builtin_name="RiserCurveTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f20d7f1b-e4d0-436d-8cb1-75446975abb8" builtin_class="StairRampFailures" builtin_name="RampRunTooComplex">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="190faa73-d303-430e-b8c2-3e55a31eb3c6" builtin_class="StairRampFailures" builtin_name="RampLandingNotCreated">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="378181e1-747b-4849-80cb-d74ca16777a4" builtin_class="StairRampFailures" builtin_name="RampDoesntReachOffset">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="08cc1958-22f3-4125-b5d7-2eba27a08a39" builtin_class="StairRampFailures" builtin_name="RampDoesntReach">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9db2da89-64c4-425c-b523-6e6a5d537673" builtin_class="StairRampFailures" builtin_name="RailingCurvesNotSplitStairs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="df67587d-7a33-4b05-aa2a-31dcd9d0a825" builtin_class="StairRampFailures" builtin_name="RailingCurvesNotSplitRamp">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="08e1deb8-e232-49c7-8bd4-a632e50d9ec6" builtin_class="StairRampFailures" builtin_name="RailTypeChangeInconsistancyWarningWithResetBtn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1818b68e-acdc-48c1-b669-42944594af96" builtin_class="StairRampFailures" builtin_name="RailProfileOpen">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1a36606-cb79-4396-bd42-970489f7223e" builtin_class="StairRampFailures" builtin_name="RailProfileLowerThanFilletFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fa77119e-a578-4fe9-8dbc-5ca540604a2e" builtin_class="StairRampFailures" builtin_name="RailPathCloseLoopForExtensionWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e940ae4f-d64f-453b-86f3-42924642e667" builtin_class="StairRampFailures" builtin_name="RailCurveTooShort">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e33caab2-b78a-4b80-ab54-1e19aa93be95" builtin_class="StairRampFailures" builtin_name="NotchThicknessIsLargerThanLandingWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="06616abc-b500-48ac-8f25-7abaf85061dd" builtin_class="StairRampFailures" builtin_name="NotEnoughRisers">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="da374434-f036-439c-a202-aae944ae7139" builtin_class="StairRampFailures" builtin_name="NoRailingsStringer">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="93f6d11c-ecdb-4557-a93e-a23cb56087af" builtin_class="StairRampFailures" builtin_name="MultistoryStairDoesntReach">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="398fcb66-c37e-4b79-9f48-445a9b625b89" builtin_class="StairRampFailures" builtin_name="MayUnjoinRailAndSupports">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dfce6e6a-033d-4a95-b669-ba998a5753ef" builtin_class="StairRampFailures" builtin_name="LandingDepthIsLessThanRunWidthWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e8009c96-6e56-474a-a040-e4fe0372ebeb" builtin_class="StairRampFailures" builtin_name="InvalidBalustersPattern">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a2158de7-3a5a-4955-986c-bfc91a971cec" builtin_class="StairRampFailures" builtin_name="ContinuousRailTransitionFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0eccef6c-a2ae-4966-ae55-015805ca4f80" builtin_class="StairRampFailures" builtin_name="ContinuousRailSupportPlacementFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4d5fea31-ba0d-45d0-b439-7008c39a42b7" builtin_class="StairRampFailures" builtin_name="ContinuousRailNotContinuous">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="150bebfb-f1bf-4923-8bc2-f5b461ce2fae" builtin_class="StairRampFailures" builtin_name="ContinuousRailFilletCreationWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a53a4778-680d-436e-9257-dc835e608cdf" builtin_class="StairRampFailures" builtin_name="ContinuousRailFilletCreationParallel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4ac4130c-b564-438c-87eb-ee9c38a8a800" builtin_class="StairRampFailures" builtin_name="CannotPlaceRailingOnStringerWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7c33a7ba-42cc-453b-962d-3c99856b2082" builtin_class="StairRampFailures" builtin_name="CannotPlaceBalusterPatterns">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4c5e02e6-46e6-4fa4-838e-ff4a04b84f0c" builtin_class="StairRampFailures" builtin_name="CannotPlaceBalusterOffset">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="11446f7a-7504-4723-beae-769d0a0366fb" builtin_class="StairRampFailures" builtin_name="CannotOffsetRail">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d60340a7-6d3c-4560-a231-370af8c10265" builtin_class="StairRampFailures" builtin_name="CannotEndWithZeroRiser">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a14cc486-5513-4389-b1a8-53e965830005" builtin_class="StairRampFailures" builtin_name="CannotCreateStringers">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="747ba6ec-73ea-42d1-8f8f-e04d45c916ff" builtin_class="StairRampFailures" builtin_name="CannotCreateSideStringer">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e33e2620-0a76-4af0-8afd-b1b1b9e74bd5" builtin_class="StairRampFailures" builtin_name="CannotCreateRiser">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a832dd72-5fe6-48ec-b004-57ad13032f9b" builtin_class="StairRampFailures" builtin_name="CannotCreateRailWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a1dcf16b-09e8-4bdb-aeac-649b88d24b90" builtin_class="StairRampFailures" builtin_name="CannotCreateRailGeom">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="69352b83-c7d4-4546-86a5-4df32334583c" builtin_class="StairRampFailures" builtin_name="CannotCreateOpenMiddleStringers">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cc762adc-ca28-4d3a-abb7-ec32d18bf49b" builtin_class="StairRampFailures" builtin_name="CannotCreateOneOrMoreTreads">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e55e05ce-da5b-4c03-9abe-7151e79d4345" builtin_class="StairRampFailures" builtin_name="CannotCreateOneOrMoreBaluster">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e5b56613-3480-489f-8824-4b301a2fc660" builtin_class="StairRampFailures" builtin_name="CannotCreateNosing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bba4737a-ebc9-4ba4-8dd1-57bd20996e4f" builtin_class="StairRampFailures" builtin_name="CannotCreateMonolithicStairs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="79ed0c16-fd27-4301-9a66-627722196c08" builtin_class="StairRampFailures" builtin_name="CannotCreateMiddleStringer">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8fbc9dd9-18f1-4f89-9269-9b563a277f3d" builtin_class="StairRampFailures" builtin_name="CannotCreateLandingStringer">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b6a0c307-7942-4c23-b1f7-1be084808bb1" builtin_class="StairRampFailures" builtin_name="CannotCreateCornerBalusters">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c3e83ab0-1f90-4075-b871-73704cf9a3b1" builtin_class="StairRampFailures" builtin_name="CannotCreateBalusterPatterns">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2f8ee9a5-fbe7-4f96-9cad-dcc00124c788" builtin_class="StairRampFailures" builtin_name="CannotComputeRailElevation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1f79e353-a40b-4e76-bb4b-8545c771ef8f" builtin_class="StairRampFailures" builtin_name="CannotAlignSupportOnPosts">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4da1e50d-c972-47d9-979e-2d17be524a6f" builtin_class="StairRampFailures" builtin_name="BalusterUpsideDown">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="653b6734-dc2c-482d-ade4-97cadf0a21f4" builtin_class="StairRampFailures" builtin_name="BadTreadRiserProfile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a96d82da-d2c8-4f80-9f00-7706557250d2" builtin_class="StairRampFailures" builtin_name="BadRailProfile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b5bcad06-efde-4f28-850b-08448d5d30b2" builtin_class="StairRampFailures" builtin_name="BadFillingSpacing">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7e9e659b-058d-49a2-8afd-bb197f3fb05d" builtin_class="StairRampFailures" builtin_name="AutomaticLandingConvertedToSketchedLandingWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b878e1c6-bd09-4648-bb5a-58be27001b21" builtin_class="StairRampFailures" builtin_name="ActualRiserHeightChanged">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8af8bdee-bdc3-44fd-8d7b-99dfff8194b9" builtin_class="StructuralAssetFailures" builtin_name="StructuralMaterialAssetInvalid">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="694befd4-b0a7-489e-8315-62d0afa01e79" builtin_class="SystemNavigatorFailures" builtin_name="MultipleSelectNumberIsWrong">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7f43b05f-d1b1-42a6-bc6b-3d23ffff0273" builtin_class="SystemNavigatorFailures" builtin_name="CannottFindCorrectTreeNode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c8ab1ca1-b565-45f2-87a1-a2a24fc68588" builtin_class="SystemsFailures" builtin_name="SelectedElementsArePartOfOtherSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="645ac83a-781f-42db-971a-62509a719cbc" builtin_class="SystemsFailures" builtin_name="MismatchSystemType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="47e8cef0-d6dd-4c5c-87c1-e3da6e62787d" builtin_class="SystemsFailures" builtin_name="ElementsBelongToOtherSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="167ea191-0321-42bf-a92d-45ffaf83f1b9" builtin_class="SystemsFailures" builtin_name="DefaultSystemOver50Elems">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e89b2cad-27fb-470b-bc0c-d7afd0c7ff98" builtin_class="SystemsFailures" builtin_name="CreatePartsWithoutDabasebase">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="16d276b0-a635-4278-8420-603273a1e274" builtin_class="SystemsFailures" builtin_name="CreatePartsWithInvalidSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="793e1ebd-904e-4961-a55d-24a90d1c7c13" builtin_class="SystemsFailures" builtin_name="CreatePartsWithInvalidService">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6288b2e5-d276-4c37-9307-a4dbffc73a89" builtin_class="SystemsFailures" builtin_name="AddingOtherConnectedMembersToSystem">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="91e50b07-3935-4f30-8337-2618c373526a" builtin_class="TagFailures" builtin_name="ElementCategoryChangeInvalidatesTagUpgrade">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b0eb77a3-8d5b-44c5-b915-0c9510eb0695" builtin_class="TagFailures" builtin_name="ElementCategoryChangeInvalidatesTag">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f305d913-9072-4a1b-8485-983a9ee7c727" builtin_class="TagFailures" builtin_name="CannotPasteTag">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="83bae37e-2066-45fb-8896-9ebc3766fb5a" builtin_class="TagFailures" builtin_name="CannotPasteOrphanTagsWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="74be7b1f-275e-4e03-8164-588f34924c22" builtin_class="TagFailures" builtin_name="CannotCopyTagWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7eb6289b-e9d9-48be-80f3-4947028523ff" builtin_class="TextFailures" builtin_name="ModeltextIsEmpty">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d8ea8424-df87-4c68-9cb3-ed54add6d8cf" builtin_class="ToggleViewFailures" builtin_name="LoseSavedOrientation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="472dbe17-982c-40a4-989e-e81adea20b0c" builtin_class="TrussFailures" builtin_name="TrussUserDefinedMemberDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4671643a-fe78-4633-ae91-085b82fa6d44" builtin_class="TrussFailures" builtin_name="TrussNotJoinedWebs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="577ae040-5de7-4f79-a34a-c98bb5d83de5" builtin_class="TrussFailures" builtin_name="TrussLayoutOverlapedCurves">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="56b41fc7-3358-4b8f-be47-485d9fccf1b0" builtin_class="TrussFailures" builtin_name="TrussLayoutNonSympleTopChord">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="52f6b731-eed2-4020-8829-945d9cf7089d" builtin_class="TrussFailures" builtin_name="TrussDuplicateEngineeringType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="98a80ce5-27cc-4be0-be42-949c6e05a94c" builtin_class="TrussFailures" builtin_name="TrussChordUntransformable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="efda5735-361b-4b73-9a3c-96607104f901" builtin_class="TrussFailures" builtin_name="IncorrectWallUsageWithAttachedStruct">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6b7f8981-51da-44db-b29d-7a9bdd1bee53" builtin_class="ViewFailures" builtin_name="ZeroLengthViewRegionsRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="152dfcbc-2fe3-4e76-9da4-4937a2e4e3a5" builtin_class="ViewFailures" builtin_name="ZeroLengthViewBreaksRemoved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f230bb71-65f2-491b-964b-975e8e90c0bc" builtin_class="ViewFailures" builtin_name="ViewPublishFailed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2d0a3033-e30e-4b90-a166-22bd70b108f8" builtin_class="ViewFailures" builtin_name="TurnCropRegionOffRemovesViewBreaks">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ceb290bf-1b2f-471b-a4ca-794ec9230026" builtin_class="ViewFailures" builtin_name="NothingToApplyWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="78477b7f-72de-4138-859c-f2ee7ff3c0e8" builtin_class="ViewFailures" builtin_name="NoTargetsForDependentViewPropagation">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="547550c0-bd39-448b-a240-cd280ec71fb8" builtin_class="ViewFailures" builtin_name="InitialViewDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="25574798-18ea-4527-bee6-22c6d0ce2d2e" builtin_class="ViewFailures" builtin_name="BadViewDirectionSetting">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e6efe28d-f417-448c-9a86-60b315434423" builtin_class="WallFailures" builtin_name="WallSettingsChanged">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b375848e-ce6f-4427-8e32-dd2b957a7862" builtin_class="WallFailures" builtin_name="UnjoinOnEditWallChange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="090445c2-3ddf-4122-a3ec-f34ea4064a84" builtin_class="WallFailures" builtin_name="StackedWallNeedsUnjoin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="630e1d43-e84c-4897-b7bd-9604156cc0bb" builtin_class="WallFailures" builtin_name="ShouldAdjustWallParameters">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="067742b4-a37e-4744-b258-bbe7a31ec122" builtin_class="WallFailures" builtin_name="RemapConstrainLocationLine">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ab87b522-2b24-4b3e-bd17-1198267008ed" builtin_class="WallFailures" builtin_name="RecursionParameterIgnored">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ef00d6c5-5661-424c-a38d-acf085d76b49" builtin_class="WallFailures" builtin_name="ParameterChangeNotAffectingGeometry">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6c8dd584-6347-441c-a77c-efb5d393d2c9" builtin_class="WallFailures" builtin_name="LostEditsJoinsRedoFaceBased">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5f08c105-5acc-43e3-84e1-6ce94c93824e" builtin_class="WallFailures" builtin_name="FaceWallComplexType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0465414b-db7a-4e37-b386-7f01e56d19bf" builtin_class="WallFailures" builtin_name="FaceIsNoLongerVertical">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b8fc8ee9-ac9a-4a1a-afe1-3baf93d329d3" builtin_class="WallFailures" builtin_name="FaceIsNoGoodForWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="49638f8f-463c-4a3b-846e-94ccfc795657" builtin_class="WallFailures" builtin_name="FaceBecameVertical">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="721491a3-7486-4bb4-ba87-3b44fc7a18ca" builtin_class="WallFailures" builtin_name="EmbeddedButShouldNotBe">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d066223b-e055-4087-b144-7ee15100e308" builtin_class="WallFailures" builtin_name="ContFootingRadiusTooSmall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9dbf6536-8207-40ed-aba9-0344a70e719e" builtin_class="WallFailures" builtin_name="ContFootingCannotJoin">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e2e81618-b12d-4f3d-b404-4452f9085ad9" builtin_class="WallFailures" builtin_name="ChangingWallsweepType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="52a96592-e177-4e35-9996-f476fcdb610a" builtin_class="WallFailures" builtin_name="CannotRedoFaceRoof">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="349a93d1-cc5d-4353-a54d-2728192b2bd6" builtin_class="WallFailures" builtin_name="CannotRedoFaceBasedWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="44d32721-6a10-4fc6-a149-7f94c3189b00" builtin_class="WallFailures" builtin_name="CannotMaintainKeyReference">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="59361fba-fdb9-44f1-8deb-2f34f934a5c3" builtin_class="WallJoinRoofFailures" builtin_name="WallNotCoveredByRoof">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="04e21c1c-71f7-4354-affa-8e1894b305fd" builtin_class="WallJoinRoofFailures" builtin_name="WallMeetsRoofTangentially">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="18fc24c5-afa3-4b15-aefc-021f02f92695" builtin_class="WallJoinRoofFailures" builtin_name="NotCoveredAtAllByTarget">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d7901f88-3e50-45b9-8c01-0b733ec34b37" builtin_class="WallJoinRoofFailures" builtin_name="NoUptoRoofForWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="01cf8922-4822-4ed7-b540-8fe0e7c0daad" builtin_class="WallJoinRoofFailures" builtin_name="NoFromRoofForWall">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9eebe302-76cb-4d51-a2d1-56b3753334e2" builtin_class="WorksharingFailures" builtin_name="MissingUpdaterLatestOrCentralSingular">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7298777b-e866-40d3-a3d9-6cb7c4751c2b" builtin_class="WorksharingFailures" builtin_name="MissingUpdaterLatestOrCentralPlural">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b87f1ace-aa18-4e60-a586-18ed352de562" builtin_class="WorksharingFailures" builtin_name="DuplicateNamesChanged">      <is_hidden>False</is_hidden>
+    </revit_warning>
+
+<revit_warning id="e4d14094-fe30-45c3-ba34-20b56e1095cc" builtin_class="ConnectorFailures" builtin_name="ElementHasMultipleConnectors">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b8b94a43-2146-49aa-a878-87e6347556cf" builtin_class="ConstraintFailures" builtin_name="UndeletedConstraintsLabel">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3e6b5785-a401-478e-b1e8-d98450f02415" builtin_class="ConstraintFailures" builtin_name="UndeletedConstraintsEQ">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="204eb636-ebcb-4c35-8aec-e77181f59144" builtin_class="DPartFailures" builtin_name="PartsCannotBeCreatedFromInvalidGeom">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1e68c4fe-9e0e-48c8-bf8a-22998bce3184" builtin_class="DimensionFailures" builtin_name="UnstableConstraintInFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1fb04136-686d-4409-9631-c4503926d2f8" builtin_class="DirectShapeFailures" builtin_name="CannotCreateDirectShapeOrTypeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1f7332a1-1aec-4eb4-9ad7-a42cb2fefa15" builtin_class="ElectricalFailures" builtin_name="CannotCreatePanelScheduleDuetoNoDefaultTemplate">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="176b5467-3d5c-42ab-88e8-f51657f555f2" builtin_class="FabricFailures" builtin_name="BentHiddenWires">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3e1687de-3e35-4678-a86b-d834c3bbaacd" builtin_class="FamilyFailures" builtin_name="MightntPlaceInsertsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="fad3bbef-7618-41da-8618-c3ebdfb079a7" builtin_class="FamilyFailures" builtin_name="InvalidFamilyType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4fd6e4ca-791d-48ae-871a-d2d05f9373b0" builtin_class="FamilyFailures" builtin_name="FamilyIsCorruptWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6f57f586-9ce2-43aa-aa94-d5c7c5181d24" builtin_class="GeneralFailures" builtin_name="UnresolvableErrorInFamilyWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="859b1258-f764-49f0-b57a-0cc2c83aaa8e" builtin_class="GeneralFailures" builtin_name="ErrorInSymbolFamilyResolved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4de3f891-0ba6-449c-b80c-f10e05ebf147" builtin_class="GenericMEPFailures" builtin_name="InlineEndoflineMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="428e4c6c-895c-4fde-95c9-d111d17b8636" builtin_class="LinkFailures" builtin_name="ModifiedLinkedFile">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="39b58cff-1f30-4206-a1a8-7f4d2c784fa9" builtin_class="LoadFailures" builtin_name="CannotMoveHostedLoad">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d59a731a-8e74-4581-b4f9-bc95865da65d" builtin_class="MEPCalculationFailures" builtin_name="SeparationWithOddJunction">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="aad5a2ae-70e9-4b0f-b1c8-ffd4cc54d1eb" builtin_class="MEPCalculationFailures" builtin_name="SeparationNotAtJunction">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="63ac4029-dad5-4fec-96b0-e903b0cc3748" builtin_class="MEPCalculationFailures" builtin_name="PumpPressureNotComputed">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b02c17d4-0b09-47ef-98dc-c4773b73ca51" builtin_class="MEPCalculationFailures" builtin_name="PressureLossNotSetInLossFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7e9da435-3a4c-43e8-8ffa-c6e75f9b882e" builtin_class="MEPCalculationFailures" builtin_name="PipeConnectorsAreNotLined">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="44e21d3e-f5c9-418e-aeb8-81ace75b6daa" builtin_class="MEPCalculationFailures" builtin_name="Network_OverConstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8ea72cc3-f0a3-46ee-b1ab-df08c7a445a1" builtin_class="MEPCalculationFailures" builtin_name="Network_NotFullyConnected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="65a4017a-163c-4867-a461-e3bfec5d4819" builtin_class="MEPCalculationFailures" builtin_name="Network_NotEnoughNodes">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="9708ed23-ce42-42c6-88b4-1e002036cef1" builtin_class="MEPCalculationFailures" builtin_name="Network_NotEnoughElements">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="01e1ad33-93ec-4013-83e7-82ad83bf4667" builtin_class="MEPCalculationFailures" builtin_name="Network_NodePropertyNotSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e0248f7c-8eee-4009-a42a-8de94217457f" builtin_class="MEPCalculationFailures" builtin_name="Network_NoPressureConstraint">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a37d92f2-b60b-4c28-b07e-9e5d47aa80a5" builtin_class="MEPCalculationFailures" builtin_name="Network_NoOutputNode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f712f2e1-54af-4f6c-bb04-fdc98c199a84" builtin_class="MEPCalculationFailures" builtin_name="Network_NoInputNode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="efe19baa-dff2-47ea-8546-7b45f56a5a3d" builtin_class="MEPCalculationFailures" builtin_name="Network_ElementNodeIsNotPartOfNetwork">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d73717c9-c11d-43b1-9df9-d2759f6a0d79" builtin_class="MEPCalculationFailures" builtin_name="NetworkUnderConstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5f6aab49-ba0d-4068-8fec-8ac13d74d037" builtin_class="MEPCalculationFailures" builtin_name="NetworkPressureNotConverge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dd45a6d7-37eb-451c-beb1-85eb6166d50d" builtin_class="MEPCalculationFailures" builtin_name="NetworkMinorLossNotConverge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="327428e9-9560-4693-8bce-b9d50629ace4" builtin_class="MEPCalculationFailures" builtin_name="NetworkInconsistentDemandFlow">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1e1b084d-79e9-42ef-b3c6-d9f6dd601cfa" builtin_class="MEPCalculationFailures" builtin_name="NetworkExtraPumpOutsideSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cba01eaf-9638-49a7-8537-8bb2097c484c" builtin_class="MEPCalculationFailures" builtin_name="NetworkErrorOverConstrained">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="17a72521-e96f-4d83-8859-244600cede17" builtin_class="MEPCalculationFailures" builtin_name="NetworkErrorModelTooBig">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d37a726c-650a-4493-80f1-6b0317bd65aa" builtin_class="MEPCalculationFailures" builtin_name="NetworkErrorExtractCurveData">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a0625bdd-ffec-4e68-8201-6392ac65b697" builtin_class="MEPCalculationFailures" builtin_name="NetworkErrorElementWithDownUpStreamNode">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="63d9b3a8-e3f4-44f8-99b4-604eeb9fe4fd" builtin_class="MEPCalculationFailures" builtin_name="NetworkErrorCalculatingPressure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f4485eb4-e455-44a4-8c3c-f1b730b0497e" builtin_class="MEPCalculationFailures" builtin_name="NetworkEnergyEquationNotConverge">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a059e670-6f52-4da8-ac4f-d454b033c725" builtin_class="MEPCalculationFailures" builtin_name="NetworkDefaultToReynolds">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="71023d48-f302-49cc-8d29-dc6d1f533f8a" builtin_class="MEPCalculationFailures" builtin_name="NetworkDefaultToPressure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="26ba8d79-beb3-4725-9567-322ed59c5eb8" builtin_class="MEPCalculationFailures" builtin_name="NetworkCanNotDeterminCriticalPath">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="dc9a004b-a634-4493-bad4-57e58bf42418" builtin_class="MEPCalculationFailures" builtin_name="MechanicalEquipmentSetBeingDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bf3d6d43-2945-4984-ada8-b2043c104a0b" builtin_class="MEPCalculationFailures" builtin_name="LoopSeparationNotCompleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f8afe271-ee4a-485c-bdfc-a1821eba3202" builtin_class="MEPCalculationFailures" builtin_name="FlowAndPressureCalculationMethodHasBeenImproved">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f77364b8-61a3-4127-8b88-33a79a620c04" builtin_class="MEPCalculationFailures" builtin_name="ExtraPumpSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="247cb63f-35b8-4660-8507-eb5d90da1cc9" builtin_class="MEPCalculationFailures" builtin_name="DemandFlowNotSetInLossFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="216e5aa4-0f51-46a8-87b3-a172b5e0a852" builtin_class="MEPCalculationFailures" builtin_name="DemandFlowAndPressureLossNotSetInLossFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e1f7db23-6757-4083-9be3-88f482f8bcc5" builtin_class="MEPCalculationFailures" builtin_name="ClassificationNotSetInFamily">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4dfc4180-bab3-4045-9c42-6cee0f061d1e" builtin_class="MEPFabricationFailures" builtin_name="UneditableFabricationPartNotReposition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="df191a75-7b8b-4166-984d-8e6e29388c28" builtin_class="MEPFabricationFailures" builtin_name="PinnedFabricationPartNotReposition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="36ccab5e-61d4-4bd4-92ff-69444ae66463" builtin_class="MEPFabricationFailures" builtin_name="PinnedFabricationPartNotChangeExtension">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1984fe37-7de5-4e2c-98ce-140bc919d98e" builtin_class="MEPFabricationFailures" builtin_name="NotAllPartsWereConvertedUnsuportedFittingOffsets">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0b8a6f24-fe33-4393-a7b4-9efe3a1927bb" builtin_class="MEPFabricationFailures" builtin_name="InvalidConnectionsHaveBeenDisconnected">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="81a014c5-0432-4ddf-845f-cc11ed0978ca" builtin_class="MEPFabricationFailures" builtin_name="GroupedFabricationPartNotReposition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="32a5400b-8938-4adb-ae7a-04bc3e50e889" builtin_class="MEPFabricationFailures" builtin_name="FixedFabricationPartNotChangeLength">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="476f4db9-9245-4ed5-9079-24793c125823" builtin_class="MEPFabricationFailures" builtin_name="FabricationStraigtLengthOversized">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1753a810-b9a7-45cc-9e20-412f2a9f201c" builtin_class="MEPFabricationFailures" builtin_name="FabricationServiceMismatch">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ad86f5fa-743f-475f-b22c-a37c68a54345" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartInvalidSpecification">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="96815b73-f89b-469e-97ca-e7e137c778f5" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartFitFailWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d597e4cf-07f1-4b9d-b06d-7cd98c895a99" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartCannotChangeTypeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8a84f6c7-e57e-4833-8140-dc97f326391b" builtin_class="MEPFabricationFailures" builtin_name="FabricationPartCannotChangeServiceSizeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f250f8e5-8c9b-4f78-bf2f-743994840296" builtin_class="MEPFabricationFailures" builtin_name="FabricationOverSizedCheck">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="631466d7-2e1c-466a-8ca4-8abb4a8dcde5" builtin_class="MEPFabricationFailures" builtin_name="FabricationOutOfSizeCondition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="b4cf7b68-0c55-491f-a0f8-cdcca7546216" builtin_class="MEPFabricationFailures" builtin_name="FabDbSwapOut">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8695a52f-2a88-4ca2-bedc-3676d5857af6" builtin_class="OverlapFailures" builtin_name="FloorsOverlap">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="87f2ade9-0737-4f18-86e5-ee06fcf38927" builtin_class="RebarCouplerFailures" builtin_name="WidthParameterWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7a3c722d-1edd-405d-ad5f-52908696da2e" builtin_class="RebarCouplerFailures" builtin_name="SecondaryEngagementParameterWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="5e4450d6-c3a5-4f0f-86f2-1a00b558732f" builtin_class="RebarCouplerFailures" builtin_name="NoTypeParamsDefinedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="74fe8ec9-2b8b-4eb5-bccf-37e92c2f5365" builtin_class="RebarCouplerFailures" builtin_name="NoBarSizeWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="33c8ef93-cfdf-4f86-8cd5-76e06c6ab576" builtin_class="RebarCouplerFailures" builtin_name="MainEngagementParameterWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0571b222-f328-47b0-ba84-57531a708610" builtin_class="RebarCouplerFailures" builtin_name="LengthParameterWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0aa3d8d0-01d6-4f48-b439-15d747da2005" builtin_class="RebarCouplerFailures" builtin_name="EngagementBiggerThanLengthWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8afbcb59-467c-4fe1-afde-1961df63e9a4" builtin_class="RebarCouplerFailures" builtin_name="DistanceBetweenBarsWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7330bd1a-0391-44c5-88b2-4dc9f4de6ecd" builtin_class="RebarFailures" builtin_name="UnconstrainableRebarHandle">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3d25d600-1ddc-493e-916f-715f8a1df845" builtin_class="RebarFailures" builtin_name="SketchNonPlanarFreeForm">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c951bc10-d89c-42d3-99ca-bd63371c3cee" builtin_class="RebarFailures" builtin_name="SketchFreeFormSet">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a77067a6-a920-4c03-8a61-e2bd0baf8b1c" builtin_class="RebarFailures" builtin_name="RebarShapeFailureCustomWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="4a07f6c0-5bd2-43ce-bfe5-c798cb23e963" builtin_class="RebarFailures" builtin_name="RebarNoConstraints">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="04e9c245-c14b-43cd-9242-6548af28bd59" builtin_class="RebarFailures" builtin_name="NoVisibleTargetsForCurrentConstraint">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e0c0d86b-3bb3-4588-ab5f-a222de48e1db" builtin_class="RebarFailures" builtin_name="NoVisibleRebarHandle">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="1183bcf7-0d48-4da6-8149-502ec2d9103f" builtin_class="RebarFailures" builtin_name="MissingCurrentConstraintForHandle">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="82e71f29-b3c2-4283-abd1-14c0e2bb8425" builtin_class="RebarFailures" builtin_name="DelayedConstraintForHandle">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="46446ca2-7f7b-4989-9c75-c09ba0396230" builtin_class="RebarFailures" builtin_name="CannotSolveRebarWithDelayedConstraints">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="814312b3-9c5d-4fd2-8f15-ceb2bc58b3ba" builtin_class="RebarFailures" builtin_name="CannotSolveRebarShapeUsingDataFromDimension">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="3db5ad50-63e9-46ec-bc89-d3f4568ad9f8" builtin_class="RebarFailures" builtin_name="CannotKeepVariabilityOfRebarInGroup">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d9569644-d9d0-404d-8e97-facb9573fec3" builtin_class="SiteFailures" builtin_name="SiteInvisible">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f1d7b33e-cc1e-49a0-b604-e2e164f68ab6" builtin_class="StairRampFailures" builtin_name="StairsInMultistoryExceedTopConstraint">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="680390f3-b191-4f5a-ab77-d68085bfadfd" builtin_class="StairRampFailures" builtin_name="StairsAreUpdatedDueToLevelHeightChange">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="e10b5ff8-d14f-4cf4-bcd9-3fe1f7a63bc9" builtin_class="StairRampFailures" builtin_name="RailPlacedOutsideOfHost">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d7db4284-8ac1-4dfc-b5b9-755fa556f420" builtin_class="StairRampFailures" builtin_name="MultistoryStandardStairTopEndExceedsOrNotReach">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="8f8398a7-9331-4676-ac58-066495f338a2" builtin_class="StairRampFailures" builtin_name="MultistoryStandardStairBottomEndExceedsOrNotReach">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d96ef2b3-d1cb-49f2-8334-a2cf7aa7d457" builtin_class="StairRampFailures" builtin_name="MultistoryStairsHideTopLevelParameter">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="a0ddc501-0230-42a9-9b53-26821d5ca929" builtin_class="StairRampFailures" builtin_name="MultistoryStairsAutomaticLevelLandingsDeleted">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="c488331a-5c36-4c72-bd4d-576d1c89d474" builtin_class="StairRampFailures" builtin_name="CannotCreateStairForLevelOverlapping">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="f1e2c940-081f-4d0d-900c-cfe46b6f5d8f" builtin_class="SteelElementsFailures" builtin_name="SteelElementModifiersWillBeIgnoredWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="73c984d7-da5a-4cd2-b83b-1c2c345d216b" builtin_class="SteelElementsFailures" builtin_name="SteelElementInvisibleInCurrentLevelOfDetailWarn">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2eed32a6-d3b6-45d7-abfe-052f80e6ade9" builtin_class="StructuralConnectionFailures" builtin_name="StructuralSectionHasIncompleteDefinition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="ba05bc0e-1549-4f33-b1ac-e4932235c63b" builtin_class="StructuralConnectionFailures" builtin_name="StructuralConnectionTypeInfoNotAvailable">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="7caa5df4-dbf8-4dea-bfc5-caa7cc484a17" builtin_class="StructuralConnectionFailures" builtin_name="StructuralConnectionTypeChangedToGeneric">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="bb6fa0e0-4ce7-4645-8992-980a12d5c070" builtin_class="StructuralConnectionFailures" builtin_name="StructuralConnectionSetOfRefsChanged">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="92d427f6-e741-447c-9bcb-bfe97fbe94e4" builtin_class="StructuralCustomConnectionFailures" builtin_name="StructuralCustomConnectionWrongType">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="948103e7-29ca-492b-8e2a-0247e6924ccf" builtin_class="StructuralCustomConnectionFailures" builtin_name="StructuralCustomConnectionEmpty">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="6e2af0ea-19fa-4524-93b5-6001182b82fa" builtin_class="StructuralCustomConnectionFailures" builtin_name="StructuralCustomConnectionComponentsRelationship">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="d93a1c01-684e-41ef-87df-cb38db9da43f" builtin_class="StructuralCustomConnectionFailures" builtin_name="StructuralCannotCreateCustomConnection">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="cf075080-7449-4483-963a-bbcd21c351c2" builtin_class="StructuralCustomConnectionFailures" builtin_name="SimpleConnectionTooFarRefs">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="2a8d4b0a-e021-4cad-829b-1ede3b48e5ff" builtin_class="StructuralLoadFailures" builtin_name="CannotMoveBoundaryCondition">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="0e6354a5-8fc1-4abf-b7a2-187dbb45e5fb" builtin_class="SystemsFailures" builtin_name="CircuitWorksetClosedWarning">      <is_hidden>False</is_hidden>
+    </revit_warning>
+<revit_warning id="31c6ffe8-9c27-44b5-a91f-796cfc1d1286" builtin_class="WallJoinFailures" builtin_name="FailedToChangeWallJointsTypeFailure">      <is_hidden>False</is_hidden>
+    </revit_warning>
+
+  </defined_warnings>
+</WarningsManager>

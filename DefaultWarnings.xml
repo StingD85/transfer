@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WarningsManager version="1">
+  <defined_warnings>
+    <revit_warning id="057af793-26e5-4556-bc69-91d67e8a6fd2" builtin_class="StairRampFailures" builtin_name="StairsTopEndExceedsOrNotReachWarning">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="06616abc-b500-48ac-8f25-7abaf85061dd" builtin_class="StairRampFailures" builtin_name="NotEnoughRisers">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="08cc1958-22f3-4125-b5d7-2eba27a08a39" builtin_class="StairRampFailures" builtin_name="RampDoesntReach">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="378181e1-747b-4849-80cb-d74ca16777a4" builtin_class="StairRampFailures" builtin_name="RampDoesntReachOffset">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="4da1e50d-c972-47d9-979e-2d17be524a6f" builtin_class="StairRampFailures" builtin_name="BalusterUpsideDown">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="5e59fb09-9f8e-4600-89c8-c524dc481196" builtin_class="StairRampFailures" builtin_name="StairsActualRiserHeightGreaterThanMaximumFailure">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="8a4ff9b9-13e8-4996-a7f7-ce3bfdae9fc1" builtin_class="JoinElementsFailures" builtin_name="ElementWillBeDetachedFromPlane">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="a1dd57c7-a66f-468c-b3fd-7eee3c1e8279" builtin_class="StairRampFailures" builtin_name="StairsActualTreadDepthLessThanMinimumFailure">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="aa2ef573-1bf4-439e-b297-c11273812473" builtin_class="ImportFailures" builtin_name="ImportModelTooLarge">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="aa45c7f7-ced2-44b2-9265-b90d3d7f277a" builtin_class="AnalyticalModelFailures" builtin_name="StructuralElementMayNotBeSupported">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="b4176cef-6086-45a8-a066-c3fd424c9412" builtin_class="OverlapFailures" builtin_name="DuplicateInstances">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="d876a12e-e296-4caf-9bc4-744238edacc3" builtin_class="GenericMEPFailures" builtin_name="FlowDirectionMismatch">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="e79a1d64-a28f-4abe-9a89-3963be321f97" builtin_class="StairRampFailures" builtin_name="StairsBottomEndExceedsOrNotReachWarning">
+      <ranking>High</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="068074aa-1fe7-48f3-b9ee-0e1db2fa5ea7" builtin_class="ConnectorFailures" builtin_name="NoLossDefined">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="26c3c00a-50fc-4b42-bbae-4300bf4fb4f4" builtin_class="AutoJoinFailures" builtin_name="WorksetJoinWarn">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="4de3f891-0ba6-449c-b80c-f10e05ebf147" builtin_class="GenericMEPFailures" builtin_name="InlineEndoflineMismatch">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="4f0bba25-e17f-480a-a763-d97d184be18a" builtin_class="RoomFailures" builtin_name="RoomTagNotInRoomToRoom">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="5d337ec0-5ec1-4039-917a-55b1c420db59" builtin_class="StairRampFailures" builtin_name="StairsActualRunWidthLessThanMinimumFailure">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="7240576f-66ca-40e7-bc79-be5af5f891f5" builtin_class="InfillFailures" builtin_name="InsertJoinedWall">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="83d4a67c-818c-4291-adaf-f2d33064fea8" builtin_class="RoomFailures" builtin_name="RoomsInSameRegionRooms">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="988a6cb2-7050-4a5c-a946-60d652df66c3" builtin_class="OverlapFailures" builtin_name="WallsOverlap">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="a22de05c-4c92-4bdc-9ce3-a965d2cf316c" builtin_class="RoomFailures" builtin_name="RoomsOverlapInHeight">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="af0ffeb7-b614-4757-8661-bde7f1d8ea1c" builtin_class="InfillFailures" builtin_name="InfillDifferentPhase">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="afa95bf0-78b5-4952-9381-ba34660077e4" builtin_class="AnalyticalModelFailures" builtin_name="AnalyticalTopBottomPlanesReversed">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="c1da5ba6-6269-41a5-9c6f-cdd6f070f32d" builtin_class="ConnectorFailures" builtin_name="MultipleNetwork">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="c7377ea8-f944-4443-90e3-65e90ef8c1a3" builtin_class="CreationFailures" builtin_name="CannotCreateCorniceWarn">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="ce3275c6-1c51-402e-8de3-df3a3d566f5c" builtin_class="RoomFailures" builtin_name="RoomNotEnclosed">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="dfce6e6a-033d-4a95-b669-ba998a5753ef" builtin_class="StairRampFailures" builtin_name="LandingDepthIsLessThanRunWidthWarning">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="e4d98f16-24ac-4cbe-9d83-80245cf41f0a" builtin_class="RoomFailures" builtin_name="RoomsInSameRegionAreas">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="f38537cc-3480-417c-bfc6-6083fad5c255" builtin_class="CreationFailures" builtin_name="CannotCreateCorniceIntegralWarn">
+      <ranking>Medium</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="18fc24c5-afa3-4b15-aefc-021f02f92695" builtin_class="WallJoinRoofFailures" builtin_name="NotCoveredAtAllByTarget">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="1b9dacf3-db22-45d5-b071-42516278ffb1" builtin_class="JoinElementsFailures" builtin_name="JoiningDisjointWarn">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="30604429-fd0d-4426-bede-2a80b44f5c8f" builtin_class="CreationFailures" builtin_name="CannotCreateRevealIntegralWarn">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="374396c0-984d-4f72-a081-30ab7dacb66d" builtin_class="OverlapFailures" builtin_name="RoomSeparationLinesOverlap">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="4cc41b13-ce8a-4b67-b473-028bf73b0c12" builtin_class="MassFailures" builtin_name="CannotMergeGeometry">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="4d5fea31-ba0d-45d0-b439-7008c39a42b7" builtin_class="StairRampFailures" builtin_name="ContinuousRailNotContinuous">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="6144eb01-1c49-47b7-9944-7f052c71511a" builtin_class="CurtainGridFamilyFailures" builtin_name="PanelsSlightlyMalformedWarning">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="6891f0e6-5858-4e2f-bb34-801e0b87f60d" builtin_class="OverlapFailures" builtin_name="CurvesOverlap">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="6e1efefe-c8e0-483d-8482-150b9f1da21a" builtin_class="GeneralFailures" builtin_name="DuplicateValue">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="77535238-e93a-46c4-9822-97072116aefc" builtin_class="InaccurateFailures" builtin_name="InaccurateAreaLine">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="7b8f75b6-a3f2-48a4-8b5d-d767c9a20b32" builtin_class="InaccurateFailures" builtin_name="InaccurateLine">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="7c795937-c96a-4428-8379-487e872dc742" builtin_class="OpeningFailures" builtin_name="OpeningPartiallyCutsHost">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="7cba70c0-2107-421e-9fe6-d2a2e05ead62" builtin_class="InaccurateFailures" builtin_name="InaccurateBeamOrBrace">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="807adcd9-c8be-4986-a60f-b8fe131c293c" builtin_class="CutFailures" builtin_name="CannotCutGeometryWarn">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="8695a52f-2a88-4ca2-bedc-3676d5857af6" builtin_class="OverlapFailures" builtin_name="FloorsOverlap">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="9d3bbe4e-1d3d-4b09-a2f2-c91e6b5ded6b" builtin_class="ElevationFailures" builtin_name="WarnElevSheet">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="a03d464f-bdb8-4626-989b-8cc32c712ce4" builtin_class="GenericMEPFailures" builtin_name="FlowConfigMismatch">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="b475b7ac-a0fe-4756-a2c3-ecda9fdcc252" builtin_class="ScheduleViewFailures" builtin_name="NoColumnsJoinedToGridLines">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="ce961443-d03b-4cda-94c9-6b9beab9d2a6" builtin_class="InaccurateFailures" builtin_name="InaccurateRefPlane">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="df67587d-7a33-4b05-aa2a-31dcd9d0a825" builtin_class="StairRampFailures" builtin_name="RailingCurvesNotSplitRamp">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="e4b4847a-1cbc-4283-854e-85431403a2a0" builtin_class="InaccurateFailures" builtin_name="InaccurateMassingSketchLine">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="e7b7b349-917b-4f4d-b704-506f27647b8b" builtin_class="RoofFailures" builtin_name="RoofSlopeExceedsThreshold">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="ec905b6a-064b-48e1-a6c7-51e2cf092490" builtin_class="InaccurateFailures" builtin_name="InaccurateSketchLine">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="f58a5ef5-e976-44fe-90ea-14765df8904a" builtin_class="FloorFailures" builtin_name="FloorSlopeExceedsThreshold">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="f657364a-e0b7-46aa-8c17-edd8e59683b9" builtin_class="InaccurateFailures" builtin_name="InaccurateRoomSeparation">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="f71b1bc9-ce7f-449c-ada6-4cdece1e67ab" builtin_class="ScheduleViewFailures" builtin_name="PanelScheduleSlotInconsistency">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="f7b3a015-c3eb-4a3f-b345-c474ec07d43f" builtin_class="OverlapFailures" builtin_name="WallRoomSeparationOverlap">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+    <revit_warning id="fb1d4583-6b62-4ccb-9cb8-7c2e849b4d43" builtin_class="InaccurateFailures" builtin_name="InaccurateWall">
+      <ranking>Low</ranking>
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+  </defined_warnings>
+</WarningsManager>

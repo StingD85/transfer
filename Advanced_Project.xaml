@@ -1,0 +1,56 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical">
+    <!-- Title Text -->
+    <TextBlock Tag="Title" Text="Learn More"/>
+    
+    <!-- Header Text -->
+    <TextBlock Tag="Header" Text="Online Topics"/>
+    
+    <!-- List of Links and subtext -->
+    <!-- Link -->
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to/create-new-elements" >
+            Create New Elements
+        </Hyperlink>
+    </TextBlock>
+    <!-- Text -->
+    <TextBlock Text="Use Ideate BIMLink to create elements."/>      
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to/use-ideate-bimlink-for-quality-control" >
+            Quality Control
+        </Hyperlink>
+    </TextBlock>
+    <!-- Text -->
+    <TextBlock Text="Use Ideate BIMLink for Quality Control."/>
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to/managed-sheet-based-revisions" >
+            Manage Sheet-based Revisions
+        </Hyperlink>
+    </TextBlock>
+    <!-- Text -->
+    <TextBlock Text="Use Ideate BIMLink to edit the revision data on all sheets."/>  
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to/manage-project-standards" >
+            Manage Project Standards
+        </Hyperlink>
+    </TextBlock>
+    <!-- Text -->
+    <TextBlock Text="Bring QA to your Revit project by bulk editing type data."/> 
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to/leverage-linked-file-data" >
+            Leverage Linked File Data
+        </Hyperlink>
+    </TextBlock>
+    <!-- Text -->
+    <TextBlock Text="Gain access to extended data from your linked Revit files."/>       
+    <TextBlock Margin="0,20,0,0">
+    </TextBlock>
+    <!-- Header Text -->
+    <TextBlock Tag="Header" Text="Our Custom Tips"/>   
+    <!-- Text -->
+    <TextBlock>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/customization/home-page" >
+            Learn how to customize this page.
+        </Hyperlink>   
+    </TextBlock>
+    
+ </StackPanel>

@@ -1,0 +1,33 @@
+<StackPanel xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Orientation="Vertical">
+    <!-- Title Text -->
+    <TextBlock Tag="Title" Text="Welcome"/>
+    
+    <!-- Header Text -->
+    <TextBlock Tag="Header" Text="Quick Start Guide"/>
+
+    <!-- Indented List -->
+    <TextBlock Tag="Indent1"> <!-- Indented with Link -->
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/using-ideate-bimlink/creating-links">1. Select New...</Hyperlink>
+    </TextBlock>
+    <TextBlock Tag="Indent2" Text="a. Select the 'By Category' method."/>
+    <TextBlock Tag="Indent2" Text="b. Select the Views category."/>
+    <TextBlock Tag="Indent2" Text="c. Pick 'Views' from the library."/>
+    <TextBlock Tag="Indent2" Text="d. Select Next, then Done."/>
+    <TextBlock Tag="Indent1"> <!-- Indented with Link -->
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/using-ideate-bimlink/export-to-excel">2. Export to Excel.</Hyperlink>
+    </TextBlock>
+    <TextBlock Tag="Indent1"> <!-- Indented with Link -->
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/working-in-excel">3. Edit in Excel.</Hyperlink>
+    </TextBlock>
+    <TextBlock Tag="Indent1"> <!-- Indented with Link -->
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/using-ideate-bimlink/import-from-excel">4. Import the data.</Hyperlink>
+    </TextBlock>
+   
+    <!-- In-Line hyperlink -->
+    <TextBlock Margin="0,20,0,0">
+        <Run>Visit our </Run>
+        <Hyperlink NavigateUri="https://ideatesoftware.com/support/help/ideate-bimlink/how-to" >help documentation online</Hyperlink>
+        <Run> to learn more</Run>
+    </TextBlock>        
+</StackPanel>
+

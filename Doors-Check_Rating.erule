@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<rules version="1">
+  <rule version="1">
+    <name>Doors-Check_Rating</name>
+    <description>List of doors that DO NOT have a value for Fire Rating, hosted by Walls that DO have a value for Fire Rating.</description>
+    <rule_id>2dc62569-b294-4258-9bef-2d2001dfc3e3</rule_id>
+    <filter_cluster version="1">
+      <isw_filter>
+        <data_version>5.1</data_version>
+        <revit_version>2024</revit_version>
+        <unit_version>Imperial</unit_version>
+        <doc_type>Project</doc_type>
+        <filter_id>2dc62569-b294-4258-9bef-2d2001dfc3e3</filter_id>
+        <elements>DoorInstances</elements>
+        <phase>All Phases</phase>
+        <phase_filter />
+        <category_filters />
+        <filter_properties logical_operator="And">
+          <property>
+            <name>Fire Rating</name>
+            <source>-1</source>
+            <Table>Type</Table>
+            <TableId>DoorTypes</TableId>
+            <type>BUILT_IN_PARAMETER</type>
+            <id>DOOR_FIRE_RATING</id>
+            <forge_id>autodesk.revit.parameter:fireRating-1.0.0</forge_id>
+            <parameter_id>-1001206</parameter_id>
+            <filter>
+              <conditions>
+                <condition>
+                  <comparison_operator>NotHasValue</comparison_operator>
+                  <value />
+                </condition>
+              </conditions>
+            </filter>
+          </property>
+          <property>
+            <name>Host Wall Type: Fire Rating</name>
+            <source>-1</source>
+            <Table>HostWallType</Table>
+            <TableId>WallTypes</TableId>
+            <type>BUILT_IN_PARAMETER</type>
+            <id>DOOR_FIRE_RATING</id>
+            <forge_id>autodesk.revit.parameter:fireRating-1.0.0</forge_id>
+            <parameter_id>-1001206</parameter_id>
+            <filter>
+              <conditions>
+                <condition>
+                  <comparison_operator>HasValue</comparison_operator>
+                  <value />
+                </condition>
+              </conditions>
+            </filter>
+          </property>
+        </filter_properties>
+      </isw_filter>
+    </filter_cluster>
+  </rule>
+</rules>

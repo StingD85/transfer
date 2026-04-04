@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Id8ProjectSettings version="1">
+   <WarningMetrics>
+      <RevitWarningThreshold>100</RevitWarningThreshold>
+      <WarningsMbMetric>100</WarningsMbMetric>
+   </WarningMetrics>
+</Id8ProjectSettings>

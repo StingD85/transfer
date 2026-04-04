@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WarningsManager version="1">
+  <defined_warnings>
+   <revit_warning id="6e1efefe-c8e0-483d-8482-150b9f1da21a" builtin_class="GeneralFailures" builtin_name="DuplicateValue">
+      <is_hidden>False</is_hidden>
+    </revit_warning>
+  </defined_warnings>
+</WarningsManager>
